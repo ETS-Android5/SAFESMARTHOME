@@ -3,4 +3,8 @@
     <string name="app_name">Maison Intelligent Sre</string>
     <string name="tab_text_1">Onglet 1</string>
     <string name="tab_text_2">Onglet 2</string>
+    <string name="on_back_title">Confirmation</string>
+    <string name="on_back_message">Voulez-vous quitter lapplication?</string>
+    <string name="on_back_yes">Oui</string>
+    <string name="on_back_no">Non</string>
 </resources>

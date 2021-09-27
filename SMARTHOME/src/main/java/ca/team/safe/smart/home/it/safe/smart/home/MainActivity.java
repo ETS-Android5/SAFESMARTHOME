@@ -42,15 +42,15 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         AlertDialog.Builder backDialog = new AlertDialog.Builder(this);
-        backDialog.setTitle("Confirmation");
-        backDialog.setMessage("Do you want to exit the app?");
-        backDialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+        backDialog.setTitle(R.string.on_back_title);
+        backDialog.setMessage(R.string.on_back_message);
+        backDialog.setPositiveButton(R.string.on_back_yes, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 finish();
             }
         });
-        backDialog.setNegativeButton("No", new DialogInterface.OnClickListener() {
+        backDialog.setNegativeButton(R.string.on_back_no, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.cancel();
