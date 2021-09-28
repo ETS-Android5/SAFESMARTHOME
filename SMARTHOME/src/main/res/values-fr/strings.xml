@@ -6,6 +6,6 @@
     <string name="on_back_title">Confirmation</string>
     <string name="on_back_message">Voulez-vous quitter lapplication?</string>
     <string name="on_back_yes">Oui</string>
-    
+
     <string name="on_back_no">Non</string>
 </resources>
