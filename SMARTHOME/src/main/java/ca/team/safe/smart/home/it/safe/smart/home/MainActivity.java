@@ -1,3 +1,8 @@
+//Veera Gudla n01218714
+//Jerin Joy n01276691
+//Jacob Stephens n01100888
+//Patrick Loboda n01309086
+
 package ca.team.safe.smart.home.it.safe.smart.home;
 
 import android.content.DialogInterface;
