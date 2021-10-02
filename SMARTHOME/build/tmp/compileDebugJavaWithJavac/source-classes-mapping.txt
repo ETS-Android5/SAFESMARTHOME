@@ -1,0 +1,15 @@
+ca/team/safe/smart/home/it/safe/smart/home/MainActivity.java
+ ca.team.safe.smart.home.it.safe.smart.home.MainActivity
+ ca.team.safe.smart.home.it.safe.smart.home.MainActivity$1
+ ca.team.safe.smart.home.it.safe.smart.home.MainActivity$2
+ ca.team.safe.smart.home.it.safe.smart.home.MainActivity$3
+ca/team/safe/smart/home/it/safe/smart/home/ui/main/PlaceholderFragment.java
+ ca.team.safe.smart.home.it.safe.smart.home.ui.main.PlaceholderFragment
+ ca.team.safe.smart.home.it.safe.smart.home.ui.main.PlaceholderFragment$1
+ca/team/safe/smart/home/it/safe/smart/home/BuildConfig.java
+ ca.team.safe.smart.home.it.safe.smart.home.BuildConfig
+ca/team/safe/smart/home/it/safe/smart/home/ui/main/PageViewModel.java
+ ca.team.safe.smart.home.it.safe.smart.home.ui.main.PageViewModel
+ ca.team.safe.smart.home.it.safe.smart.home.ui.main.PageViewModel$1
+ca/team/safe/smart/home/it/safe/smart/home/ui/main/SectionsPagerAdapter.java
+ ca.team.safe.smart.home.it.safe.smart.home.ui.main.SectionsPagerAdapter
