@@ -7,7 +7,8 @@
 <resources>
     <string name="app_name">Safe Smart Home</string>
     <string name="tab_text_1">Login</string>
-    <string name="tab_text_2">Home Status</string>
+    <string name="tab_text_2">Customer Address</string>
+    <string name="tab_text_3">Home Status</string>
     <string name="on_back_title">Confirmation</string>
     <string name="on_back_message">Do you want to exit the app?</string>
     <string name="on_back_yes">Yes</string>
