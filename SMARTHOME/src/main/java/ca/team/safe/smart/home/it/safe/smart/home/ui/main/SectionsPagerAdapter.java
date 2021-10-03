@@ -9,6 +9,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 import ca.team.safe.smart.home.it.safe.smart.home.AddressFragment;
+import ca.team.safe.smart.home.it.safe.smart.home.ControlFragment;
 import ca.team.safe.smart.home.it.safe.smart.home.LoginFragment;
 import ca.team.safe.smart.home.it.safe.smart.home.R;
 import ca.team.safe.smart.home.it.safe.smart.home.StatusFragment;
@@ -40,6 +41,9 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
                 break;
             case 2:
                 fragment = new StatusFragment();
+                break;
+            case 3:
+                fragment = new ControlFragment();
                 break;
         }
         return fragment;

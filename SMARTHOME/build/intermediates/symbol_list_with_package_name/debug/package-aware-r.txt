@@ -2397,6 +2397,8 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_address
+layout fragment_control
+layout fragment_humidity
 layout fragment_login
 layout fragment_main
 layout fragment_status
@@ -2593,6 +2595,8 @@ string status_bar_notification_info_overflow
 string tab_text_1
 string tab_text_2
 string tab_text_3
+string tab_text_4
+string tab_text_5
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

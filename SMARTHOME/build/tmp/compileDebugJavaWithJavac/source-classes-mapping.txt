@@ -10,12 +10,16 @@ ca/team/safe/smart/home/it/safe/smart/home/MainActivity.java
  ca.team.safe.smart.home.it.safe.smart.home.MainActivity$3
 ca/team/safe/smart/home/it/safe/smart/home/StatusFragment.java
  ca.team.safe.smart.home.it.safe.smart.home.StatusFragment
-ca/team/safe/smart/home/it/safe/smart/home/AddressFragment.java
- ca.team.safe.smart.home.it.safe.smart.home.AddressFragment
+ca/team/safe/smart/home/it/safe/smart/home/LoginFragment.java
+ ca.team.safe.smart.home.it.safe.smart.home.LoginFragment
+ca/team/safe/smart/home/it/safe/smart/home/HumidityFragment.java
+ ca.team.safe.smart.home.it.safe.smart.home.HumidityFragment
 ca/team/safe/smart/home/it/safe/smart/home/ui/main/PlaceholderFragment.java
  ca.team.safe.smart.home.it.safe.smart.home.ui.main.PlaceholderFragment
  ca.team.safe.smart.home.it.safe.smart.home.ui.main.PlaceholderFragment$1
-ca/team/safe/smart/home/it/safe/smart/home/LoginFragment.java
- ca.team.safe.smart.home.it.safe.smart.home.LoginFragment
+ca/team/safe/smart/home/it/safe/smart/home/AddressFragment.java
+ ca.team.safe.smart.home.it.safe.smart.home.AddressFragment
+ca/team/safe/smart/home/it/safe/smart/home/ControlFragment.java
+ ca.team.safe.smart.home.it.safe.smart.home.ControlFragment
 ca/team/safe/smart/home/it/safe/smart/home/ui/main/SectionsPagerAdapter.java
  ca.team.safe.smart.home.it.safe.smart.home.ui.main.SectionsPagerAdapter
