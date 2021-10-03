@@ -5,7 +5,6 @@
     <string name="tab_text_2">Adresse du client</string>
     <string name="tab_text_3">Statut daccueil</string>
     <string name="tab_text_4">Contrôle à domicile</string>
-    <string name="tab_text_5">Humidité/Feu</string>
     <string name="on_back_title">Confirmation</string>
     <string name="on_back_message">Voulez-vous quitter lapplication?</string>
     <string name="on_back_yes">Oui</string>

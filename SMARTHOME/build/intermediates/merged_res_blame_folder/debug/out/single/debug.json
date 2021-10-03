@@ -60,10 +60,6 @@
         "source": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\layout_fragment_humidity.xml.flat",
-        "source": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_humidity.xml"
-    },
-    {
         "merged": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
