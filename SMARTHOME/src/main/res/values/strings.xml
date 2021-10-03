@@ -10,6 +10,7 @@
     <string name="tab_text_2">Customer Address</string>
     <string name="tab_text_3">Home Status</string>
     <string name="tab_text_4">Home Controls</string>
+    <string name="tab_text_5">Humidity/Fire</string>
     <string name="on_back_title">Confirmation</string>
     <string name="on_back_message">Do you want to exit the app?</string>
     <string name="on_back_yes">Yes</string>

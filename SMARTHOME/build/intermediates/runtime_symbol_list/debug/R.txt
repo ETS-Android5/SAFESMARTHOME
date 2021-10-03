@@ -2397,6 +2397,7 @@ int layout design_text_input_end_icon 0x7f0b002b
 int layout design_text_input_start_icon 0x7f0b002c
 int layout fragment_address 0x7f0b007d
 int layout fragment_control 0x7f0b007e
+int layout fragment_humidity 0x7f0b007f
 int layout fragment_login 0x7f0b002d
 int layout fragment_main 0x7f0b002e
 int layout fragment_status 0x7f0b002f
@@ -2594,6 +2595,7 @@ int string tab_text_1 0x7f0e006d
 int string tab_text_2 0x7f0e006e
 int string tab_text_3 0x7f0e006f
 int string tab_text_4 0x7f0e0070
+int string tab_text_5 0x7f0e0071
 int style AlertDialog_AppCompat 0x7f0f0000
 int style AlertDialog_AppCompat_Light 0x7f0f0001
 int style AndroidThemeColorAccentYellow 0x7f0f0002
