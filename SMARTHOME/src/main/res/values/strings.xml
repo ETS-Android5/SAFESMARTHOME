@@ -15,4 +15,7 @@
     <string name="on_back_message">Do you want to exit the app?</string>
     <string name="on_back_yes">Yes</string>
     <string name="on_back_no">No</string>
+    <string name="ac_on_off">AC Settings</string>
+    <string name="heat_on_off">Heat Settings</string>
+    <string name="fan_on_off">Fan Settings</string>
 </resources>

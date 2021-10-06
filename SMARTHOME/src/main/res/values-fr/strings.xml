@@ -10,4 +10,7 @@
     <string name="on_back_message">Voulez-vous quitter lapplication?</string>
     <string name="on_back_yes">Oui</string>
     <string name="on_back_no">Non</string>
+    <string name="ac_on_off">Paramètres CA</string>
+    <string name="heat_on_off">Paramètres de chaleur</string>
+    <string name="fan_on_off">Paramètres du ventilateur</string>
 </resources>
