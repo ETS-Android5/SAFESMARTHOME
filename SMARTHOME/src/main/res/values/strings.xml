@@ -19,4 +19,6 @@
     <string name="heat_on_off">Heat Settings</string>
     <string name="fan_on_off">Fan Settings</string>
     <string name="motion_on_off">Motion Settings</string>
+    <string name="splash_title">Safe Smart Home</string>
+    <string name="splash_author">Presented by: Team Smart Home</string>
 </resources>
