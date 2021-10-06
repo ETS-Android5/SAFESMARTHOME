@@ -13,4 +13,5 @@
     <string name="ac_on_off">Paramètres CA</string>
     <string name="heat_on_off">Paramètres de chaleur</string>
     <string name="fan_on_off">Paramètres du ventilateur</string>
+    <string name="motion_on_off">Paramètres de mouvement</string>
 </resources>

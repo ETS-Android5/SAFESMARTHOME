@@ -2109,6 +2109,7 @@ int id month_navigation_next 0x7f08010b
 int id month_navigation_previous 0x7f08010c
 int id month_title 0x7f08010d
 int id motion_base 0x7f08010e
+int id motion_on_off 0x7f0801df
 int id mtrl_anchor_parent 0x7f08010f
 int id mtrl_calendar_day_selector_frame 0x7f080110
 int id mtrl_calendar_days_of_week 0x7f080111
@@ -2556,6 +2557,7 @@ int string material_timepicker_minute 0x7f0f003e
 int string material_timepicker_pm 0x7f0f003f
 int string material_timepicker_select_time 0x7f0f0040
 int string material_timepicker_text_input_mode_description 0x7f0f0041
+int string motion_on_off 0x7f0f0075
 int string mtrl_badge_numberless_content_description 0x7f0f0042
 int string mtrl_chip_close_icon_content_description 0x7f0f0043
 int string mtrl_exceed_max_badge_number_content_description 0x7f0f0044

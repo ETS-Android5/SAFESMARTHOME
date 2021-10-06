@@ -4,16 +4,16 @@
         "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\layout_fragment_login.xml.flat",
+        "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_login.xml"
     },
     {
         "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\layout_fragment_login.xml.flat",
-        "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_login.xml"
+        "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",

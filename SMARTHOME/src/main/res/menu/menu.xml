@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item android:id="@+id/ac_on_off"
+        app:showAsAction="always"
         android:icon="@drawable/ic_baseline_ac_unit_24"
         android:title="@string/ac_on_off"/>
 
     <item android:id="@+id/heat_on_off"
+        app:showAsAction="always"
         android:icon="@drawable/ic_baseline_wb_sunny_24"
         android:title="@string/heat_on_off"/>
 
     <item android:id="@+id/fan_on_off"
+        app:showAsAction="always"
         android:icon="@drawable/ic_baseline_waves_24"
         android:title="@string/fan_on_off"/>
+
+    <item android:id="@+id/motion_on_off"
+        android:title="@string/motion_on_off"/>
 </menu>

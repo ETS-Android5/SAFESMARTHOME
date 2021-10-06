@@ -19,6 +19,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import ca.team.safe.smart.home.it.safe.smart.home.ui.main.SectionsPagerAdapter;
 
@@ -34,7 +35,32 @@ public class MainActivity extends AppCompatActivity {
         TabLayout tabs = findViewById(R.id.tabs);
         tabs.setupWithViewPager(viewPager);
     }
-
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return true;
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        Toast.makeText(this, "Selected Item: " +item.getTitle(), Toast.LENGTH_SHORT).show();
+        switch (item.getItemId()) {
+            case R.id.ac_on_off:
+                //code
+                return true;
+            case R.id.heat_on_off:
+                //code
+                return true;
+            case R.id.fan_on_off:
+                //code
+                return true;
+            case R.id.motion_on_off:
+                //code
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+    
     @Override
     public void onBackPressed() {
         AlertDialog.Builder backDialog = new AlertDialog.Builder(this);
