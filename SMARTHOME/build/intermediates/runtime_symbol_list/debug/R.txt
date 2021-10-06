@@ -1097,6 +1097,7 @@ int color cardview_light_background 0x7f05002b
 int color cardview_shadow_end_color 0x7f05002c
 int color cardview_shadow_start_color 0x7f05002d
 int color checkbox_themeable_attribute_color 0x7f05002e
+int color darkbrown 0x7f0500d7
 int color design_bottom_navigation_shadow_color 0x7f05002f
 int color design_box_stroke_color 0x7f050030
 int color design_dark_default_color_background 0x7f050031
@@ -1834,6 +1835,7 @@ int drawable notification_template_icon_bg 0x7f07008d
 int drawable notification_template_icon_low_bg 0x7f07008e
 int drawable notification_tile_bg 0x7f07008f
 int drawable notify_panel_notification_icon_bg 0x7f070090
+int drawable smarthome 0x7f070095
 int drawable smarthome_pic 0x7f070091
 int drawable test_custom_background 0x7f070092
 int drawable tooltip_frame_dark 0x7f070093
@@ -2169,6 +2171,7 @@ int id percent 0x7f080146
 int id pin 0x7f080147
 int id position 0x7f080148
 int id postLayout 0x7f080149
+int id progressBar 0x7f0801e0
 int id progress_circular 0x7f08014a
 int id progress_horizontal 0x7f08014b
 int id radio 0x7f08014c
@@ -2603,6 +2606,8 @@ int string path_password_eye_mask_strike_through 0x7f0f006b
 int string path_password_eye_mask_visible 0x7f0f006c
 int string path_password_strike_through 0x7f0f006d
 int string search_menu_title 0x7f0f006e
+int string splash_author 0x7f0f0076
+int string splash_title 0x7f0f0077
 int string status_bar_notification_info_overflow 0x7f0f006f
 int string tab_text_1 0x7f0f0070
 int string tab_text_2 0x7f0f0071
