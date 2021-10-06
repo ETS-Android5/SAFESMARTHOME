@@ -7,19 +7,19 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
-public class HumidityFragment extends Fragment{
+public class FireFragment extends Fragment{
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 
     private String mParam1;
     private String mParam2;
 
-    public HumidityFragment() {
+    public FireFragment() {
         // Required empty public constructor
     }
 
-    public static HumidityFragment newInstance(String param1, String param2) {
-        HumidityFragment fragment = new HumidityFragment();
+    public static FireFragment newInstance(String param1, String param2) {
+        FireFragment fragment = new FireFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -40,6 +40,6 @@ public class HumidityFragment extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_humidity, container, false);
+        return inflater.inflate(R.layout.fragment_fire, container, false);
     }
 }

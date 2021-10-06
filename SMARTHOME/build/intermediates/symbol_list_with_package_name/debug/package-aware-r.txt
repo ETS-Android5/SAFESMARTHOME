@@ -2019,6 +2019,7 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fab
+id fab1
 id fade
 id fill
 id fill_horizontal
@@ -2380,6 +2381,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_splash
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2398,7 +2400,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_address
 layout fragment_control
-layout fragment_humidity
+layout fragment_fire
 layout fragment_login
 layout fragment_main
 layout fragment_status
