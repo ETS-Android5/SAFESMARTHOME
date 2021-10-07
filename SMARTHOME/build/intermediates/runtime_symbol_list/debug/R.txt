@@ -1793,6 +1793,7 @@ int drawable design_password_eye 0x7f070063
 int drawable design_snackbar_background 0x7f070064
 int drawable gradient 0x7f070065
 int drawable gradient2 0x7f070097
+int drawable gradient3 0x7f070098
 int drawable ic_baseline_ac_unit_24 0x7f070066
 int drawable ic_baseline_waves_24 0x7f070067
 int drawable ic_baseline_wb_sunny_24 0x7f070068
@@ -1975,6 +1976,7 @@ int id content 0x7f080081
 int id contentPanel 0x7f080082
 int id contiguous 0x7f080083
 int id continuousVelocity 0x7f080084
+int id controls_TV1 0x7f0801e1
 int id coordinator 0x7f080085
 int id cos 0x7f080086
 int id counterclockwise 0x7f080087

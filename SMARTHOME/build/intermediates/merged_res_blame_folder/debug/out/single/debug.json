@@ -138,5 +138,9 @@
     {
         "merged": "C:\\Users\\Patrick\\Desktop\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Patrick\\Desktop\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\Desktop\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\drawable_gradient3.xml.flat",
+        "source": "C:\\Users\\Patrick\\Desktop\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\gradient3.xml"
     }
 ]
