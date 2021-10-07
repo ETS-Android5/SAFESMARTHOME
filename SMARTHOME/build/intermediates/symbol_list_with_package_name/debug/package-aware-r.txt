@@ -1794,6 +1794,8 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable gradient
+drawable gradient2
+drawable gradient3
 drawable gradient_status
 drawable ic_baseline_ac_unit_24
 drawable ic_baseline_waves_24
@@ -1979,6 +1981,7 @@ id content
 id contentPanel
 id contiguous
 id continuousVelocity
+id controls_TV1
 id coordinator
 id cos
 id counterclockwise
@@ -2059,6 +2062,8 @@ id home
 id homeAsUp
 id honorRequest
 id horizontal_only
+id humidity_status_button
+id humidity_status_text
 id icon
 id icon_group
 id ifRoom
@@ -2211,6 +2216,8 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id section_label
+id security_status_button
+id security_status_text
 id select_dialog_listview
 id selected
 id selection_type
@@ -2224,6 +2231,8 @@ id sin
 id skipCollapsed
 id skipped
 id slide
+id smoke_status_button
+id smoke_status_text
 id snackbar_action
 id snackbar_text
 id snap
@@ -2268,6 +2277,8 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id temperature_status_button
+id temperature_status_text
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
@@ -2544,6 +2555,7 @@ string fab_transformation_sheet_behavior
 string fan_on_off
 string heat_on_off
 string hide_bottom_view_on_scroll_behavior
+string humidity_status
 string icon_content_description
 string item_view_role_description
 string material_clock_display_divider
@@ -2612,6 +2624,8 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
+string security_status
+string smoke_status
 string splash_author
 string splash_title
 string status_bar_notification_info_overflow
@@ -2620,6 +2634,7 @@ string tab_text_2
 string tab_text_3
 string tab_text_4
 string tab_text_5
+string temperature_status
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow
