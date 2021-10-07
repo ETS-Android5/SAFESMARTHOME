@@ -1792,6 +1792,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable gradient
+drawable gradient2
 drawable ic_baseline_ac_unit_24
 drawable ic_baseline_waves_24
 drawable ic_baseline_wb_sunny_24
