@@ -1145,6 +1145,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color gray
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color ic_launcher_background
@@ -1792,6 +1793,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable gradient
+drawable gradient_status
 drawable ic_baseline_ac_unit_24
 drawable ic_baseline_waves_24
 drawable ic_baseline_wb_sunny_24
@@ -1799,6 +1802,7 @@ drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_launcher_temperature
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -1838,6 +1842,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable smarthome
 drawable smarthome_pic
+drawable temp1
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light

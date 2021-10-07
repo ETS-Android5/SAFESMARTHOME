@@ -4,28 +4,32 @@
         "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\layout_fragment_login.xml.flat",
-        "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\drawable-v24_temp1.png.flat",
+        "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-v24\\temp1.png"
     },
     {
         "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\layout_fragment_login.xml.flat",
+        "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_login.xml"
+    },
+    {
         "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_ac_unit_24.xml.flat",
         "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\ic_baseline_ac_unit_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_waves_24.xml.flat",
@@ -56,6 +60,10 @@
         "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\drawable_gradient_status.xml.flat",
+        "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\gradient_status.xml"
+    },
+    {
         "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\menu_menu.xml.flat",
         "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\menu\\menu.xml"
     },
@@ -66,6 +74,10 @@
     {
         "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_wb_sunny_24.xml.flat",
         "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\ic_baseline_wb_sunny_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_temperature.png.flat",
+        "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-v24\\ic_launcher_temperature.png"
     },
     {
         "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\drawable_gradient.xml.flat",
