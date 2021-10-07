@@ -44,6 +44,10 @@
         "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\drawable_smarthome.jpg.flat",
+        "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\smarthome.jpg"
+    },
+    {
         "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
         "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\activity_splash.xml"
     },
@@ -62,6 +66,10 @@
     {
         "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_wb_sunny_24.xml.flat",
         "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\ic_baseline_wb_sunny_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\drawable_gradient.xml.flat",
+        "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\gradient.xml"
     },
     {
         "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
