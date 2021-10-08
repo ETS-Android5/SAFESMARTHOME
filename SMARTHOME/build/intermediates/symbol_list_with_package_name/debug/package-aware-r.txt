@@ -1806,6 +1806,7 @@ drawable ic_action_pass
 drawable ic_action_user
 drawable ic_action_user1
 drawable ic_baseline_ac_unit_24
+drawable ic_baseline_power_settings_new_24
 drawable ic_baseline_waves_24
 drawable ic_baseline_wb_sunny_24
 drawable ic_clock_black_24dp
@@ -1994,6 +1995,8 @@ id contiguous
 id continuousVelocity
 id controls_TV1
 id controls_TV2
+id controls_switch1
+id controls_tempIV
 id coordinator
 id cos
 id counterclockwise
