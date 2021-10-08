@@ -6,55 +6,55 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->C:\Users\vrkgu\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml
+8-->C:\Users\Patrick\Desktop\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->C:\Users\vrkgu\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml
+9-->C:\Users\Patrick\Desktop\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\vrkgu\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:5:5-26:19
+11-->C:\Users\Patrick\Desktop\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:5:5-26:19
 12        android:allowBackup="true"
-12-->C:\Users\vrkgu\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:6:9-35
+12-->C:\Users\Patrick\Desktop\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.5.0] C:\Users\vrkgu\.gradle\caches\transforms-2\files-2.1\07adfc08fe16d3453ab9291511ec05fe\core-1.5.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.5.0] C:\Users\Patrick\.gradle\caches\transforms-2\files-2.1\07adfc08fe16d3453ab9291511ec05fe\core-1.5.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:extractNativeLibs="false"
 16        android:icon="@mipmap/ic_launcher"
-16-->C:\Users\vrkgu\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:7:9-43
+16-->C:\Users\Patrick\Desktop\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:7:9-43
 17        android:label="@string/app_name"
-17-->C:\Users\vrkgu\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:8:9-41
+17-->C:\Users\Patrick\Desktop\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:8:9-41
 18        android:roundIcon="@mipmap/ic_launcher_round"
-18-->C:\Users\vrkgu\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:9:9-54
+18-->C:\Users\Patrick\Desktop\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:9:9-54
 19        android:supportsRtl="true"
-19-->C:\Users\vrkgu\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:10:9-35
+19-->C:\Users\Patrick\Desktop\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:10:9-35
 20        android:testOnly="true"
 21        android:theme="@style/Theme.SAFESMARTHOME" >
-21-->C:\Users\vrkgu\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:11:9-51
+21-->C:\Users\Patrick\Desktop\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:11:9-51
 22        <activity android:name="ca.team.safe.smart.home.it.safe.smart.home.MainActivity" />
-22-->C:\Users\vrkgu\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:12:9-59
-22-->C:\Users\vrkgu\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:12:19-47
+22-->C:\Users\Patrick\Desktop\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:12:9-59
+22-->C:\Users\Patrick\Desktop\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:12:19-47
 23        <activity android:name="ca.team.safe.smart.home.it.safe.smart.home.Splash" >
-23-->C:\Users\vrkgu\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:13:13-21:20
-23-->C:\Users\vrkgu\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:13:23-45
+23-->C:\Users\Patrick\Desktop\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:13:13-21:20
+23-->C:\Users\Patrick\Desktop\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:13:23-45
 24            android:label="@string/app_name"
 25            android:theme="@style/Theme.SAFESMARTHOME.NoActionBar">
 26            <intent-filter>
-26-->C:\Users\vrkgu\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:16:13-20:29
+26-->C:\Users\Patrick\Desktop\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:16:13-20:29
 27                <action android:name="android.intent.action.MAIN" />
-27-->C:\Users\vrkgu\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:17:17-69
-27-->C:\Users\vrkgu\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:17:25-66
+27-->C:\Users\Patrick\Desktop\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:17:17-69
+27-->C:\Users\Patrick\Desktop\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:17:25-66
 28
 29                <category android:name="android.intent.category.LAUNCHER" />
-29-->C:\Users\vrkgu\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:19:17-77
-29-->C:\Users\vrkgu\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:19:27-74
+29-->C:\Users\Patrick\Desktop\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:19:17-77
+29-->C:\Users\Patrick\Desktop\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:19:27-74
 30            </intent-filter>
 31        </activity>
 32
 33        <meta-data
-33-->C:\Users\vrkgu\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:23:9-25:57
+33-->C:\Users\Patrick\Desktop\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:23:9-25:57
 34            android:name="preloaded_fonts"
-34-->C:\Users\vrkgu\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:24:13-43
+34-->C:\Users\Patrick\Desktop\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:24:13-43
 35            android:resource="@array/preloaded_fonts" />
-35-->C:\Users\vrkgu\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:25:13-54
+35-->C:\Users\Patrick\Desktop\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:25:13-54
 36    </application>
 37
 38</manifest>
