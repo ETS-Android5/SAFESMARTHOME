@@ -17,6 +17,7 @@ ca/team/safe/smart/home/it/safe/smart/home/AddressFragment.java
  ca.team.safe.smart.home.it.safe.smart.home.AddressFragment
 ca/team/safe/smart/home/it/safe/smart/home/ControlFragment.java
  ca.team.safe.smart.home.it.safe.smart.home.ControlFragment
+ ca.team.safe.smart.home.it.safe.smart.home.ControlFragment$1
 ca/team/safe/smart/home/it/safe/smart/home/Splash.java
  ca.team.safe.smart.home.it.safe.smart.home.Splash
  ca.team.safe.smart.home.it.safe.smart.home.Splash$1

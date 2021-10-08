@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.SeekBar;
 import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
@@ -13,6 +14,7 @@ import androidx.fragment.app.Fragment;
 public class ControlFragment extends Fragment {
 
     ImageView imageView;
+    SeekBar seekBar;
 
     int stage;
 
@@ -29,15 +31,6 @@ public class ControlFragment extends Fragment {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment LoginFragment.
-     */
-    // TODO: Rename and change types and number of parameters
     public static LoginFragment newInstance(String param1, String param2) {
         LoginFragment fragment = new LoginFragment();
         Bundle args = new Bundle();
@@ -50,20 +43,37 @@ public class ControlFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.fragment_control, container, false);
         // Inflate the layout for this fragment
         SharedPreferences preferences = getActivity().getSharedPreferences("PREFS", 0);
         stage = preferences.getInt("switch_stage", 1);
 
         imageView = (ImageView) getActivity().findViewById(R.id.controls_tempIV);
+        seekBar=(SeekBar) rootView.findViewById(R.id.controls_seekBar);
+        seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            int progresValue = 0;
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+                progresValue = progress;
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+                Toast.makeText(getActivity(), "Temperature set is: " + progresValue + "°C", Toast.LENGTH_SHORT).show();
+            }
+        });
+
 //        setSwitchImage(stage);
 //
 //        imageView.setOnClickListener(new View.OnClickListener() {
@@ -72,7 +82,7 @@ public class ControlFragment extends Fragment {
 //                switchNumber();
 //            }
 //        });
-        return inflater.inflate(R.layout.fragment_control, container, false);
+        return rootView;
     }
 
 //    public void switchNumber() {

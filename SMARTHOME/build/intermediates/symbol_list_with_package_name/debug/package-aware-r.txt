@@ -1802,6 +1802,7 @@ drawable gradient
 drawable gradient2
 drawable gradient3
 drawable gradient_status
+drawable green
 drawable ic_action_pass
 drawable ic_action_user
 drawable ic_action_user1
@@ -1998,6 +1999,7 @@ id contiguous
 id continuousVelocity
 id controls_TV1
 id controls_TV2
+id controls_seekBar
 id controls_switch1
 id controls_tempIV
 id coordinator
