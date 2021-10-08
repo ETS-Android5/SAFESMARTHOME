@@ -57,6 +57,10 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
+array preloaded_fonts
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -1780,6 +1784,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable background
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1797,6 +1802,9 @@ drawable gradient
 drawable gradient2
 drawable gradient3
 drawable gradient_status
+drawable ic_action_pass
+drawable ic_action_user
+drawable ic_action_user1
 drawable ic_baseline_ac_unit_24
 drawable ic_baseline_waves_24
 drawable ic_baseline_wb_sunny_24
@@ -1848,6 +1856,9 @@ drawable temp1
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font candal
+font rammetto_one
+font ribeye_marrow
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1982,6 +1993,7 @@ id contentPanel
 id contiguous
 id continuousVelocity
 id controls_TV1
+id controls_TV2
 id coordinator
 id cos
 id counterclockwise
@@ -2022,6 +2034,9 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editTextNumberSigned
+id editTextTextPassword2
+id editTextTextPersonName2
 id edit_query
 id elastic
 id end
@@ -2089,6 +2104,7 @@ id line3
 id linear
 id listMode
 id list_item
+id loginbtn
 id masked
 id match_constraint
 id match_parent
