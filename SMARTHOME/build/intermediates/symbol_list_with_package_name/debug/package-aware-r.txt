@@ -1851,13 +1851,16 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable rainbow
 drawable smarthome
 drawable smarthome_pic
 drawable temp1
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font abril_fatface
 font candal
+font diplomata
 font rammetto_one
 font ribeye_marrow
 id ALT
