@@ -17,6 +17,36 @@
         tools:layout_editor_absoluteY="16dp">
 
         <Switch
+            android:id="@+id/switch5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intruder"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.487"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.748" />
+
+        <TextView
+            android:id="@+id/controls_TV4"
+            android:layout_width="334dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="472dp"
+            android:text="Motion Control"
+            android:textAlignment="center"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Switch
             android:id="@+id/switch4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -55,7 +85,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="72dp"
-            android:layout_marginTop="488dp"
+            android:layout_marginTop="624dp"
             android:text="Fire Control"
             android:textAlignment="center"
             android:textSize="32sp"
@@ -71,23 +101,12 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="68dp"
-            android:layout_marginTop="620dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="284dp"
             android:text="Smoke Control"
             android:textAlignment="center"
             android:textSize="32sp"
             android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <SeekBar
-            android:id="@+id/controls_seekBar"
-            android:layout_width="234dp"
-            android:layout_height="27dp"
-            android:layout_marginStart="88dp"
-            android:layout_marginTop="84dp"
-            android:max="40"
-            android:progress="10"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -98,10 +117,10 @@
             android:src="@drawable/smoke"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.02"
+            app:layout_constraintHorizontal_bias="0.028"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.913" />
+            app:layout_constraintVertical_bias="0.411" />
 
         <TextView
             android:id="@+id/AC_Control"
@@ -116,21 +135,19 @@
             android:textSize="32sp"
             android:textStyle="bold"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="36dp"
-            tools:layout_editor_absoluteY="126dp" />
+            tools:layout_editor_absoluteX="61dp"
+            tools:layout_editor_absoluteY="121dp" />
 
         <Switch
             android:id="@+id/switch1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Exhaust"
-            android:textAlignment="center"
+            android:text="Exhaust Fan"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.554"
+            app:layout_constraintHorizontal_bias="0.543"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.955" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/Fire_Control"
@@ -138,8 +155,8 @@
             android:layout_height="62dp"
             android:src="@drawable/fire"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="7dp"
-            tools:layout_editor_absoluteY="480dp" />
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="614dp" />
 
         <Switch
             android:id="@+id/switch2"
@@ -148,22 +165,40 @@
             android:text="On/Off"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.557"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.779" />
+            app:layout_constraintVertical_bias="1.0" />
 
         <Switch
             android:id="@+id/switch3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="AC"
+            android:textAlignment="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.251" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/temp1"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="121dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="71dp"
+            android:layout_height="65dp"
+            android:src="@drawable/intruder"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="462dp"
+            tools:ignore="MissingConstraints" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -181,17 +216,6 @@
         android:textAlignment="center"
         android:textSize="32sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <SeekBar
-        android:id="@+id/controls_seekBar1"
-        android:layout_width="234dp"
-        android:layout_height="27dp"
-        android:layout_marginStart="88dp"
-        android:layout_marginTop="84dp"
-        android:max="40"
-        android:progress="10"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
