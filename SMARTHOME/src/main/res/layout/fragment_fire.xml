@@ -14,4 +14,5 @@
         android:text="@string/fire_and_smoke_detection"
         android:textAlignment="center"
         android:textColor="#0B0B0B" />
+
 </FrameLayout>
