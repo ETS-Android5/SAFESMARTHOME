@@ -33,4 +33,5 @@
     <string name="fire_controls">Fire Controls</string>
     <string name="on_off">On/Off</string>
     <string name="smoke_controls">Smoke Controls</string>
+    <string name="fire_and_smoke_detection">Fire and Smoke Detection</string>
 </resources>

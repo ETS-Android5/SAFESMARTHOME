@@ -28,4 +28,5 @@
     <string name="fire_controls">Contrôles dincendie</string>
     <string name="on_off">Allumé éteint</string>
     <string name="smoke_controls">Contrôles de fumée</string>
+    <string name="fire_and_smoke_detection">Fire and Smoke Detection</string>
 </resources>

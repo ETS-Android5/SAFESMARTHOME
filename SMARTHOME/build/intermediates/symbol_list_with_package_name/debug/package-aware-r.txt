@@ -1798,6 +1798,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable fire
 drawable gradient
 drawable gradient2
 drawable gradient3
@@ -1855,6 +1856,7 @@ drawable notify_panel_notification_icon_bg
 drawable rainbow
 drawable smarthome
 drawable smarthome_pic
+drawable smoke
 drawable temp1
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -1999,8 +2001,10 @@ id contiguous
 id continuousVelocity
 id controls_TV1
 id controls_TV2
+id controls_TV3
 id controls_seekBar
 id controls_switch1
+id controls_switch2
 id controls_tempIV
 id coordinator
 id cos
@@ -2062,6 +2066,8 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id fire_page_id
+id fire_title_id
 id fitToContents
 id fixed
 id flip
@@ -2093,6 +2099,8 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
+id imageView2
 id immediateStop
 id included
 id info
@@ -2535,6 +2543,7 @@ mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+string PREFS
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2572,13 +2581,19 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string controls_degrees_c
+string controls_switch_stage
+string controls_temp_set
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string fan_on_off
+string fire_and_smoke_detection
+string fire_controls
 string heat_on_off
 string hide_bottom_view_on_scroll_behavior
+string home_control
 string humidity_status
 string icon_content_description
 string item_view_role_description
@@ -2642,6 +2657,7 @@ string on_back_message
 string on_back_no
 string on_back_title
 string on_back_yes
+string on_off
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -2649,6 +2665,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
 string security_status
+string smoke_controls
 string smoke_status
 string splash_author
 string splash_title
