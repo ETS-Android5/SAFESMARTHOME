@@ -20,4 +20,12 @@
     <string name="security_status">Sécurité</string>
     <string name="smoke_status">Fumée</string>
     <string name="humidity_status">Humidité</string>
+    <string name="controls_temp_set">\"Température réglée sur: \"</string>
+    <string name="controls_degrees_c">°C</string>
+    <string name="controls_switch_stage">switch_stage</string>
+    <string name="PREFS">PREFS</string>
+    <string name="home_control">Contrôles à la maisonl</string>
+    <string name="fire_controls">Contrôles dincendie</string>
+    <string name="on_off">Allumé éteint</string>
+    <string name="smoke_controls">Contrôles de fumée</string>
 </resources>

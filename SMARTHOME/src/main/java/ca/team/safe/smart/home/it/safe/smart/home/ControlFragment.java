@@ -51,8 +51,8 @@ public class ControlFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_control, container, false);
         // Inflate the layout for this fragment
-        SharedPreferences preferences = getActivity().getSharedPreferences("PREFS", 0);
-        stage = preferences.getInt("switch_stage", 1);
+        SharedPreferences preferences = getActivity().getSharedPreferences(getString(R.string.PREFS), 0);
+        stage = preferences.getInt(getString(R.string.controls_switch_stage), 1);
 
         imageView = (ImageView) getActivity().findViewById(R.id.controls_tempIV);
         seekBar=(SeekBar) rootView.findViewById(R.id.controls_seekBar);
@@ -70,7 +70,7 @@ public class ControlFragment extends Fragment {
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-                Toast.makeText(getActivity(), "Temperature set is: " + progresValue + "°C", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), getString(R.string.controls_temp_set) + progresValue + getString(R.string.controls_degrees_c), Toast.LENGTH_SHORT).show();
             }
         });
 

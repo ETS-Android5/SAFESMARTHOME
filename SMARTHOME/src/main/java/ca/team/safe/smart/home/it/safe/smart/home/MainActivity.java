@@ -19,6 +19,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import ca.team.safe.smart.home.it.safe.smart.home.ui.main.SectionsPagerAdapter;
@@ -60,11 +61,12 @@ public class MainActivity extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
-    
+
     @Override
     public void onBackPressed() {
         AlertDialog.Builder backDialog = new AlertDialog.Builder(this);
         backDialog.setTitle(R.string.on_back_title);
+        backDialog.setIcon(R.drawable.ic_baseline_power_settings_new_24);
         backDialog.setMessage(R.string.on_back_message);
         backDialog.setPositiveButton(R.string.on_back_yes, new DialogInterface.OnClickListener() {
             @Override
