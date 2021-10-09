@@ -200,8 +200,16 @@
         "source": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-xhdpi\\ic_action_user1.png"
     },
     {
+        "merged": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\drawable_fire.png.flat",
+        "source": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\fire.png"
+    },
+    {
         "merged": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_user.png.flat",
         "source": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-hdpi\\ic_action_user.png"
+    },
+    {
+        "merged": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\drawable_smoke.png.flat",
+        "source": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\smoke.png"
     },
     {
         "merged": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
