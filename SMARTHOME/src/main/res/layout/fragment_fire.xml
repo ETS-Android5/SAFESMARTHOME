@@ -12,7 +12,7 @@
         android:id="@+id/fire_title_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Humidity/Fire Control"
+        android:text="@string/humidity_fire_control"
         android:textAlignment="center"
         android:textColor="#0B0B0B"
         android:textSize="48sp" />
