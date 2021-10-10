@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "384310096670",
+    "project_id": "safesmarthome-c8767",
+    "storage_bucket": "safesmarthome-c8767.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384310096670:android:83517a7e8e99be52c4cf0f",
+        "android_client_info": {
+          "package_name": "ca.team.safe.smart.home.it.safe.smart.home"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384310096670-qgiqnd171e6b6hj9n2fsslpre4qvae3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3vTFy-a7t-Wib77FgNmQHi4EiPxQxQ_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384310096670-qgiqnd171e6b6hj9n2fsslpre4qvae3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

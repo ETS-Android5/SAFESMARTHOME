@@ -54,8 +54,8 @@ public class ControlFragment extends Fragment {
         SharedPreferences preferences = getActivity().getSharedPreferences(getString(R.string.PREFS), 0);
         stage = preferences.getInt(getString(R.string.controls_switch_stage), 1);
 
-        imageView = (ImageView) getActivity().findViewById(R.id.controls_tempIV);
-        seekBar=(SeekBar) rootView.findViewById(R.id.controls_seekBar);
+       // imageView = (ImageView) getActivity().findViewById(R.id.controls_tempIV);
+       // seekBar=(SeekBar) rootView.findViewById(R.id.controls_seekBar);
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             int progresValue = 0;
             @Override
