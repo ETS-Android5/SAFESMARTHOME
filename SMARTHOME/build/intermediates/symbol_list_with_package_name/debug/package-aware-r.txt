@@ -2046,6 +2046,7 @@ id controls_TV1
 id controls_TV2
 id controls_TV3
 id controls_TV4
+id controls_seekBar
 id coordinator
 id cos
 id counterclockwise
