@@ -15,7 +15,7 @@
 12        android:allowBackup="true"
 12-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.5.0] /Users/joy/.gradle/caches/transforms-2/files-2.1/07adfc08fe16d3453ab9291511ec05fe/core-1.5.0/AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.5.0] /Users/joy/.gradle/caches/transforms-3/255d63c0f9f8f5d12ab3191ffb377750/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:extractNativeLibs="false"
 16        android:icon="@mipmap/ic_launcher"
@@ -26,35 +26,34 @@
 18-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:9:9-54
 19        android:supportsRtl="true"
 19-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:10:9-35
-20        android:testOnly="true"
-21        android:theme="@style/Theme.SAFESMARTHOME" >
-21-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:11:9-51
-22        <activity android:name="ca.team.safe.smart.home.it.safe.smart.home.MainActivity" />
-22-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:12:9-59
-22-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:12:19-47
-23        <activity android:name="ca.team.safe.smart.home.it.safe.smart.home.Splash" >
-23-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:13:13-21:20
-23-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:13:23-45
-24            android:label="@string/app_name"
-25            android:theme="@style/Theme.SAFESMARTHOME.NoActionBar">
-26            <intent-filter>
-26-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:16:13-20:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:17:17-69
-27-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:17:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:19:17-77
-29-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:19:27-74
-30            </intent-filter>
-31        </activity>
-32
-33        <meta-data
-33-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:23:9-25:57
-34            android:name="preloaded_fonts"
-34-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:24:13-43
-35            android:resource="@array/preloaded_fonts" />
-35-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:25:13-54
-36    </application>
-37
-38</manifest>
+20        android:theme="@style/Theme.SAFESMARTHOME" >
+20-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:11:9-51
+21        <activity android:name="ca.team.safe.smart.home.it.safe.smart.home.MainActivity" />
+21-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:12:9-59
+21-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:12:19-47
+22        <activity android:name="ca.team.safe.smart.home.it.safe.smart.home.Splash" >
+22-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:13:13-21:20
+22-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:13:23-45
+23            android:label="@string/app_name"
+24            android:theme="@style/Theme.SAFESMARTHOME.NoActionBar">
+25            <intent-filter>
+25-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:16:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:17:17-69
+26-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:19:17-77
+28-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:19:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <meta-data
+32-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:23:9-25:57
+33            android:name="preloaded_fonts"
+33-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:24:13-43
+34            android:resource="@array/preloaded_fonts" />
+34-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:25:13-54
+35    </application>
+36
+37</manifest>

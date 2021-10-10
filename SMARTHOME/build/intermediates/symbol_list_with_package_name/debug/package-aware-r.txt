@@ -1820,6 +1820,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable intruder
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1853,11 +1854,11 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-drawable rainbow
 drawable smarthome
 drawable smarthome_pic
 drawable smoke
 drawable temp1
+drawable temperature
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1866,11 +1867,13 @@ font candal
 font diplomata
 font rammetto_one
 font ribeye_marrow
+id AC_Control
 id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id Home_Control
 id META
 id NO_DEBUG
 id SHIFT
@@ -2002,10 +2005,7 @@ id continuousVelocity
 id controls_TV1
 id controls_TV2
 id controls_TV3
-id controls_seekBar
-id controls_switch1
-id controls_switch2
-id controls_tempIV
+id controls_TV4
 id coordinator
 id cos
 id counterclockwise
@@ -2101,6 +2101,7 @@ id ignoreRequest
 id image
 id imageView
 id imageView2
+id imageView3
 id immediateStop
 id included
 id info
@@ -2294,6 +2295,10 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id switch1
+id switch3
+id switch4
+id switch5
 id tabMode
 id tabs
 id tag_accessibility_actions
@@ -2594,6 +2599,7 @@ string fire_controls
 string heat_on_off
 string hide_bottom_view_on_scroll_behavior
 string home_control
+string humidity_fire_control
 string humidity_status
 string icon_content_description
 string item_view_role_description
