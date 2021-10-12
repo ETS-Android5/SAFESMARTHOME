@@ -5,6 +5,8 @@
 
 package ca.team.safe.smart.home.it.safe.smart.home;
 
+import static ca.team.safe.smart.home.it.safe.smart.home.MainActivity.viewPager;
+
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -13,6 +15,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -34,7 +37,7 @@ public class LoginFragment extends Fragment {
 
     EditText username, password;
     Button login;
-    String name,pass;
+    String name, pass, secureID;
     SharedPreferences sharedPreferences;
     SharedPreferences.Editor editor;
 
@@ -80,7 +83,7 @@ public class LoginFragment extends Fragment {
 
     @Override
     public void onAttach(@NonNull Context context) {
-        sharedPreferences = context.getSharedPreferences("user",Context.MODE_PRIVATE);
+        sharedPreferences = context.getSharedPreferences("user", Context.MODE_PRIVATE);
         editor = sharedPreferences.edit();
         super.onAttach(context);
     }
@@ -91,6 +94,7 @@ public class LoginFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_login, container, false);
         EditText username = rootView.findViewById(R.id.editTextTextPersonName2);
         EditText password = rootView.findViewById(R.id.editTextTextPassword2);
+        EditText editTextNumberSigned = rootView.findViewById(R.id.editTextNumberSigned);
 
        /* public void login(View view){
             if(username.getText().toString().equals("admin") && password.getText().toString().equals("admin")){
@@ -111,23 +115,29 @@ public class LoginFragment extends Fragment {
 //        username = (EditText) rootView.findViewById(R.id.editTextTextPersonName2);
 //        password = (EditText) rootView.findViewById(R.id.editTextTextPassword2);
 //
-      Button button= rootView.findViewById(R.id.loginbtn);
+        Button button = rootView.findViewById(R.id.loginbtn);
         button.setOnClickListener(new View.OnClickListener() {
-           @Override
-           public void onClick(View v) {
-               name = username.getText().toString();
-               pass = password.getText().toString();
-               String uName,uPass;
-               uName = sharedPreferences.getString("SmartHome", null);
-               uPass = sharedPreferences.getString("Home123", null);
+            @Override
+            public void onClick(View v) {
+                name = username.getText().toString();
+                pass = password.getText().toString();
+                secureID = editTextNumberSigned.getText().toString();
+                Log.e("name", name);
+                Log.e("password", pass);
+                Log.e("secureID", secureID +" length "+secureID.length());
+                String uName, uPass;
+                uName = sharedPreferences.getString("SmartHome", null);
+                uPass = sharedPreferences.getString("Home123", null);
 
-            //   if(name.equals(uName) && pass.equals(uPass)) {
-               if(username.getText().toString().equals("SmartHome") && password.getText().toString().equals("Home123")){
-                    Toast.makeText(getContext(), "Redirecting...", Toast.LENGTH_SHORT).show();
-               } else {
-                    Toast.makeText(getContext(), "Wrong Credentials", Toast.LENGTH_SHORT).show();
+                //   if(name.equals(uName) && pass.equals(uPass)) {
+                if (name.equals("SmartHome") && pass.equals("Home123") && secureID.length() == 9) {
+                    viewPager.setCurrentItem(1);
+                    Snackbar.make(rootView, "Permission Granted", Snackbar.LENGTH_SHORT).show();
+                } else {
+
+                    Snackbar.make(rootView, "Permission Denied", Snackbar.LENGTH_SHORT).show();
                 }
-           }
+            }
         });
         // Inflate the layout for this fragment
         return rootView;
