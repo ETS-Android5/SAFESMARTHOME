@@ -22,27 +22,84 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <Switch
-            android:id="@+id/fire_switch1"
-            android:layout_width="120dp"
-            android:layout_height="86dp"
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="57dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_gravity="center"
-            android:layout_marginStart="120dp"
-            android:layout_marginTop="140dp"
-            android:text="Switch" />
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="370dp"
+            android:text="Humidity Control"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/fire_switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="141dp"
+            android:layout_marginTop="242dp"
+            android:text="On/Off" />
 
         <Switch
             android:id="@+id/fire_switch2"
-            android:layout_width="120dp"
-            android:layout_height="86dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_gravity="center"
-            android:layout_marginStart="123dp"
-            android:layout_marginTop="229dp"
-            android:text="Switch" />
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="445dp"
+            android:text="On/Off" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="57dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="107dp"
+            android:layout_marginTop="167dp"
+            android:text="Fire Control"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="81dp"
+            android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="313dp"
+            android:layout_marginBottom="496dp"
+            android:src="@drawable/fire"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.407" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="75dp"
+            android:layout_height="76dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="315dp"
+            android:layout_marginBottom="296dp"
+            android:src="@drawable/humid" />
+
     </RelativeLayout>
 
 </FrameLayout>
