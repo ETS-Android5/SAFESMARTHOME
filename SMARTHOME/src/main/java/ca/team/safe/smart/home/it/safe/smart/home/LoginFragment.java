@@ -5,8 +5,11 @@
 
 package ca.team.safe.smart.home.it.safe.smart.home;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 
@@ -14,9 +17,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.button.MaterialButton;
+import com.google.android.material.snackbar.Snackbar;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -24,6 +30,12 @@ import com.google.android.material.button.MaterialButton;
  * create an instance of this fragment.
  */
 public class LoginFragment extends Fragment {
+
+    EditText username, password;
+    Button login;
+    String name,pass;
+    SharedPreferences sharedPreferences;
+    SharedPreferences.Editor editor;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -66,10 +78,39 @@ public class LoginFragment extends Fragment {
     }
 
     @Override
+    public void onAttach(@NonNull Context context) {
+        sharedPreferences = context.getSharedPreferences("user",Context.MODE_PRIVATE);
+        editor = sharedPreferences.edit();
+        super.onAttach(context);
+    }
+
+    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.fragment_login, container, false);
+
+//        username = (EditText) rootView.findViewById(R.id.editTextTextPersonName2);
+//        password = (EditText) rootView.findViewById(R.id.editTextTextPassword2);
+//
+//        login = (Button) rootView.findViewById(R.id.loginbtn);
+//        login.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                name = username.getText().toString();
+//                pass = password.getText().toString();
+//                String uName,uPass;
+//                uName = sharedPreferences.getString("SmartHome", null);
+//                uPass = sharedPreferences.getString("Home123", null);
+//
+//                if(name.equals(uName) && pass.equals(uPass)) {
+//                    Toast.makeText(getContext(), "Redirecting...", Toast.LENGTH_SHORT).show();
+//                } else {
+//                    Toast.makeText(getContext(), "Wrong Credentials", Toast.LENGTH_SHORT).show();
+//                }
+//            }
+//        });
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_login, container, false);
+        return rootView;
     }
 
 
