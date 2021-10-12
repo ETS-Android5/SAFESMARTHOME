@@ -15,6 +15,7 @@ import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
@@ -88,27 +89,46 @@ public class LoginFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_login, container, false);
+        EditText username = rootView.findViewById(R.id.editTextTextPersonName2);
+        EditText password = rootView.findViewById(R.id.editTextTextPassword2);
 
+       /* public void login(View view){
+            if(username.getText().toString().equals("admin") && password.getText().toString().equals("admin")){
+
+                //correcct password
+            }else{
+                //wrong password
+            }
+
+            Button button = findViewById(R.id.callbackButton);
+      button.setOnClickListener(new View.OnClickListener() {
+         public void onClick(View v) {
+            Snackbar snackBar = Snackbar .make(v, "An Error Occurred!", Snackbar.LENGTH_LONG) .setAction("RETRY", new View.OnClickListener() {
+               @Override
+               public void onClick(View view) {
+               }
+            });*/
 //        username = (EditText) rootView.findViewById(R.id.editTextTextPersonName2);
 //        password = (EditText) rootView.findViewById(R.id.editTextTextPassword2);
 //
-//        login = (Button) rootView.findViewById(R.id.loginbtn);
-//        login.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                name = username.getText().toString();
-//                pass = password.getText().toString();
-//                String uName,uPass;
-//                uName = sharedPreferences.getString("SmartHome", null);
-//                uPass = sharedPreferences.getString("Home123", null);
-//
-//                if(name.equals(uName) && pass.equals(uPass)) {
-//                    Toast.makeText(getContext(), "Redirecting...", Toast.LENGTH_SHORT).show();
-//                } else {
-//                    Toast.makeText(getContext(), "Wrong Credentials", Toast.LENGTH_SHORT).show();
-//                }
-//            }
-//        });
+      Button button= rootView.findViewById(R.id.loginbtn);
+        button.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               name = username.getText().toString();
+               pass = password.getText().toString();
+               String uName,uPass;
+               uName = sharedPreferences.getString("SmartHome", null);
+               uPass = sharedPreferences.getString("Home123", null);
+
+            //   if(name.equals(uName) && pass.equals(uPass)) {
+               if(username.getText().toString().equals("SmartHome") && password.getText().toString().equals("Home123")){
+                    Toast.makeText(getContext(), "Redirecting...", Toast.LENGTH_SHORT).show();
+               } else {
+                    Toast.makeText(getContext(), "Wrong Credentials", Toast.LENGTH_SHORT).show();
+                }
+           }
+        });
         // Inflate the layout for this fragment
         return rootView;
     }

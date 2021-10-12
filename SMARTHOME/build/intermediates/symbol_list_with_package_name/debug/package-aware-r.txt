@@ -2109,6 +2109,8 @@ id fill_horizontal
 id fill_vertical
 id filled
 id fire_page_id
+id fire_switch1
+id fire_switch2
 id fire_title_id
 id fitToContents
 id fixed
