@@ -15,7 +15,7 @@
     <string name="fan_on_off">Paramètres du ventilateur</string>
     <string name="motion_on_off">Paramètres de mouvement</string>
     <string name="splash_title">Maison intelligente sûre</string>
-    <string name="splash_author">Présenté par : Team Smart Home</string>
+    <string name="splash_author">Équipe Safe Smart Home</string>
     <string name="temperature_status">Température</string>
     <string name="security_status">Sécurité</string>
     <string name="smoke_status">Fumée</string>

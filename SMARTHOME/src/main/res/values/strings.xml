@@ -20,7 +20,7 @@
     <string name="fan_on_off">Fan Settings</string>
     <string name="motion_on_off">Motion Settings</string>
     <string name="splash_title">Safe Smart Home</string>
-    <string name="splash_author">Presented by: Team Smart Home</string>
+    <string name="splash_author">Team Safe Smart Home</string>
     <string name="temperature_status">Temperature</string>
     <string name="security_status">Security</string>
     <string name="smoke_status">Smoke</string>
