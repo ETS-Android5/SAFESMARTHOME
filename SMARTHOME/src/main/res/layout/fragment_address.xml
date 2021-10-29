@@ -30,32 +30,54 @@
         app:layout_constraintVertical_bias="0.005"
         tools:text="Customer Address" />
 
-    <TextView
-        android:id="@+id/address"
-        android:layout_width="293dp"
-        android:layout_height="74dp"
-        android:layout_marginTop="116dp"
-        android:hint="@string/street_address_hint"
+    <EditText
+        android:id="@+id/editTextTextPostalAddress"
+        android:layout_width="262dp"
+        android:layout_height="49dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="Street Address"
+        android:inputType="textPostalAddress"
+        android:textColor="#CE000000"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.177" />
 
-    <TextView
-        android:id="@+id/address_city"
-        android:layout_width="293dp"
-        android:layout_height="67dp"
-        android:layout_marginTop="216dp"
-        android:hint="@string/city_hint"
+    <EditText
+        android:id="@+id/editTextTextPostalAddress2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="Postal Code"
+        android:inputType="textPostalAddress"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.515" />
 
-    <TextView
-        android:id="@+id/address_postalcode"
-        android:layout_width="293dp"
-        android:layout_height="67dp"
-        android:layout_marginTop="316dp"
-        android:hint="@string/post_code_hint"
+    <EditText
+        android:id="@+id/editTextTextCity"
+        android:layout_width="223dp"
+        android:layout_height="47dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType=""
+        android:text="City"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.352"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

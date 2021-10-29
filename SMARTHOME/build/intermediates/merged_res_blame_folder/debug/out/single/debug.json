@@ -72,8 +72,20 @@
         "source": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout-land_fragment_fire.xml.flat",
+        "source": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout-land\\fragment_fire.xml"
+    },
+    {
+        "merged": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout-land_fragment_main.xml.flat",
+        "source": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout-land\\fragment_main.xml"
+    },
+    {
         "merged": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_action_pass.png.flat",
         "source": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-hdpi\\ic_action_pass.png"
+    },
+    {
+        "merged": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout-land_fragment_control.xml.flat",
+        "source": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout-land\\fragment_control.xml"
     },
     {
         "merged": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_action_pass.png.flat",
@@ -90,6 +102,10 @@
     {
         "merged": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-v24_smarthome_pic.png.flat",
         "source": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-v24\\smarthome_pic.png"
+    },
+    {
+        "merged": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout-land_fragment_status.xml.flat",
+        "source": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout-land\\fragment_status.xml"
     },
     {
         "merged": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_smoke.png.flat",
@@ -172,6 +188,10 @@
         "source": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-xxhdpi\\ic_action_pass.png"
     },
     {
+        "merged": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout-land_fragment_address.xml.flat",
+        "source": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout-land\\fragment_address.xml"
+    },
+    {
         "merged": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
@@ -182,6 +202,10 @@
     {
         "merged": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout-land_fragment_login.xml.flat",
+        "source": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout-land\\fragment_login.xml"
     },
     {
         "merged": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_action_user1.png.flat",
@@ -242,6 +266,10 @@
     {
         "merged": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_humid.jpg.flat",
+        "source": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\humid.jpg"
     },
     {
         "merged": "C:\\Users\\vrkgu\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",

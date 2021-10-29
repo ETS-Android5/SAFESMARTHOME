@@ -1842,6 +1842,7 @@ drawable gradient2
 drawable gradient3
 drawable gradient_status
 drawable green
+drawable humid
 drawable ic_action_pass
 drawable ic_action_user
 drawable ic_action_user1
@@ -1980,6 +1981,9 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id address
+id address_city
+id address_postalcode
 id adjust_height
 id adjust_width
 id alertTitle
@@ -2089,8 +2093,11 @@ id easeInOut
 id easeOut
 id east
 id editTextNumberSigned
+id editTextTextCity
 id editTextTextPassword2
 id editTextTextPersonName2
+id editTextTextPostalAddress
+id editTextTextPostalAddress2
 id edit_query
 id elastic
 id end
@@ -2101,7 +2108,6 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fab1
 id fade
 id fan_on_off
 id fill
@@ -2148,6 +2154,8 @@ id image
 id imageView
 id imageView2
 id imageView3
+id imageView4
+id imageView5
 id immediateStop
 id included
 id info
@@ -2374,6 +2382,8 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
+id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2634,6 +2644,7 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
+string city_hint
 string clear_text_end_icon_content_description
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
@@ -2742,6 +2753,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string post_code_hint
 string project_id
 string search_menu_title
 string security_status
@@ -2750,6 +2762,7 @@ string smoke_status
 string splash_author
 string splash_title
 string status_bar_notification_info_overflow
+string street_address_hint
 string tab_text_1
 string tab_text_2
 string tab_text_3
