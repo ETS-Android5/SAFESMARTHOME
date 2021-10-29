@@ -30,4 +30,7 @@
     <string name="smoke_controls">Contrôles de fumée</string>
     <string name="fire_and_smoke_detection">Détection d\'incendie et de fumée</string>
     <string name="humidity_fire_control">Contrôle de l\'humidité/du feu</string>
+    <string name="street_address_hint">Adresse de la rue</string>
+    <string name="city_hint">Ville</string>
+    <string name="post_code_hint">code postal</string>
 </resources>
