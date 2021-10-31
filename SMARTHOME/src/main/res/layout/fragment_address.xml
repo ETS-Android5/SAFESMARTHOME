@@ -32,8 +32,8 @@
 
     <EditText
         android:id="@+id/editTextTextPostalAddress"
-        android:layout_width="262dp"
-        android:layout_height="49dp"
+        android:layout_width="355dp"
+        android:layout_height="48dp"
         android:background="#FFFFFF"
         android:ems="10"
         android:hint="Street Address"
@@ -42,15 +42,15 @@
         android:textColorHint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintHorizontal_bias="0.285"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.177" />
+        app:layout_constraintVertical_bias="0.172" />
 
     <EditText
         android:id="@+id/editTextTextPostalAddress2"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
+        android:layout_width="173dp"
+        android:layout_height="49dp"
         android:background="#FFFFFF"
         android:ems="10"
         android:hint="Postal Code"
@@ -58,10 +58,10 @@
         android:textColorHint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintHorizontal_bias="0.067"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.515" />
+        app:layout_constraintVertical_bias="0.519" />
 
     <EditText
         android:id="@+id/editTextTextCity"
@@ -79,17 +79,20 @@
         app:layout_constraintVertical_bias="0.352"
         tools:ignore="MissingConstraints" />
 
-    <Spinner
-        android:id="@+id/spinner1Province"
-        android:text="Province"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <EditText
+        android:id="@+id/editTextTextCountry"
+        android:layout_width="206dp"
+        android:layout_height="39dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:text="Country"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.702"
+        app:layout_constraintHorizontal_bias="0.078"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.356" />
+        app:layout_constraintVertical_bias="0.68" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

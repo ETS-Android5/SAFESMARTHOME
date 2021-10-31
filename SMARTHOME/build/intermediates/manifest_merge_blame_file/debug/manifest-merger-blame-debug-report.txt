@@ -6,108 +6,109 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml
+8-->C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml
+9-->C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml
 10
 11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
 13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->[com.google.firebase:firebase-database:20.0.2] /Users/joy/.gradle/caches/transforms-3/6df2497b371575efde943d8fc11fc0d6/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:25:5-79
-13-->[com.google.firebase:firebase-database:20.0.2] /Users/joy/.gradle/caches/transforms-3/6df2497b371575efde943d8fc11fc0d6/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:25:22-76
+13-->[com.google.firebase:firebase-database:20.0.2] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\6df2497b371575efde943d8fc11fc0d6\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:20.0.2] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\6df2497b371575efde943d8fc11fc0d6\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:25:22-76
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->[com.google.firebase:firebase-database:20.0.2] /Users/joy/.gradle/caches/transforms-3/6df2497b371575efde943d8fc11fc0d6/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:26:5-67
-14-->[com.google.firebase:firebase-database:20.0.2] /Users/joy/.gradle/caches/transforms-3/6df2497b371575efde943d8fc11fc0d6/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:26:22-64
+14-->[com.google.firebase:firebase-database:20.0.2] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\6df2497b371575efde943d8fc11fc0d6\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:20.0.2] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\6df2497b371575efde943d8fc11fc0d6\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:26:22-64
 15
 16    <application
-16-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:5:5-26:19
+16-->C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:5:5-26:19
 17        android:allowBackup="true"
-17-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:6:9-35
+17-->C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:6:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.5.0] /Users/joy/.gradle/caches/transforms-3/4b18baa9266eba5441dc9be7b537a834/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+18-->[androidx.core:core:1.5.0] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\4b18baa9266eba5441dc9be7b537a834\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 19        android:debuggable="true"
 20        android:extractNativeLibs="false"
 21        android:icon="@mipmap/ic_launcher"
-21-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:7:9-43
+21-->C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:7:9-43
 22        android:label="@string/app_name"
-22-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:8:9-41
+22-->C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:8:9-41
 23        android:roundIcon="@mipmap/ic_launcher_round"
-23-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:9:9-54
+23-->C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:9:9-54
 24        android:supportsRtl="true"
-24-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:10:9-35
-25        android:theme="@style/Theme.SAFESMARTHOME" >
-25-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:11:9-51
-26        <activity android:name="ca.team.safe.smart.home.it.safe.smart.home.MainActivity" />
-26-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:12:9-59
-26-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:12:19-47
-27        <activity android:name="ca.team.safe.smart.home.it.safe.smart.home.Splash" >
-27-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:13:13-21:20
-27-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:13:23-45
-28            android:label="@string/app_name"
-29            android:theme="@style/Theme.SAFESMARTHOME.NoActionBar">
-30            <intent-filter>
-30-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:16:13-20:29
-31                <action android:name="android.intent.action.MAIN" />
-31-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:17:17-69
-31-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:17:25-66
-32
-33                <category android:name="android.intent.category.LAUNCHER" />
-33-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:19:17-77
-33-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:19:27-74
-34            </intent-filter>
-35        </activity>
-36
-37        <meta-data
-37-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:23:9-25:57
-38            android:name="preloaded_fonts"
-38-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:24:13-43
-39            android:resource="@array/preloaded_fonts" />
-39-->/Users/joy/AndroidStudioProjects/SAFESMARTHOME/SMARTHOME/src/main/AndroidManifest.xml:25:13-54
-40
-41        <service
-41-->[com.google.firebase:firebase-database:20.0.2] /Users/joy/.gradle/caches/transforms-3/6df2497b371575efde943d8fc11fc0d6/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:29:9-35:19
-42            android:name="com.google.firebase.components.ComponentDiscoveryService"
-42-->[com.google.firebase:firebase-database:20.0.2] /Users/joy/.gradle/caches/transforms-3/6df2497b371575efde943d8fc11fc0d6/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:30:13-84
-43            android:directBootAware="true"
-43-->[com.google.firebase:firebase-common:20.0.0] /Users/joy/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
-44            android:exported="false" >
-44-->[com.google.firebase:firebase-database:20.0.2] /Users/joy/.gradle/caches/transforms-3/6df2497b371575efde943d8fc11fc0d6/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:31:13-37
-45            <meta-data
-45-->[com.google.firebase:firebase-database:20.0.2] /Users/joy/.gradle/caches/transforms-3/6df2497b371575efde943d8fc11fc0d6/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:32:13-34:85
-46                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-46-->[com.google.firebase:firebase-database:20.0.2] /Users/joy/.gradle/caches/transforms-3/6df2497b371575efde943d8fc11fc0d6/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:33:17-109
-47                android:value="com.google.firebase.components.ComponentRegistrar" />
-47-->[com.google.firebase:firebase-database:20.0.2] /Users/joy/.gradle/caches/transforms-3/6df2497b371575efde943d8fc11fc0d6/transformed/jetified-firebase-database-20.0.2/AndroidManifest.xml:34:17-82
-48        </service>
-49
-50        <provider
-50-->[com.google.firebase:firebase-common:20.0.0] /Users/joy/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
-51            android:name="com.google.firebase.provider.FirebaseInitProvider"
-51-->[com.google.firebase:firebase-common:20.0.0] /Users/joy/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
-52            android:authorities="ca.team.safe.smart.home.it.safe.smart.home.firebaseinitprovider"
-52-->[com.google.firebase:firebase-common:20.0.0] /Users/joy/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
-53            android:directBootAware="true"
-53-->[com.google.firebase:firebase-common:20.0.0] /Users/joy/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
-54            android:exported="false"
-54-->[com.google.firebase:firebase-common:20.0.0] /Users/joy/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
-55            android:initOrder="100" />
-55-->[com.google.firebase:firebase-common:20.0.0] /Users/joy/.gradle/caches/transforms-3/45b4a080f8d120803c4464eae4da744b/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
-56
-57        <activity
-57-->[com.google.android.gms:play-services-base:17.1.0] /Users/joy/.gradle/caches/transforms-3/61327252b97b04f60e697e9245a0fce3/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-58            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-58-->[com.google.android.gms:play-services-base:17.1.0] /Users/joy/.gradle/caches/transforms-3/61327252b97b04f60e697e9245a0fce3/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
-59            android:exported="false"
-59-->[com.google.android.gms:play-services-base:17.1.0] /Users/joy/.gradle/caches/transforms-3/61327252b97b04f60e697e9245a0fce3/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-60            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-60-->[com.google.android.gms:play-services-base:17.1.0] /Users/joy/.gradle/caches/transforms-3/61327252b97b04f60e697e9245a0fce3/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
-61
-62        <meta-data
-62-->[com.google.android.gms:play-services-basement:17.0.0] /Users/joy/.gradle/caches/transforms-3/e0a06e1db4d4e2db64a90134643f665b/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-63            android:name="com.google.android.gms.version"
-63-->[com.google.android.gms:play-services-basement:17.0.0] /Users/joy/.gradle/caches/transforms-3/e0a06e1db4d4e2db64a90134643f665b/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-64            android:value="@integer/google_play_services_version" />
-64-->[com.google.android.gms:play-services-basement:17.0.0] /Users/joy/.gradle/caches/transforms-3/e0a06e1db4d4e2db64a90134643f665b/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-65    </application>
-66
-67</manifest>
+24-->C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:10:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.SAFESMARTHOME" >
+26-->C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:11:9-51
+27        <activity android:name="ca.team.safe.smart.home.it.safe.smart.home.MainActivity" />
+27-->C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:12:9-59
+27-->C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:12:19-47
+28        <activity android:name="ca.team.safe.smart.home.it.safe.smart.home.Splash" >
+28-->C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:13:13-21:20
+28-->C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:13:23-45
+29            android:label="@string/app_name"
+30            android:theme="@style/Theme.SAFESMARTHOME.NoActionBar">
+31            <intent-filter>
+31-->C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:16:13-20:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:17:17-69
+32-->C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:17:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:19:17-77
+34-->C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:19:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <meta-data
+38-->C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:23:9-25:57
+39            android:name="preloaded_fonts"
+39-->C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:24:13-43
+40            android:resource="@array/preloaded_fonts" />
+40-->C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:25:13-54
+41
+42        <service
+42-->[com.google.firebase:firebase-database:20.0.2] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\6df2497b371575efde943d8fc11fc0d6\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:29:9-35:19
+43            android:name="com.google.firebase.components.ComponentDiscoveryService"
+43-->[com.google.firebase:firebase-database:20.0.2] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\6df2497b371575efde943d8fc11fc0d6\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:30:13-84
+44            android:directBootAware="true"
+44-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\45b4a080f8d120803c4464eae4da744b\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+45            android:exported="false" >
+45-->[com.google.firebase:firebase-database:20.0.2] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\6df2497b371575efde943d8fc11fc0d6\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:31:13-37
+46            <meta-data
+46-->[com.google.firebase:firebase-database:20.0.2] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\6df2497b371575efde943d8fc11fc0d6\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:32:13-34:85
+47                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+47-->[com.google.firebase:firebase-database:20.0.2] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\6df2497b371575efde943d8fc11fc0d6\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:33:17-109
+48                android:value="com.google.firebase.components.ComponentRegistrar" />
+48-->[com.google.firebase:firebase-database:20.0.2] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\6df2497b371575efde943d8fc11fc0d6\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:34:17-82
+49        </service>
+50
+51        <provider
+51-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\45b4a080f8d120803c4464eae4da744b\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+52            android:name="com.google.firebase.provider.FirebaseInitProvider"
+52-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\45b4a080f8d120803c4464eae4da744b\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+53            android:authorities="ca.team.safe.smart.home.it.safe.smart.home.firebaseinitprovider"
+53-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\45b4a080f8d120803c4464eae4da744b\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+54            android:directBootAware="true"
+54-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\45b4a080f8d120803c4464eae4da744b\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+55            android:exported="false"
+55-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\45b4a080f8d120803c4464eae4da744b\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+56            android:initOrder="100" />
+56-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\45b4a080f8d120803c4464eae4da744b\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+57
+58        <activity
+58-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\61327252b97b04f60e697e9245a0fce3\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+59            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+59-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\61327252b97b04f60e697e9245a0fce3\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+60            android:exported="false"
+60-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\61327252b97b04f60e697e9245a0fce3\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+61            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+61-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\61327252b97b04f60e697e9245a0fce3\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+62
+63        <meta-data
+63-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\e0a06e1db4d4e2db64a90134643f665b\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+64            android:name="com.google.android.gms.version"
+64-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\e0a06e1db4d4e2db64a90134643f665b\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+65            android:value="@integer/google_play_services_version" />
+65-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\e0a06e1db4d4e2db64a90134643f665b\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+66    </application>
+67
+68</manifest>
