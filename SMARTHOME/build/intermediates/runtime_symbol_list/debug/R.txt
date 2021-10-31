@@ -2093,6 +2093,7 @@ int id easeOut 0x7f0a00b8
 int id east 0x7f0a00b9
 int id editTextNumberSigned 0x7f0a00ba
 int id editTextTextCity 0x7f0a00bb
+int id editTextTextCountry 0x7f0a0211
 int id editTextTextPassword2 0x7f0a00bc
 int id editTextTextPersonName2 0x7f0a00bd
 int id editTextTextPostalAddress 0x7f0a00be
@@ -2328,7 +2329,7 @@ int id snapMargins 0x7f0a01a3
 int id south 0x7f0a01a4
 int id spacer 0x7f0a01a5
 int id special_effects_controller_view_tag 0x7f0a01a6
-int id spinner1Province 0x7f0a01a7
+int id spinner 0x7f0a0212
 int id spline 0x7f0a01a8
 int id split_action_bar 0x7f0a01a9
 int id spread 0x7f0a01aa
@@ -2668,6 +2669,7 @@ int string common_signin_button_text_long 0x7f110038
 int string controls_degrees_c 0x7f110039
 int string controls_switch_stage 0x7f11003a
 int string controls_temp_set 0x7f11003b
+int string country_hint 0x7f1100a2
 int string default_web_client_id 0x7f11003c
 int string error_icon_content_description 0x7f11003d
 int string exposed_dropdown_menu_content_description 0x7f11003e

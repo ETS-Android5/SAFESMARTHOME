@@ -2094,6 +2094,7 @@ id easeOut
 id east
 id editTextNumberSigned
 id editTextTextCity
+id editTextTextCountry
 id editTextTextPassword2
 id editTextTextPersonName2
 id editTextTextPostalAddress
@@ -2329,7 +2330,7 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
-id spinner1Province
+id spinner
 id spline
 id split_action_bar
 id spread
@@ -2669,6 +2670,7 @@ string common_signin_button_text_long
 string controls_degrees_c
 string controls_switch_stage
 string controls_temp_set
+string country_hint
 string default_web_client_id
 string error_icon_content_description
 string exposed_dropdown_menu_content_description

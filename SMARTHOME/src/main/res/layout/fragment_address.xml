@@ -65,8 +65,8 @@
 
     <EditText
         android:id="@+id/editTextTextCity"
-        android:layout_width="223dp"
-        android:layout_height="47dp"
+        android:layout_width="192dp"
+        android:layout_height="46dp"
         android:background="#FFFFFF"
         android:ems="10"
         android:inputType=""
@@ -93,6 +93,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.68" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="94dp"
+        android:layout_height="45dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.351" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
