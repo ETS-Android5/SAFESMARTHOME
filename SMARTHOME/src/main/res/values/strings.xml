@@ -44,8 +44,7 @@
     <string name="email_hint">email</string>
     <string name="register_btn">Register</string>
 
-
-    <string-array name="provinces_fullname">
+    <string-array name="provinces_name">
     <item>Alberta</item>
     <item>British Columbia</item>
     <item>Manitoba</item>

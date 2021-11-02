@@ -61,6 +61,8 @@ array com_google_android_gms_fonts_certs
 array com_google_android_gms_fonts_certs_dev
 array com_google_android_gms_fonts_certs_prod
 array preloaded_fonts
+array provinces
+array provinces_name
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider

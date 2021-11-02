@@ -126,6 +126,10 @@ ADDED from C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SM
 		ADDED from C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:12:19-47
 activity#ca.team.safe.smart.home.it.safe.smart.home.Splash
 ADDED from C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:13:13-21:20
+	android:label
+		ADDED from C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:14:13-45
+	android:theme
+		ADDED from C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:15:13-67
 	android:name
 		ADDED from C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:13:23-45
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER

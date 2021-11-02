@@ -34,9 +34,12 @@
     <string name="city_hint">Ville</string>
     <string name="post_code_hint">code postal</string>
     <string name="country_hint">pays</string>
+    <string name="register_title">Register</string>
+    <string name="email_hint">email</string>
+    <string name="register_btn">Register</string>
 
 
-    <string-array name="provinces_fullname">
+    <string-array name="provinces_name">
     <item>Alberta</item>
     <item>Colombie-Britannique</item>
     <item>Manitoba</item>
@@ -58,7 +61,7 @@
         <item>Le</item>
         <item>Le</item>
         <item>La</item>
-        <item>L'</item>
+        <item>L</item>
         <item>Le</item>
         <item>La</item>
         <item>La</item>

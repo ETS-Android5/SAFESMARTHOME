@@ -14,6 +14,9 @@ import androidx.viewpager.widget.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.Spinner;
+import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
@@ -55,6 +58,20 @@ public class AddressFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        View view = inflater.inflate(R.layout.fragment_address, container, false);
+        Spinner spinner = view.findViewById(R.id.spinner);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                String name =getResources().getStringArray(R.array.provinces_name)[i];
+                Toast.makeText(getActivity(), name, Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
        /* FloatingActionButton fab1 = getActivity().findViewById(R.id.fab1);
 
         fab1.setOnClickListener(new View.OnClickListener() {
@@ -72,7 +89,7 @@ public class AddressFragment extends Fragment {
                 }
             }
         });*/
-        return inflater.inflate(R.layout.fragment_address, container, false);
+        return view;
     }
 
 }
