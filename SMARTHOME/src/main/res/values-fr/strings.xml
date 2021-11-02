@@ -34,4 +34,9 @@
     <string name="city_hint">Ville</string>
     <string name="post_code_hint">code postal</string>
     <string name="country_hint">pays</string>
+    <string name="register_title">S inscrire</string>
+    <string name="email_hint">email</string>
+    <string name="Register_btn">S inscrire</string>
+    <string name="name_register">Nom</string>
+
 </resources>

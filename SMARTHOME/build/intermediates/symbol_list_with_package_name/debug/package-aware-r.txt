@@ -2136,6 +2136,7 @@ id flip
 id floating
 id forever
 id fragmentLogin
+id fragmentResgister
 id fragment_container_view_tag
 id frost
 id ghost_view
@@ -2284,11 +2285,17 @@ id pin
 id position
 id postLayout
 id progressBar
+id progressBar_register
 id progress_circular
 id progress_horizontal
 id radio
 id ratio
 id rectangles
+id register
+id register_name
+id register_password
+id register_username
+id registerbutton
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2540,6 +2547,7 @@ layout fragment_control
 layout fragment_fire
 layout fragment_login
 layout fragment_main
+layout fragment_register
 layout fragment_status
 layout material_chip_input_combo
 layout material_clock_display
@@ -2624,6 +2632,7 @@ mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string PREFS
+string Register_btn
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2685,6 +2694,7 @@ string controls_switch_stage
 string controls_temp_set
 string country_hint
 string default_web_client_id
+string email_hint
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -2760,6 +2770,7 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string name_register
 string on_back_message
 string on_back_no
 string on_back_title
@@ -2772,6 +2783,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string post_code_hint
 string project_id
+string register_title
 string search_menu_title
 string security_status
 string smoke_controls

@@ -1,19 +1,42 @@
 package ca.team.safe.smart.home.it.safe.smart.home;
 
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ProgressBar;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+
+import java.util.Locale;
 
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link RegisterFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class RegisterFragment extends Fragment {
+public class RegisterFragment extends Fragment implements View.OnClickListener {
+
+    EditText mFullName, mEmail, mPassword;
+    Button mregisterBtn;
+    TextView loginBtn;
+    FirebaseAuth fAuth;
+    private View mView;
+
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -59,6 +82,56 @@ public class RegisterFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_register, container, false);
+        mView = inflater.inflate(R.layout.fragment_register, container, false);
+
+        mFullName = getActivity().findViewById(R.id.register_name);
+        mEmail = getActivity().findViewById(R.id.register_username);
+        mPassword = getActivity().findViewById(R.id.register_password);
+        Button mregisterBtn = (Button) getActivity().findViewById(R.id.registerbutton);
+        ProgressBar progressBar = (ProgressBar) getActivity().findViewById(R.id.progressBar_register);
+        fAuth = FirebaseAuth.getInstance();
+
+        if (fAuth.getCurrentUser() != null) {
+            startActivity(new Intent(getActivity().getApplicationContext(), MainActivity.class));
+            getActivity().finish();
+        }
+        return mView;
+
+
     }
-}
+
+        @Override
+        public void onClick (View v){
+
+        String email = mEmail.getText().toString().trim();
+        String password = mPassword.getText().toString().trim();
+        switch (v.getId()) {
+            case R.id.registerbutton:
+                if (TextUtils.isEmpty(email)) {
+                    mEmail.setError("Please enter email");
+                    return;
+                }
+                if (TextUtils.isEmpty(password) || password.length() < 8) {
+                    mPassword.setError("Password Error");
+                    return;
+                }
+                // progressBar.setVisibility(getView().VISIBLE);
+
+
+                //register user
+                fAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()) {
+                            Toast.makeText(getActivity(), "User Created", Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(getActivity().getApplicationContext(), MainActivity.class));
+                        } else {
+                            Toast.makeText(getActivity(), "Error" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+
+        }
+    }
+    }
+

@@ -172,6 +172,10 @@
         "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_fragment_register.xml.flat",
+        "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_register.xml"
+    },
+    {
         "merged": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_action_user.png.flat",
         "source": "C:\\Users\\jacob\\OneDrive\\Desktop\\Fall 2021\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-xxhdpi\\ic_action_user.png"
     },

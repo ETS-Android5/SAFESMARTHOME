@@ -18,6 +18,7 @@ import ca.team.safe.smart.home.it.safe.smart.home.ControlFragment;
 import ca.team.safe.smart.home.it.safe.smart.home.FireFragment;
 import ca.team.safe.smart.home.it.safe.smart.home.LoginFragment;
 import ca.team.safe.smart.home.it.safe.smart.home.R;
+import ca.team.safe.smart.home.it.safe.smart.home.RegisterFragment;
 import ca.team.safe.smart.home.it.safe.smart.home.StatusFragment;
 
 /**
@@ -27,8 +28,8 @@ import ca.team.safe.smart.home.it.safe.smart.home.StatusFragment;
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @StringRes
-    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2, R.string.tab_text_3,
-            R.string.tab_text_4, R.string.tab_text_5,};
+    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_2, R.string.tab_text_3,
+            R.string.tab_text_4, R.string.tab_text_5, R.string.tab_text_1 };
     private final Context mContext;
 
     public SectionsPagerAdapter(Context context, FragmentManager fm) {
@@ -41,21 +42,19 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         Fragment fragment = null;
         switch(position){
             case 0:
-                fragment = new LoginFragment();
-                break;
-            case 1:
                 fragment = new AddressFragment();
                 break;
-            case 2:
+            case 1:
                 fragment = new StatusFragment();
                 break;
-            case 3:
+            case 2:
                 fragment = new ControlFragment();
                 break;
-            case 4:
+            case 3:
                 fragment = new FireFragment();
                 break;
-
+            case 4:
+                fragment = new RegisterFragment();
         }
         return fragment;
     }
@@ -68,7 +67,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        // Show 5 total pages.
+        // Show 4 total pages.
         return 5;
     }
 }

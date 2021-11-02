@@ -42,5 +42,6 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="register_title">Register</string>
     <string name="email_hint">email</string>
-    <string name="register_btn">Register</string>
+    <string name="Register_btn">Register</string>
+    <string name="name_register">name</string>
 </resources>
