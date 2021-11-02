@@ -39,4 +39,8 @@
     <string name="city_hint">City</string>
     <string name="post_code_hint">Postal Code</string>
     <string name="country_hint">Country</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="register_title">Register</string>
+    <string name="email_hint">email</string>
+    <string name="register_btn">Register</string>
 </resources>
