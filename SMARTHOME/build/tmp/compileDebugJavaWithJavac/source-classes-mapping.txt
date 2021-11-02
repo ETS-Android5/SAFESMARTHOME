@@ -7,6 +7,8 @@ ca/team/safe/smart/home/it/safe/smart/home/StatusFragment.java
 ca/team/safe/smart/home/it/safe/smart/home/LoginFragment.java
  ca.team.safe.smart.home.it.safe.smart.home.LoginFragment
  ca.team.safe.smart.home.it.safe.smart.home.LoginFragment$1
+ca/team/safe/smart/home/it/safe/smart/home/RegisterFragment.java
+ ca.team.safe.smart.home.it.safe.smart.home.RegisterFragment
 ca/team/safe/smart/home/it/safe/smart/home/BuildConfig.java
  ca.team.safe.smart.home.it.safe.smart.home.BuildConfig
 ca/team/safe/smart/home/it/safe/smart/home/ui/main/PlaceholderFragment.java

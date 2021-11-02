@@ -43,4 +43,38 @@
     <string name="register_title">Register</string>
     <string name="email_hint">email</string>
     <string name="register_btn">Register</string>
+
+
+    <string-array name="provinces_fullname">
+    <item>Alberta</item>
+    <item>British Columbia</item>
+    <item>Manitoba</item>
+    <item>New Brunswick</item>
+    <item>Newfoundland and Labrador</item>
+    <item>Nova Scotia</item>
+    <item>Ontario</item>
+    <item>Prince Edward Island</item>
+    <item>Quebec</item>
+    <item>Saskatchewan</item>
+    <item>Yukon</item>
+    <item>Nunavut</item>
+    <item>Northwest Territories</item>
+    </string-array>
+
+    <string-array name="provinces">
+        <item>AB</item>
+        <item>BC</item>
+        <item>MB</item>
+        <item>NB</item>
+        <item>NL</item>
+        <item>NS</item>
+        <item>ON</item>
+        <item>PE</item>
+        <item>QC</item>
+        <item>SK</item>
+        <item>YT</item>
+        <item>NU</item>
+        <item>NT</item>
+
+    </string-array>
 </resources>

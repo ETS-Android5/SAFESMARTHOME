@@ -2289,6 +2289,10 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id register
+id register_password
+id register_username
+id registerbtn
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2540,6 +2544,7 @@ layout fragment_control
 layout fragment_fire
 layout fragment_login
 layout fragment_main
+layout fragment_register
 layout fragment_status
 layout material_chip_input_combo
 layout material_clock_display
@@ -2685,6 +2690,7 @@ string controls_switch_stage
 string controls_temp_set
 string country_hint
 string default_web_client_id
+string email_hint
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -2772,6 +2778,8 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string post_code_hint
 string project_id
+string register_btn
+string register_title
 string search_menu_title
 string security_status
 string smoke_controls
