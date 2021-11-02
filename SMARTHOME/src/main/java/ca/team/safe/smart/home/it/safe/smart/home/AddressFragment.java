@@ -5,12 +5,15 @@
 
 package ca.team.safe.smart.home.it.safe.smart.home;
 
+import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
 
 
+import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,6 +24,8 @@ import android.widget.Toast;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.tabs.TabLayout;
+
+import java.util.Locale;
 
 import ca.team.safe.smart.home.it.safe.smart.home.ui.main.SectionsPagerAdapter;
 
@@ -63,8 +68,19 @@ public class AddressFragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                String name =getResources().getStringArray(R.array.provinces_name)[i];
-                Toast.makeText(getActivity(), name, Toast.LENGTH_SHORT).show();
+
+                //french
+//                Configuration conf = getResources().getConfiguration();
+//                conf.locale = new Locale("fr");
+//                DisplayMetrics metrics = new DisplayMetrics();
+//                getActivity().getWindowManager().getDefaultDisplay().getMetrics(metrics);
+//                Resources resources = new Resources(getActivity().getAssets(), metrics, conf);
+//                String nameFrench = resources.getStringArray(R.array.provinces_name)[i];
+//                Toast.makeText(getActivity(), nameFrench, Toast.LENGTH_SHORT).show();
+//
+                //for english
+                String name_english =getResources().getStringArray(R.array.provinces_name)[i];
+                Toast.makeText(getActivity(), name_english, Toast.LENGTH_SHORT).show();
             }
 
             @Override
