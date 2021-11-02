@@ -7726,6 +7726,7 @@
         <item>@font/rammetto_one</item>
         <item>@font/ribeye_marrow</item>
     </array></file><file path="C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">Safe Smart Home</string><string name="tab_text_1">Login</string><string name="tab_text_2">Customer Address</string><string name="tab_text_3">Home Status</string><string name="tab_text_4">Home Controls</string><string name="tab_text_5">Humidity/Fire</string><string name="on_back_title">Confirmation</string><string name="on_back_message">Do you want to exit the app?</string><string name="on_back_yes">Yes</string><string name="on_back_no">No</string><string name="ac_on_off">AC Settings</string><string name="heat_on_off">Heat Settings</string><string name="fan_on_off">Fan Settings</string><string name="motion_on_off">Motion Settings</string><string name="splash_title">Safe Smart Home</string><string name="splash_author">Team Safe Smart Home</string><string name="temperature_status">Temperature</string><string name="security_status">Security</string><string name="smoke_status">Smoke</string><string name="humidity_status">Humidity</string><string name="controls_temp_set">\"Temperature set to: \"</string><string name="controls_degrees_c">°C</string><string name="controls_switch_stage">switch_stage</string><string name="PREFS">PREFS</string><string name="home_control">Home Control</string><string name="fire_controls">Fire Controls</string><string name="on_off">On/Off</string><string name="smoke_controls">Smoke Controls</string><string name="fire_and_smoke_detection">Fire and Smoke Detection</string><string name="humidity_fire_control">Humidity/Fire Control</string><string name="street_address_hint">Street Address</string><string name="city_hint">City</string><string name="post_code_hint">Postal Code</string><string name="country_hint">Country</string><string name="register_title">Register</string><string name="email_hint">email</string><string name="register_btn">Register</string><string-array name="provinces">
+        <item/>
         <item>AB</item>
         <item>BC</item>
         <item>MB</item>
@@ -7741,6 +7742,7 @@
         <item>NT</item>
 
     </string-array><string-array name="provinces_name">
+    <item/>
     <item>Alberta</item>
     <item>British Columbia</item>
     <item>Manitoba</item>
@@ -7770,6 +7772,7 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style><style name="Theme.SAFESMARTHOME.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/><style name="Theme.SAFESMARTHOME.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/></file><file path="C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\res\values-fr\strings.xml" qualifiers="fr"><string name="app_name">Maison Intelligent Sre</string><string name="tab_text_1">Connexion</string><string name="tab_text_2">Adresse du client</string><string name="tab_text_3">Statut daccueil</string><string name="tab_text_4">Contrôle à domicile</string><string name="tab_text_5">Humidité/Feu</string><string name="on_back_title">Confirmation</string><string name="on_back_message">Voulez-vous quitter lapplication?</string><string name="on_back_yes">Oui</string><string name="on_back_no">Non</string><string name="ac_on_off">Paramètres CA</string><string name="heat_on_off">Paramètres de chaleur</string><string name="fan_on_off">Paramètres du ventilateur</string><string name="motion_on_off">Paramètres de mouvement</string><string name="splash_title">Maison intelligente sûre</string><string name="splash_author">Équipe Safe Smart Home</string><string name="temperature_status">Température</string><string name="security_status">Sécurité</string><string name="smoke_status">Fumée</string><string name="humidity_status">Humidité</string><string name="controls_temp_set">\"Température réglée sur: \"</string><string name="controls_degrees_c">°C</string><string name="controls_switch_stage">switch_stage</string><string name="PREFS">PREFS</string><string name="home_control">Contrôles à la maisonl</string><string name="fire_controls">Contrôles dincendie</string><string name="on_off">Allumé éteint</string><string name="smoke_controls">Contrôles de fumée</string><string name="fire_and_smoke_detection">Détection d\'incendie et de fumée</string><string name="humidity_fire_control">Contrôle de l\'humidité/du feu</string><string name="street_address_hint">Adresse de la rue</string><string name="city_hint">Ville</string><string name="post_code_hint">code postal</string><string name="country_hint">pays</string><string name="register_title">Register</string><string name="email_hint">email</string><string name="register_btn">Register</string><string-array name="provinces">
+        <item/>
         <item>Alb</item>
         <item>La</item>
         <item>Le</item>
@@ -7784,6 +7787,7 @@
         <item>Les</item>
         <item>Le</item>
     </string-array><string-array name="provinces_name">
+    <item/>
     <item>Alberta</item>
     <item>Colombie-Britannique</item>
     <item>Manitoba</item>

@@ -18,6 +18,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -65,6 +66,12 @@ public class AddressFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_address, container, false);
         Spinner spinner = view.findViewById(R.id.spinner);
+
+//        String provinces[] = getResources().getStringArray(R.array.provinces);
+//        ArrayAdapter arrayAdapter = new ArrayAdapter(getActivity(), android.R.layout.simple_list_item_1,
+//                provinces);
+
+
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
@@ -79,7 +86,7 @@ public class AddressFragment extends Fragment {
 //                Toast.makeText(getActivity(), nameFrench, Toast.LENGTH_SHORT).show();
 //
                 //for english
-                String name_english =getResources().getStringArray(R.array.provinces_name)[i];
+                String name_english = getResources().getStringArray(R.array.provinces_name)[i];
                 Toast.makeText(getActivity(), name_english, Toast.LENGTH_SHORT).show();
             }
 

@@ -40,6 +40,7 @@
 
 
     <string-array name="provinces_name">
+    <item></item>
     <item>Alberta</item>
     <item>Colombie-Britannique</item>
     <item>Manitoba</item>
@@ -56,6 +57,7 @@
     </string-array>
 
     <string-array name="provinces">
+        <item></item>
         <item>Alb</item>
         <item>La</item>
         <item>Le</item>
