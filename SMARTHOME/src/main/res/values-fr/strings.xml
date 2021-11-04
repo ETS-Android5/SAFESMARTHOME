@@ -39,4 +39,20 @@
     <string name="Register_btn">S inscrire</string>
     <string name="name_register">Nom</string>
 
+    <string-array name="provinces_fullname">
+        <item>Alberta</item>
+        <item>Colombie-Britannique</item>
+        <item>Manitoba</item>
+        <item>Nouveau-Brunswick</item>
+        <item>Nouvelle-Écosse</item>
+        <item>Ontario</item>
+        <item>Québec</item>
+        <item>Saskatchewan</item>
+        <item>Terre-Neuve-et-Labrador</item>
+        <item>du-Prince-Édouard</item>
+        <item>Nunavut</item>
+        <item>Territoires du Nord-Ouest</item>
+        <item>Yukon</item>
+    </string-array>
+
 </resources>

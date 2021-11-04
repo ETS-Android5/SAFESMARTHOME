@@ -86,7 +86,7 @@ public class AddressFragment extends Fragment {
 //                Toast.makeText(getActivity(), nameFrench, Toast.LENGTH_SHORT).show();
 //
                 //for english
-                String name_english = getResources().getStringArray(R.array.provinces_name)[i];
+                String name_english = getResources().getStringArray(R.array.provinces_fullname)[i];
                 Toast.makeText(getActivity(), name_english, Toast.LENGTH_SHORT).show();
             }
 
