@@ -42,19 +42,22 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         Fragment fragment = null;
         switch(position){
             case 0:
-                fragment = new AddressFragment();
+                fragment = new LoginFragment();
                 break;
             case 1:
-                fragment = new StatusFragment();
+                fragment = new AddressFragment();
                 break;
             case 2:
-                fragment = new ControlFragment();
+                fragment = new StatusFragment();
                 break;
             case 3:
-                fragment = new FireFragment();
+                fragment = new ControlFragment();
                 break;
             case 4:
-                fragment = new RegisterFragment();
+                fragment = new FireFragment();
+                break;
+           /* case 4:
+                fragment = new RegisterFragment(); */
         }
         return fragment;
     }
@@ -68,6 +71,6 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     @Override
     public int getCount() {
         // Show 4 total pages.
-        return 5;
+        return 4;
     }
 }
