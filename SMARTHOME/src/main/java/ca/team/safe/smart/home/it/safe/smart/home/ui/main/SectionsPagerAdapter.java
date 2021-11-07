@@ -42,19 +42,19 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         Fragment fragment = null;
         switch(position){
             case 0:
-                fragment = new LoginFragment();
-                break;
-            case 1:
                 fragment = new AddressFragment();
                 break;
-            case 2:
+            case 1:
                 fragment = new StatusFragment();
                 break;
-            case 3:
+            case 2:
                 fragment = new ControlFragment();
                 break;
-            case 4:
+            case 3:
                 fragment = new FireFragment();
+                break;
+            case 4:
+                fragment = new LoginFragment();
                 break;
            /* case 4:
                 fragment = new RegisterFragment(); */
