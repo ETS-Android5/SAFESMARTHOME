@@ -29,7 +29,7 @@
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.67" />
+            app:layout_constraintVertical_bias="0.87" />
 
         <TextView
             android:id="@+id/controls_TV4"
@@ -48,7 +48,7 @@
             app:layout_constraintHorizontal_bias="0.493"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.606" />
+            app:layout_constraintVertical_bias="0.8" />
 
         <Switch
             android:id="@+id/switch4"
@@ -60,18 +60,18 @@
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.289" />
+            app:layout_constraintVertical_bias="0.353" />
 
         <TextView
             android:id="@+id/controls_TV3"
-            android:layout_width="334dp"
-            android:layout_height="wrap_content"
+            android:layout_width="253dp"
+            android:layout_height="49dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="36dp"
-            android:layout_marginTop="284dp"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="364dp"
             android:text="Smoke Control"
             android:textAlignment="center"
             android:textSize="32sp"
@@ -86,10 +86,10 @@
             android:src="@drawable/smoke"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintHorizontal_bias="0.002"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.407" />
+            app:layout_constraintVertical_bias="0.544" />
 
         <TextView
             android:id="@+id/AC_Control"
@@ -100,7 +100,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="60dp"
-            android:layout_marginTop="120dp"
+            android:layout_marginTop="176dp"
             android:text="Temperature Control"
             android:textAlignment="center"
             android:textSize="32sp"
@@ -118,7 +118,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.586" />
 
         <Switch
             android:id="@+id/switch3"
@@ -130,14 +131,14 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.25" />
+            app:layout_constraintVertical_bias="0.315" />
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="120dp"
+            android:layout_marginTop="176dp"
             android:src="@drawable/temp1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -150,10 +151,10 @@
             android:src="@drawable/intruder"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.047"
+            app:layout_constraintHorizontal_bias="0.002"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.611"
+            app:layout_constraintVertical_bias="0.812"
             tools:ignore="MissingConstraints" />
 
         <SeekBar
@@ -161,7 +162,7 @@
             android:layout_width="191dp"
             android:layout_height="24dp"
             android:layout_marginStart="108dp"
-            android:layout_marginTop="236dp"
+            android:layout_marginTop="276dp"
             android:max="40"
             android:progress="10"
             app:layout_constraintStart_toStartOf="parent"
