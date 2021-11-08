@@ -29,8 +29,8 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_gravity="center"
-            android:layout_marginStart="105dp"
-            android:layout_marginTop="370dp"
+            android:layout_marginStart="103dp"
+            android:layout_marginTop="326dp"
             android:text="Humidity Control"
             android:textAlignment="center"
             android:textColor="@color/black"
@@ -44,8 +44,8 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_gravity="center"
-            android:layout_marginStart="141dp"
-            android:layout_marginTop="242dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="233dp"
             android:text="On/Off" />
 
         <Switch
@@ -55,8 +55,8 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_gravity="center"
-            android:layout_marginStart="155dp"
-            android:layout_marginTop="445dp"
+            android:layout_marginStart="121dp"
+            android:layout_marginTop="402dp"
             android:text="On/Off" />
 
         <TextView
@@ -66,8 +66,8 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_gravity="center"
-            android:layout_marginStart="107dp"
-            android:layout_marginTop="167dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="165dp"
             android:text="Fire Control"
             android:textAlignment="center"
             android:textColor="@color/black"
@@ -81,7 +81,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginEnd="313dp"
-            android:layout_marginBottom="496dp"
+            android:layout_marginBottom="504dp"
             android:src="@drawable/fire"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -96,8 +96,8 @@
             android:layout_height="76dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="315dp"
-            android:layout_marginBottom="296dp"
+            android:layout_marginEnd="321dp"
+            android:layout_marginBottom="340dp"
             android:src="@drawable/humid" />
 
     </RelativeLayout>

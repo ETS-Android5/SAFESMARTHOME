@@ -92,7 +92,7 @@ public class LoginFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_login, container, false);
-        EditText username = rootView.findViewById(R.id.editTextTextPersonName2);
+        EditText emailaddress = rootView.findViewById(R.id.editTextTextPersonName2);
         EditText password = rootView.findViewById(R.id.editTextTextPassword2);
         EditText editTextNumberSigned = rootView.findViewById(R.id.editTextNumberSigned);
 
