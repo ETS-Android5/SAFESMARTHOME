@@ -2028,6 +2028,8 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id button
+id button2
 id buttonPanel
 id cache_measures
 id cancel_action
