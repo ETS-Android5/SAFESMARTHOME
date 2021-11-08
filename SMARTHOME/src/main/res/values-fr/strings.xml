@@ -38,6 +38,7 @@
     <string name="email_hint">email</string>
     <string name="Register_btn">S inscrire</string>
     <string name="name_register">Nom</string>
+    <string name="name_emailaddress">adresse e-mail</string>
 
     <string-array name="provinces_fullname">
         <item>Alberta</item>

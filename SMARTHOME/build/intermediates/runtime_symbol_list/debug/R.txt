@@ -2772,6 +2772,7 @@ int string mtrl_picker_toggle_to_calendar_input_mode 0x7f110087
 int string mtrl_picker_toggle_to_day_selection 0x7f110088
 int string mtrl_picker_toggle_to_text_input_mode 0x7f110089
 int string mtrl_picker_toggle_to_year_selection 0x7f11008a
+int string name_emailaddress 0x7f1100a7
 int string name_register 0x7f11008b
 int string on_back_message 0x7f11008c
 int string on_back_no 0x7f11008d

@@ -21,14 +21,15 @@
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textColorHint="@android:color/black"
-        android:textSize="120sp"
+        android:textSize="110sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.005" />
+        app:layout_constraintVertical_bias="0.0" />
+
 
     <EditText
         android:id="@+id/editTextTextPassword2"
@@ -38,14 +39,14 @@
         android:drawableLeft="@drawable/ic_action_pass"
         android:drawablePadding="20dp"
         android:ems="10"
-        android:inputType="textPassword"
         android:hint="Password"
+        android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintHorizontal_bias="0.168"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.4" />
+        app:layout_constraintVertical_bias="0.515" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
@@ -55,35 +56,34 @@
         android:drawableLeft="@drawable/ic_action_user1"
         android:drawablePadding="20dp"
         android:ems="10"
-        android:hint="username"
+        android:hint="emailaddress"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintHorizontal_bias="0.168"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.283" />
+        app:layout_constraintVertical_bias="0.409" />
 
     <EditText
         android:id="@+id/editTextNumberSigned"
         android:layout_width="316dp"
         android:layout_height="42dp"
         android:background="#30ffffff"
+        android:digits="1234567890"
         android:drawableLeft="@drawable/ic_action_user"
         android:drawablePadding="20dp"
         android:ems="10"
-        android:maxLength="9"
-        android:digits="1234567890"
-        android:inputType="numberSigned"
         android:hint="secureID"
+        android:inputType="numberSigned"
+        android:maxLength="9"
         android:singleLine="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintHorizontal_bias="0.168"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.631"/>
-
+        app:layout_constraintVertical_bias="0.619" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/loginbtn"
@@ -97,6 +97,6 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.828" />
+        app:layout_constraintVertical_bias="0.778" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

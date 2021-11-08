@@ -2773,6 +2773,7 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string name_emailaddress
 string name_register
 string on_back_message
 string on_back_no

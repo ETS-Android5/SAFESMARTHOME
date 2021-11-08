@@ -7755,7 +7755,7 @@
     <item>YT</item>
     <item>NU</item>
     <item>NT</item>
-    </string-array></file><file path="C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.SAFESMARTHOME" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    </string-array><string name="name_emailaddress">emailaddress</string></file><file path="C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.SAFESMARTHOME" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/gray</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -7784,7 +7784,7 @@
         <item>Nunavut</item>
         <item>Territoires du Nord-Ouest</item>
         <item>Yukon</item>
-    </string-array></file><file path="C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Theme.SAFESMARTHOME" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    </string-array><string name="name_emailaddress">adresse e-mail</string></file><file path="C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Theme.SAFESMARTHOME" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_200</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>

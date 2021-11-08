@@ -35,9 +35,9 @@ import com.google.android.material.snackbar.Snackbar;
  */
 public class LoginFragment extends Fragment {
 
-    EditText username, password;
+    EditText emailaddress, password;
     Button login;
-    String name, pass, secureID;
+    String email, pass, secureID;
     SharedPreferences sharedPreferences;
     SharedPreferences.Editor editor;
 
@@ -119,10 +119,10 @@ public class LoginFragment extends Fragment {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                name = username.getText().toString();
+                email = emailaddress.getText().toString();
                 pass = password.getText().toString();
                 secureID = editTextNumberSigned.getText().toString();
-                Log.e("name", name);
+                Log.e("name", email);
                 Log.e("password", pass);
                 Log.e("secureID", secureID +" length "+secureID.length());
                 String uName, uPass;
@@ -130,7 +130,7 @@ public class LoginFragment extends Fragment {
                 uPass = sharedPreferences.getString("Home123", null);
 
                 //   if(name.equals(uName) && pass.equals(uPass)) {
-                if (name.equals("SmartHome") && pass.equals("Home123") && secureID.length() == 9) {
+                if (email.equals("SmartHome") && pass.equals("Home123") && secureID.length() == 9) {
                     viewPager.setCurrentItem(1);
                     Snackbar.make(rootView, "Permission Granted", Snackbar.LENGTH_SHORT).show();
                 } else {
