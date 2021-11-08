@@ -1843,6 +1843,7 @@ int drawable design_ic_visibility_off 0x7f080076
 int drawable design_password_eye 0x7f080077
 int drawable design_snackbar_background 0x7f080078
 int drawable fire 0x7f080079
+int drawable gmaillogo 0x7f0800bc
 int drawable googleg_disabled_color_18 0x7f08007a
 int drawable googleg_standard_color_18 0x7f08007b
 int drawable gradient 0x7f08007c
@@ -2172,6 +2173,7 @@ int id imageView3 0x7f0a00fe
 int id imageView4 0x7f0a00ff
 int id imageView5 0x7f0a0100
 int id imageView6 0x7f0a0101
+int id imageView7 0x7f0a021e
 int id immediateStop 0x7f0a0102
 int id included 0x7f0a0103
 int id info 0x7f0a0104

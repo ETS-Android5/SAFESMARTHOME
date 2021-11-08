@@ -44,6 +44,10 @@
         "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_gmaillogo.jpg.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\gmaillogo.jpg"
+    },
+    {
         "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_humid.jpg.flat",
         "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\humid.jpg"
     },
