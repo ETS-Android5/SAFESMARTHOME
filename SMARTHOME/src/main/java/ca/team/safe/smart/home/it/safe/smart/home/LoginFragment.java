@@ -131,7 +131,7 @@ public class LoginFragment extends Fragment {
 
                 //   if(name.equals(uName) && pass.equals(uPass)) {
                 if (name.equals("SmartHome") && pass.equals("Home123") && secureID.length() == 9) {
-                    viewPager.setCurrentItem(0);
+                    viewPager.setCurrentItem(1);
                     Snackbar.make(rootView, "Permission Granted", Snackbar.LENGTH_SHORT).show();
                 } else {
 
