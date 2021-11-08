@@ -70,26 +70,27 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="76dp"
-            android:layout_marginTop="364dp"
             android:text="Smoke Control"
             android:textAlignment="center"
             android:textSize="32sp"
             android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.533" />
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="62dp"
-            android:layout_height="63dp"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
             android:src="@drawable/smoke"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.002"
+            app:layout_constraintHorizontal_bias="0.019"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.544" />
+            app:layout_constraintVertical_bias="0.534" />
 
         <TextView
             android:id="@+id/AC_Control"
@@ -99,14 +100,16 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="60dp"
-            android:layout_marginTop="176dp"
             android:text="Temperature Control"
             android:textAlignment="center"
             android:textSize="32sp"
             android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.223"
             tools:ignore="MissingConstraints" />
 
         <Switch
@@ -135,19 +138,21 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="176dp"
+            android:layout_width="42dp"
+            android:layout_height="43dp"
             android:src="@drawable/temp1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.019"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.228"
             tools:ignore="MissingConstraints" />
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="71dp"
-            android:layout_height="65dp"
+            android:layout_width="57dp"
+            android:layout_height="49dp"
             android:src="@drawable/intruder"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -161,12 +166,13 @@
             android:id="@+id/controls_seekBar"
             android:layout_width="191dp"
             android:layout_height="24dp"
-            android:layout_marginStart="108dp"
-            android:layout_marginTop="276dp"
             android:max="40"
             android:progress="10"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.39" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
