@@ -97,7 +97,6 @@
         android:layout_width="94dp"
         android:layout_height="45dp"
         android:background="#FFFFFF"
-        android:entries="@array/provinces"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.81"

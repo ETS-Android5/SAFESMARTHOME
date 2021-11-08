@@ -77,15 +77,18 @@ public class AddressFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_address, container, false);
         Spinner spinner = view.findViewById(R.id.spinner);
 
-//        String provinces[] = getResources().getStringArray(R.array.provinces);
-//        ArrayAdapter arrayAdapter = new ArrayAdapter(getActivity(), android.R.layout.simple_list_item_1,
-//                provinces);
+        String provinces[] = getResources().getStringArray(R.array.provinces);
+        ArrayAdapter arrayAdapter = new ArrayAdapter(getActivity(), android.R.layout.simple_list_item_1,
+                provinces);
+        spinner.setAdapter(arrayAdapter);
 
+        //Toast.makeText(view.getContext(), "name_english", Toast.LENGTH_SHORT).show();
 
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
 
+                Snackbar.make(view, "Please enter password", Snackbar.LENGTH_SHORT).show();
                 //french
 //                Configuration conf = getResources().getConfiguration();
 //                conf.locale = new Locale("fr");
@@ -97,7 +100,8 @@ public class AddressFragment extends Fragment {
 //
                 //for english
                 String name_english = getResources().getStringArray(R.array.provinces_fullname)[i];
-                Toast.makeText(getActivity(), name_english, Toast.LENGTH_SHORT).show();
+//                Toast.makeText(view.getContext(), "name_english", Toast.LENGTH_SHORT).show();
+                Snackbar.make(view, name_english, Snackbar.LENGTH_SHORT).show();
             }
 
             @Override

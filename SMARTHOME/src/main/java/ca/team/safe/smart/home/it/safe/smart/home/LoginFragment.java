@@ -130,12 +130,21 @@ public class LoginFragment extends Fragment {
                 uPass = sharedPreferences.getString("Home123", null);
 
                 //   if(name.equals(uName) && pass.equals(uPass)) {
-                if (email.equals("SmartHome") && pass.equals("Home123") && secureID.length() == 9) {
+                if(!email.contains("gmail.com") ) {
+                    Snackbar.make(rootView, "Please enter correct gmail address", Snackbar.LENGTH_SHORT).show();
+                    //if (email.equals("SmartHome") && pass.equals("Home123") && secureID.length() == 9) {
+//                        viewPager.setCurrentItem(1);
+//                        Snackbar.make(rootView, "Permission Granted", Snackbar.LENGTH_SHORT).show();
+//                    } else {
+//
+//                        Snackbar.make(rootView, "Permission Denied", Snackbar.LENGTH_SHORT).show();
+//                    }
+                }else if(pass.equals("")){
+                    Snackbar.make(rootView, "Please enter password", Snackbar.LENGTH_SHORT).show();
+                }else if(secureID.length() != 9){
+                    Snackbar.make(rootView, "Please enter 9 digit Secure ID", Snackbar.LENGTH_SHORT).show();
+                }else{
                     viewPager.setCurrentItem(1);
-                    Snackbar.make(rootView, "Permission Granted", Snackbar.LENGTH_SHORT).show();
-                } else {
-
-                    Snackbar.make(rootView, "Permission Denied", Snackbar.LENGTH_SHORT).show();
                 }
             }
         });
