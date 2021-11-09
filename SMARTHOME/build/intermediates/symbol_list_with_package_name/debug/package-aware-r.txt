@@ -2110,9 +2110,12 @@ id easeInOut
 id easeOut
 id east
 id editTextNumberSigned
+id editTextPhone
 id editTextTextCity
 id editTextTextCountry
+id editTextTextEmailAddress
 id editTextTextPassword2
+id editTextTextPersonName
 id editTextTextPersonName2
 id editTextTextPostalAddress
 id editTextTextPostalAddress2
@@ -2143,6 +2146,7 @@ id floating
 id forever
 id fragmentLogin
 id fragmentResgister
+id fragmentReview
 id fragment_container_view_tag
 id frost
 id ghost_view
@@ -2296,6 +2300,7 @@ id progressBar_register
 id progress_circular
 id progress_horizontal
 id radio
+id ratingBar
 id ratio
 id rectangles
 id register
@@ -2412,6 +2417,9 @@ id textStart
 id textTop
 id textView
 id textView2
+id textView3
+id textView5
+id textView6
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2555,6 +2563,7 @@ layout fragment_fire
 layout fragment_login
 layout fragment_main
 layout fragment_register
+layout fragment_review
 layout fragment_status
 layout material_chip_input_combo
 layout material_clock_display
@@ -2805,6 +2814,7 @@ string tab_text_2
 string tab_text_3
 string tab_text_4
 string tab_text_5
+string tab_text_6
 string temperature_status
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

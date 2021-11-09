@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient2"
-    tools:context=".ControlFragment">
+    tools:context=".FireFragment">
 
     <TextView
         android:id="@+id/fire_title_id"

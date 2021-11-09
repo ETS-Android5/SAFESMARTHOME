@@ -133,8 +133,8 @@ public class LoginFragment extends Fragment {
                 if(!email.contains("gmail.com") ) {
                     Snackbar.make(rootView, "Please enter correct gmail address", Snackbar.LENGTH_SHORT).show();
                     //if (email.equals("SmartHome") && pass.equals("Home123") && secureID.length() == 9) {
-//                        viewPager.setCurrentItem(1);
-//                        Snackbar.make(rootView, "Permission Granted", Snackbar.LENGTH_SHORT).show();
+//                       viewPager.setCurrentItem(1);
+//                       Snackbar.make(rootView, "Permission Granted", Snackbar.LENGTH_SHORT).show();
 //                    } else {
 //
 //                        Snackbar.make(rootView, "Permission Denied", Snackbar.LENGTH_SHORT).show();
