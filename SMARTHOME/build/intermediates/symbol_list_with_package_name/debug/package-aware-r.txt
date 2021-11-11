@@ -2309,6 +2309,7 @@ id register_password
 id register_username
 id registerbutton
 id reverseSawtooth
+id review_btn
 id right
 id rightToLeft
 id right_icon

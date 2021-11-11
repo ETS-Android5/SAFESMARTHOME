@@ -4,13 +4,24 @@
 package ca.team.safe.smart.home.it.safe.smart.home;
 
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 
 public class ReviewFragment extends Fragment{
+
+    Button review;
+    EditText editTextName;
+    EditText editTextNumber;
+    EditText editTextEmail;
+
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 
@@ -41,7 +52,46 @@ public class ReviewFragment extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.fragment_review, container, false);
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_review, container, false);
+
+        editTextName = (EditText) rootView.findViewById(R.id.editTextTextPersonName);
+        editTextNumber = (EditText) rootView.findViewById(R.id.editTextPhone);
+        editTextEmail = (EditText) rootView.findViewById(R.id.editTextTextEmailAddress);
+
+        editTextName.addTextChangedListener(reviwTextWatcher);
+        editTextNumber.addTextChangedListener(reviwTextWatcher);
+        editTextEmail.addTextChangedListener(reviwTextWatcher);
+
+        review = (Button) rootView.findViewById(R.id.review_btn);
+        review.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(), "Thank you for submiting.", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        return rootView;
     }
+
+    TextWatcher reviwTextWatcher = new TextWatcher() {
+        @Override
+        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+        }
+
+        @Override
+        public void onTextChanged(CharSequence s, int start, int before, int count) {
+            String nameInput = editTextName.getText().toString().trim();
+            String numberInput = editTextNumber.getText().toString().trim();
+            String emailInput = editTextEmail.getText().toString().trim();
+
+            review.setEnabled(!nameInput.isEmpty() && !numberInput.isEmpty() && !emailInput.isEmpty());
+        }
+
+        @Override
+        public void afterTextChanged(Editable s) {
+
+        }
+    };
 }
