@@ -1909,6 +1909,7 @@ drawable smoke
 drawable temp1
 drawable temperature
 drawable test_custom_background
+drawable textview_border
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 font abril_fatface
@@ -2028,9 +2029,9 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id button
-id button2
+id buttonInsert
 id buttonPanel
+id buttonRegister
 id cache_measures
 id cancel_action
 id cancel_button

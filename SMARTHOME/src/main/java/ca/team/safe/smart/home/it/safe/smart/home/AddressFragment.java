@@ -7,6 +7,12 @@ package ca.team.safe.smart.home.it.safe.smart.home;
 
 import static androidx.core.content.ContextCompat.getSystemService;
 
+import static ca.team.safe.smart.home.it.safe.smart.home.LoginFragment.city;
+import static ca.team.safe.smart.home.it.safe.smart.home.LoginFragment.country;
+import static ca.team.safe.smart.home.it.safe.smart.home.LoginFragment.postalcode;
+import static ca.team.safe.smart.home.it.safe.smart.home.LoginFragment.streetAddress;
+import static ca.team.safe.smart.home.it.safe.smart.home.MainActivity.viewPager;
+
 import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -17,6 +23,7 @@ import android.content.res.Resources;
 import android.os.Build;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.core.app.NotificationCompat;
 import androidx.fragment.app.Fragment;
@@ -29,14 +36,22 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.tabs.TabLayout;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.Locale;
+import java.util.Map;
 
 import ca.team.safe.smart.home.it.safe.smart.home.ui.main.SectionsPagerAdapter;
 
@@ -61,21 +76,58 @@ public class AddressFragment extends Fragment {
         return fragment;
     }
 
+
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
-        }
+                }
     }
-
+   public static Spinner spinner;
+    public static EditText editTextTextCountry,editTextTextCity,editTextTextPostalAddress,editTextTextPostalAddress2;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_address, container, false);
-        Spinner spinner = view.findViewById(R.id.spinner);
+         spinner = view.findViewById(R.id.spinner);
+         editTextTextCity = view.findViewById(R.id.editTextTextCity);
+         editTextTextCountry = view.findViewById(R.id.editTextTextCountry);
+         editTextTextPostalAddress = view.findViewById(R.id.editTextTextPostalAddress);
+         editTextTextPostalAddress2 = view.findViewById(R.id.editTextTextPostalAddress2);
+        Button buttonInsert = view.findViewById(R.id.buttonInsert);
+
+        firebaseDatabase = FirebaseDatabase.getInstance("https://safesmarthome-cdf48-default-rtdb.firebaseio.com/");
+
+        // below line is used to get reference for our database.
+        databaseReference = firebaseDatabase.getReference();
+//        editTextTextPostalAddress.setText(streetAddress);
+//        editTextTextCity.setText(city);
+//
+//        try {
+//            ArrayAdapter myAdap = (ArrayAdapter) spinner.getAdapter();
+//            int spinnerPosition = myAdap.getPosition(LoginFragment.provinces);
+//            spinner.setSelection(spinnerPosition);
+//        }catch (Exception e){}
+//        editTextTextPostalAddress2.setText(postalcode);
+//        editTextTextCountry.setText(country);
+        buttonInsert.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                String city=editTextTextCity.getText().toString();
+                String country=editTextTextCountry.getText().toString();
+                String address=editTextTextPostalAddress.getText().toString();
+                String postalcode=editTextTextPostalAddress2.getText().toString();
+                size=0;
+                addDatatoFirebase(new AddressModel(address,city,
+                       spinner.getSelectedItem().toString(),
+               postalcode ,country));
+            }
+        });
 
        String provinces[] = getResources().getStringArray(R.array.provinces);
        ArrayAdapter arrayAdapter = new ArrayAdapter(getActivity(), android.R.layout.simple_list_item_1,
@@ -101,7 +153,9 @@ public class AddressFragment extends Fragment {
                 //for english
                 String name_english = getResources().getStringArray(R.array.provinces_fullname)[i];
 //               Toast.makeText(view.getContext(), "name_english", Toast.LENGTH_SHORT).show();
-                Snackbar.make(view, name_english, Snackbar.LENGTH_SHORT).show();
+                try {
+                    Snackbar.make(view, name_english, Snackbar.LENGTH_SHORT).show();
+                }catch (Exception e){}
             }
 
             @Override
@@ -128,7 +182,10 @@ public class AddressFragment extends Fragment {
         });*/
         return view;
     }
-
+    FirebaseDatabase firebaseDatabase;
+    DatabaseReference databaseReference;
+    DatabaseReference databaseReference1;
+    long size=0;
     @RequiresApi(api = Build.VERSION_CODES.O)
     public void createNotification() {
         Intent intent = new Intent(getActivity().getApplicationContext(), AddressFragment.class);
@@ -149,4 +206,74 @@ public class AddressFragment extends Fragment {
         notificationManager.notify(1,notification);
 
     }
+
+
+    public void databaseSize(){
+       databaseReference = firebaseDatabase.getReference("secureID0").child("customer_address");
+        databaseReference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                Map<String , String> map=(Map<String , String>)snapshot.getValue();
+                String streetAddress , city ,provinces, postalcode,country;
+                editTextTextPostalAddress.setText(map.get("streetAddress"));
+                editTextTextCity.setText(map.get("city"));
+
+                ArrayAdapter myAdap = (ArrayAdapter) spinner.getAdapter();
+                int spinnerPosition = myAdap.getPosition(map.get("provinces"));
+                spinner.setSelection(spinnerPosition);
+
+                editTextTextPostalAddress2.setText(map.get("postalcode"));
+                editTextTextCountry.setText(map.get("country"));
+                size = snapshot.getChildrenCount();
+            }
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+            }
+        });
+    }
+    private void addDatatoFirebase(AddressModel addressModel) {
+        // we are use add value event listener method
+        // which is called with database reference.
+        databaseReference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                // inside the method of on Data change we are setting
+                // our object class to our database reference.
+                // data base reference will sends data to firebase.
+                if (size==0 && !editTextTextCity.getText().toString().equals("")) {
+                    databaseReference1 = firebaseDatabase.getReference("secureID0").child("customer_address");
+//                Snackbar.make(viewPager, "secureID " + snapshot.getChildrenCount() + " added", Snackbar.LENGTH_SHORT).show();
+
+                    size++;
+
+                    try {
+//                        if (!snapshot.getValue().toString().trim().contains(secureID)) {
+                        databaseReference1.setValue(addressModel);
+                        // after adding this data we are showing toast message.
+            Snackbar.make(viewPager, "Customer Address added", Snackbar.LENGTH_SHORT).show();
+                        viewPager.setCurrentItem(1);
+                        editTextTextCity.setText("");
+                        editTextTextCountry.setText("");
+                        editTextTextPostalAddress.setText("");
+                        editTextTextPostalAddress2.setText("");
+                        spinner.setSelection(0);
+
+                        //                        }
+
+                    } catch (Exception e) {
+                    }
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+                // if the data is not added or it is cancelled then
+                // we are displaying a failure toast message.
+                Toast.makeText(getActivity(), "Fail to add data " + error, Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
+
+
+
 }

@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "384310096670",
-    "project_id": "safesmarthome-c8767",
-    "storage_bucket": "safesmarthome-c8767.appspot.com"
+    "project_number": "1070167024838",
+    "firebase_url": "https://safesmarthome-cdf48-default-rtdb.firebaseio.com",
+    "project_id": "safesmarthome-cdf48",
+    "storage_bucket": "safesmarthome-cdf48.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:384310096670:android:83517a7e8e99be52c4cf0f",
+        "mobilesdk_app_id": "1:1070167024838:android:2f24ceb1d8ec71ba84a3c7",
         "android_client_info": {
           "package_name": "ca.team.safe.smart.home.it.safe.smart.home"
         }
       },
       "oauth_client": [
         {
-          "client_id": "384310096670-qgiqnd171e6b6hj9n2fsslpre4qvae3v.apps.googleusercontent.com",
+          "client_id": "1070167024838-dlb65bbtrermskl7t87qqadpos19gjgj.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD3vTFy-a7t-Wib77FgNmQHi4EiPxQxQ_g"
+          "current_key": "AIzaSyDbXQ5zb1jI7lILjiFMzmKHwpI1Nvvk9lI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "384310096670-qgiqnd171e6b6hj9n2fsslpre4qvae3v.apps.googleusercontent.com",
+              "client_id": "1070167024838-dlb65bbtrermskl7t87qqadpos19gjgj.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
