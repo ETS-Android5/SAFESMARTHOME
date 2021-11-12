@@ -15,7 +15,7 @@
         android:layout_centerInParent="true"
         android:layout_marginStart="4dp"
         android:layout_marginTop="121dp"
-        android:contentDescription="splash screen image"
+        android:contentDescription="@string/splash_screen_image"
         android:src="@drawable/smarthome"
         app:layout_constraintBottom_toTopOf="@+id/progressBar"
         app:layout_constraintStart_toStartOf="parent"

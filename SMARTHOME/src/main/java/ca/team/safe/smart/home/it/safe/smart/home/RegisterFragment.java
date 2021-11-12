@@ -108,11 +108,11 @@ public class RegisterFragment extends Fragment implements View.OnClickListener {
         switch (v.getId()) {
             case R.id.registerbutton:
                 if (TextUtils.isEmpty(email)) {
-                    mEmail.setError("Please enter email");
+                    mEmail.setError(getString(R.string.please_enter_email));
                     return;
                 }
                 if (TextUtils.isEmpty(password) || password.length() < 8) {
-                    mPassword.setError("Password Error");
+                    mPassword.setError(getString(R.string.password_error));
                     return;
                 }
                 // progressBar.setVisibility(getView().VISIBLE);
@@ -123,10 +123,10 @@ public class RegisterFragment extends Fragment implements View.OnClickListener {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            Toast.makeText(getActivity(), "User Created", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getActivity(), R.string.user_created, Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(getActivity().getApplicationContext(), MainActivity.class));
                         } else {
-                            Toast.makeText(getActivity(), "Error" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getActivity(), getString(R.string.error) + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                         }
                     }
                 });

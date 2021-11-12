@@ -67,7 +67,7 @@ public class ReviewFragment extends Fragment{
         review.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(), "Thank you for submiting.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), R.string.thank_you_message_submit, Toast.LENGTH_SHORT).show();
             }
         });
 

@@ -6,10 +6,8 @@
 
 <resources>
     <string name="app_name">Safe Smart Home</string>
-    <string name="tab_text_1">Login</string>
     <string name="tab_text_2">Customer Address</string>
     <string name="tab_text_3">Home Status</string>
-    <string name="tab_text_4">Home Controls</string>
     <string name="tab_text_5">Humidity/Fire</string>
     <string name="tab_text_6">Customer Review</string>
     <string name="on_back_title">Confirmation</string>
@@ -26,26 +24,48 @@
     <string name="security_status">Security</string>
     <string name="smoke_status">Smoke</string>
     <string name="humidity_status">Humidity</string>
-    <string name="controls_temp_set">\"Temperature set to: \"</string>
+    <string name="controls_temp_set">Temperature set to: </string>
     <string name="controls_degrees_c">°C</string>
     <string name="controls_switch_stage">switch_stage</string>
     <string name="PREFS">PREFS</string>
-    <string name="home_control">Home Control</string>
+    <string name="home_control">Home Controls</string>
     <string name="fire_controls">Fire Controls</string>
     <string name="on_off">On/Off</string>
     <string name="smoke_controls">Smoke Controls</string>
     <string name="fire_and_smoke_detection">Fire and Smoke Detection</string>
     <string name="humidity_fire_control">Humidity/Fire Control</string>
     <string name="street_address_hint">Street Address</string>
-    <string name="city_hint">City</string>
-    <string name="post_code_hint">Postal Code</string>
-    <string name="country_hint">Country</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="register_title">Register</string>
     <string name="email_hint">email</string>
     <string name="Register_btn">Register</string>
     <string name="name_register">name</string>
-    <string name="name_emailaddress">emailaddress</string>
+    <string name="splash_screen_image">splash screen image</string>
+    <string name="customer_address">Customer Address</string>
+    <string name="street_address">Street Address</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="city">City</string>
+    <string name="country">Country</string>
+    <string name="insert">Insert</string>
+    <string name="intruder">Intruder</string>
+    <string name="motion_control">Motion Control</string>
+    <string name="heat">Heat</string>
+    <string name="smoke_control">Smoke Control</string>
+    <string name="temperature_control">Temperature Control</string>
+    <string name="exhaust_fan">Exhaust Fan</string>
+    <string name="ac">AC</string>
+    <string name="humidity_control">Humidity Control</string>
+    <string name="fire_control">Fire Control</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="emailaddress">emailaddress</string>
+    <string name="secureid">secureID</string>
+    <string name="register">Register</string>
+    <string name="please_enter_email">Please enter email</string>
+    <string name="password_error">Password Error</string>
+    <string name="user_created">User Created</string>
+    <string name="error">Error</string>
+    <string name="thank_you_message_submit">Thank you for submitting.</string>
 
     <string-array name="provinces_fullname">
         <item></item>
