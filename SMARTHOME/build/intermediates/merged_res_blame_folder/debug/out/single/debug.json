@@ -16,12 +16,12 @@
         "source": "C:\\Users\\Patrick\\Desktop\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_address.xml"
     },
     {
-        "merged": "C:\\Users\\Patrick\\Desktop\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_action_user.png.flat",
-        "source": "C:\\Users\\Patrick\\Desktop\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-xhdpi\\ic_action_user.png"
-    },
-    {
         "merged": "C:\\Users\\Patrick\\Desktop\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Patrick\\Desktop\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\Desktop\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_action_user.png.flat",
+        "source": "C:\\Users\\Patrick\\Desktop\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-xhdpi\\ic_action_user.png"
     },
     {
         "merged": "C:\\Users\\Patrick\\Desktop\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_waves_24.xml.flat",
@@ -36,12 +36,12 @@
         "source": "C:\\Users\\Patrick\\Desktop\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-anydpi\\ic_action_user1.xml"
     },
     {
-        "merged": "C:\\Users\\Patrick\\Desktop\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_fragment_review.xml.flat",
-        "source": "C:\\Users\\Patrick\\Desktop\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_review.xml"
-    },
-    {
         "merged": "C:\\Users\\Patrick\\Desktop\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Patrick\\Desktop\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Patrick\\Desktop\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_fragment_review.xml.flat",
+        "source": "C:\\Users\\Patrick\\Desktop\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_review.xml"
     },
     {
         "merged": "C:\\Users\\Patrick\\Desktop\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
