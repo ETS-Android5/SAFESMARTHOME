@@ -2176,12 +2176,14 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView10
 id imageView2
 id imageView3
 id imageView4
 id imageView5
 id imageView6
 id imageView7
+id imageView8
 id immediateStop
 id included
 id info
@@ -2386,9 +2388,11 @@ id submenuarrow
 id submit_area
 id supportScrollUp
 id switch1
+id switch2
 id switch3
 id switch4
 id switch5
+id switch6
 id tabMode
 id tabs
 id tag_accessibility_actions
@@ -2422,6 +2426,8 @@ id textView2
 id textView3
 id textView5
 id textView6
+id textView7
+id textView8
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2726,6 +2732,7 @@ string fan_on_off
 string fire_and_smoke_detection
 string fire_control
 string fire_controls
+string firebase_database_url
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
