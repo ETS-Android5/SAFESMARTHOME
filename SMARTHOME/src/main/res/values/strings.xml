@@ -46,6 +46,33 @@
     <string name="Register_btn">Register</string>
     <string name="name_register">name</string>
     <string name="name_emailaddress">emailaddress</string>
+    <string name="splash_screen_image">splash screen image</string>
+    <string name="customer_address">Customer Address</string>
+    <string name="street_address">Street Address</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="city">City</string>
+    <string name="country">Country</string>
+    <string name="insert">Insert</string>
+    <string name="intruder">Intruder</string>
+    <string name="motion_control">Motion Control</string>
+    <string name="heat">Heat</string>
+    <string name="smoke_control">Smoke Control</string>
+    <string name="temperature_control">Temperature Control</string>
+    <string name="exhaust_fan">Exhaust Fan</string>
+    <string name="ac">AC</string>
+    <string name="humidity_control">Humidity Control</string>
+    <string name="fire_control">Fire Control</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="emailaddress">emailaddress</string>
+    <string name="secureid">secureID</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="please_enter_email">Please enter email</string>
+    <string name="password_error">Password Error</string>
+    <string name="user_created">User Created</string>
+    <string name="error">Error</string>
+    <string name="thank_you_message_submit">Thank you for submitting.</string>
 
     <string-array name="provinces_fullname">
         <item></item>

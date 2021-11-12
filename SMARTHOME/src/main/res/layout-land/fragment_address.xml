@@ -16,7 +16,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:fontFamily="sans-serif-light"
-        android:text="Customer Address"
+        android:text="@string/customer_address"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textColorHint="@android:color/black"
@@ -44,7 +44,7 @@
         android:layout_width="293dp"
         android:layout_height="67dp"
         android:layout_marginTop="216dp"
-        android:hint="@string/city_hint"
+        android:hint="@string/city"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
