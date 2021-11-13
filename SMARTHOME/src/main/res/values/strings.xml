@@ -71,7 +71,7 @@
     <string name="provinces">provinces</string>
     <string name="postalcode">postalcode</string>
     <string name="Customer_address_added">Customer Address added</string>
-    <string name="fail_to_add_data">\"Fail to add data \"</string>
+    <string name="fail_to_add_data">Fail to add data</string>
     <string name="username">username</string>
     <string name="customer_review">Customer Review</string>
     <string name="name">Name</string>
