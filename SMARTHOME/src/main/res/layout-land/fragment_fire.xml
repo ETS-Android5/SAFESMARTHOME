@@ -31,7 +31,7 @@
             android:layout_gravity="center"
             android:layout_marginStart="105dp"
             android:layout_marginTop="370dp"
-            android:text="Humidity Control"
+            android:text="@string/humidity_control"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="34sp"
@@ -46,7 +46,7 @@
             android:layout_gravity="center"
             android:layout_marginStart="141dp"
             android:layout_marginTop="242dp"
-            android:text="On/Off" />
+            android:text="@string/on_off" />
 
         <Switch
             android:id="@+id/fire_switch2"
@@ -57,7 +57,7 @@
             android:layout_gravity="center"
             android:layout_marginStart="155dp"
             android:layout_marginTop="445dp"
-            android:text="On/Off" />
+            android:text="@string/on_off" />
 
         <TextView
             android:id="@+id/textView"
@@ -68,7 +68,7 @@
             android:layout_gravity="center"
             android:layout_marginStart="107dp"
             android:layout_marginTop="167dp"
-            android:text="Fire Control"
+            android:text="@string/fire_control"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="34sp"

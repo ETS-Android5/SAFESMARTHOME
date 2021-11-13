@@ -215,15 +215,15 @@ public class AddressFragment extends Fragment {
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 Map<String , String> map=(Map<String , String>)snapshot.getValue();
                 String streetAddress , city ,provinces, postalcode,country;
-                editTextTextPostalAddress.setText(map.get("streetAddress"));
-                editTextTextCity.setText(map.get("city"));
+                editTextTextPostalAddress.setText(map.get(getString(R.string.streetAddress)));
+                editTextTextCity.setText(map.get(R.string.city));
 
                 ArrayAdapter myAdap = (ArrayAdapter) spinner.getAdapter();
-                int spinnerPosition = myAdap.getPosition(map.get("provinces"));
+                int spinnerPosition = myAdap.getPosition(map.get(getString(R.string.provinces)));
                 spinner.setSelection(spinnerPosition);
 
-                editTextTextPostalAddress2.setText(map.get("postalcode"));
-                editTextTextCountry.setText(map.get("country"));
+                editTextTextPostalAddress2.setText(map.get(getString(R.string.postalcode)));
+                editTextTextCountry.setText(map.get(R.string.country));
                 size = snapshot.getChildrenCount();
             }
             @Override
@@ -250,7 +250,7 @@ public class AddressFragment extends Fragment {
 //                        if (!snapshot.getValue().toString().trim().contains(secureID)) {
                         databaseReference1.setValue(addressModel);
                         // after adding this data we are showing toast message.
-            Snackbar.make(viewPager, "Customer Address added", Snackbar.LENGTH_SHORT).show();
+            Snackbar.make(viewPager, R.string.Customer_address_added, Snackbar.LENGTH_SHORT).show();
                         viewPager.setCurrentItem(1);
                         editTextTextCity.setText("");
                         editTextTextCountry.setText("");
@@ -269,7 +269,7 @@ public class AddressFragment extends Fragment {
             public void onCancelled(@NonNull DatabaseError error) {
                 // if the data is not added or it is cancelled then
                 // we are displaying a failure toast message.
-                Toast.makeText(getActivity(), "Fail to add data " + error, Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), getString(R.string.fail_to_add_data) + error, Toast.LENGTH_SHORT).show();
             }
         });
     }

@@ -2137,6 +2137,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id fire_ac_switch
 id fire_page_id
 id fire_switch1
 id fire_switch2
@@ -2394,7 +2395,6 @@ id switch2
 id switch3
 id switch4
 id switch5
-id switch6
 id tabMode
 id tabs
 id tag_accessibility_actions

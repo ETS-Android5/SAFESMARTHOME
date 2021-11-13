@@ -10,7 +10,7 @@
     <item android:id="@+id/heat_on_off"
         app:showAsAction="always"
         android:icon="@drawable/ic_baseline_wb_sunny_24"
-        android:title="@string/heat_on_off"/>
+        android:title="@string/heat_on_off" />
 
     <item android:id="@+id/fan_on_off"
         app:showAsAction="always"
@@ -19,4 +19,8 @@
 
     <item android:id="@+id/motion_on_off"
         android:title="@string/motion_on_off"/>
+
+    <item android:id="@+id/menu_settings"
+        android:title="@string/settings" />
+
 </menu>
