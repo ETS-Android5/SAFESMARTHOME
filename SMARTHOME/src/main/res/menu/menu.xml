@@ -20,7 +20,10 @@
     <item android:id="@+id/motion_on_off"
         android:title="@string/motion_on_off"/>
 
-    <item android:id="@+id/menu_settings"
-        android:title="@string/settings" />
+    <item android:id="@+id/french_settings"
+        android:title="@string/french" />
+
+    <item android:id="@+id/english_settings"
+        android:title="@string/english" />
 
 </menu>

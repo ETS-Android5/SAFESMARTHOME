@@ -80,6 +80,8 @@
     <string name="comment">Comment</string>
     <string name="how_was_your_experience">How was your experience?</string>
     <string name="submit">Submit</string>
+    <string name="french">French</string>
+    <string name="english">English</string>
 
     <string-array name="provinces_fullname">
         <item></item>

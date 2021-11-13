@@ -5,8 +5,11 @@
 
 package ca.team.safe.smart.home.it.safe.smart.home;
 
+import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -23,11 +26,14 @@ import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Handler;
+import android.util.DisplayMetrics;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
+
+import java.util.Locale;
 
 import ca.team.safe.smart.home.it.safe.smart.home.ui.main.SectionsPagerAdapter;
 
@@ -36,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
     Fragment fragment;
     FragmentManager fragmentManager;
     FragmentTransaction fragmentTransaction;
+    Locale mlocale;
+
  public static  ViewPager viewPager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,19 +73,27 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.ac_on_off:
                 //code
-                return true;
+                break;
             case R.id.heat_on_off:
                 //code
-                return true;
+                break;
             case R.id.fan_on_off:
                 //code
-                return true;
+                break;
             case R.id.motion_on_off:
                 //code
-                return true;
+                break;
+            case R.id.french_settings:
+                setLocale("fr");
+                break;
+            case R.id.english_settings:
+                setLocale("en");
+                break;
             default:
-                return super.onOptionsItemSelected(item);
+                setLocale("en");
+                break;
         }
+        return super.onOptionsItemSelected(item);
     }
 
     @Override
@@ -100,5 +116,16 @@ public class MainActivity extends AppCompatActivity {
         });
         AlertDialog alert = backDialog.create();
         alert.show();
+    }
+
+    private void setLocale(String language) {
+        mlocale = new Locale(language);
+        Resources resources = getResources();
+        DisplayMetrics displayMetrics = resources.getDisplayMetrics();
+        Configuration configuration = resources.getConfiguration();
+        configuration.locale = mlocale;
+        resources.updateConfiguration(configuration,displayMetrics);
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 }
