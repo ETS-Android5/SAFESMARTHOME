@@ -2865,6 +2865,8 @@ string temperature_status
 string thank_you_message_submit
 string user_created
 string username
+string version_good
+string version_less
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

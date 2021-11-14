@@ -5,21 +5,27 @@
 
 package ca.team.safe.smart.home.it.safe.smart.home;
 
+import android.Manifest;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.SeekBar;
+import android.widget.Switch;
 import android.widget.Toast;
 
+import androidx.core.app.NotificationCompat;
 import androidx.fragment.app.Fragment;
 
 public class ControlFragment extends Fragment {
 
     ImageView imageView;
     SeekBar seekBar;
+    Switch sc;
 
     int stage;
 
@@ -58,7 +64,7 @@ public class ControlFragment extends Fragment {
         // Inflate the layout for this fragment
         SharedPreferences preferences = getActivity().getSharedPreferences(getString(R.string.PREFS), 0);
         stage = preferences.getInt(getString(R.string.controls_switch_stage), 1);
-
+        sc = (Switch) rootView.findViewById(R.id.switch5);
 
         seekBar=(SeekBar) rootView.findViewById(R.id.controls_seekBar);
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
@@ -79,69 +85,23 @@ public class ControlFragment extends Fragment {
             }
         });
 
-//        setSwitchImage(stage);
-//
-//        imageView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                switchNumber();
-//            }
-//        });
+
         return rootView;
     }
 
-//    public void switchNumber() {
-//        switch(stage) {
-//            case 1:
-//                stage = 2;
-//                setSwitchImage(stage);
-//                doStuff(stage);
-//                break;
-//            case 2:
-//                stage = 3;
-//                setSwitchImage(stage);
-//                doStuff(stage);
-//                break;
-//            case 3:
-//                stage = 1;
-//                setSwitchImage(stage);
-//                doStuff(stage);
-//                break;
-//        }
-//
-//        //saves state
-//        SharedPreferences preferences = requireContext().getSharedPreferences("PREFS", 0);
-//        SharedPreferences.Editor editor = preferences.edit();
-//        editor.putInt("switch_stage", stage);
-//        editor.apply();
-//    }
-//
-//    //Sets Image of the switch
-//    private void setSwitchImage(int current) {
-//        switch (current) {
-//            case 1:
-//                imageView.setImageResource(R.drawable.ic_baseline_power_settings_new_24);
-//                break;
-//            case 2:
-//                imageView.setImageResource(R.drawable.ic_baseline_ac_unit_24);
-//                break;
-//            case 3:
-//                imageView.setImageResource(R.drawable.ic_baseline_wb_sunny_24);
-//                break;
-//        }
-//    }
-//
-//    public void doStuff(int current) {
-//        switch (current) {
-//            case 1:
-//                Toast.makeText(getActivity(), "Temperature is " + current, Toast.LENGTH_SHORT).show();
-//                break;
-//            case 2:
-//                Toast.makeText(getActivity(), "Temperature is " + current, Toast.LENGTH_SHORT).show();
-//                break;
-//            case 3:
-//                Toast.makeText(getActivity(), "Temperature is " + current, Toast.LENGTH_SHORT).show();
-//                break;
-//        }
-//    }
+    public void showNotification() {
+
+        sc.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if(isChecked) {
+                    NotificationCompat.Builder builder = new NotificationCompat.Builder(getActivity())
+                            .setSmallIcon(R.drawable.intruder)
+                            .setContentTitle("Intruder detected!")
+                            .setContentText("Possible Intruder has been detected.")
+                            .setPriority(NotificationCompat.PRIORITY_DEFAULT);
+                }
+            }
+        });
+    }
 }
