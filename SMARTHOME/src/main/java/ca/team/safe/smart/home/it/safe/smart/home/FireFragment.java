@@ -47,7 +47,7 @@ public class FireFragment extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_control, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_fire, container, false);
         // Inflate the layout for this fragment
         Switch sc = (Switch) rootView.findViewById(R.id.fire_ac_switch);
 
