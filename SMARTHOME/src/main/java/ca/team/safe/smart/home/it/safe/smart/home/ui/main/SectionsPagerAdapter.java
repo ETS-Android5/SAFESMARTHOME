@@ -30,7 +30,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @StringRes
     private static final int[] TAB_TITLES = new int[]{R.string.login, R.string.tab_text_2, R.string.tab_text_3,
-            R.string.home_control, R.string.tab_text_5, R.string.tab_text_6, R.string.register_title};
+            R.string.home_control, R.string.tab_text_5, R.string.tab_text_6};
     private final Context mContext;
 
     public SectionsPagerAdapter(Context context, FragmentManager fm) {
@@ -60,8 +60,8 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
             case 5:
                 fragment = new ReviewFragment();
                 break;
-            case 6:
-                fragment = new RegisterFragment();
+            /* case 6:
+                fragment = new RegisterFragment(); */
         }
         return fragment;
     }
@@ -75,6 +75,6 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     @Override
     public int getCount() {
         // Show 4 total pages.
-        return 7;
+        return 6;
     }
 }
