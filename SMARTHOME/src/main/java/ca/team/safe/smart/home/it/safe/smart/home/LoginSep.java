@@ -51,7 +51,7 @@ public class LoginSep extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                     String key = snapshot.getKey();
-                    Snackbar.make(view, "abcd"+key, Snackbar.LENGTH_SHORT).show();
+                  //  Snackbar.make(view, "abcd"+key, Snackbar.LENGTH_SHORT).show();
             }
 
             @Override

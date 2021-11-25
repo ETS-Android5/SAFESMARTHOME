@@ -179,7 +179,7 @@ public class RegisterFragment extends Fragment {
                     if (chance[0] == 0) {
                         chance[0] = 1;
                         myRef1.setValue(secureID);
-                        Snackbar.make(viewPager, "secureID " + snapshot.getValue().toString().trim() + " added", Snackbar.LENGTH_SHORT).show();
+                        Snackbar.make(viewPager, "secureID  added to Firebase DB", Snackbar.LENGTH_SHORT).show();
                     }
                     progressBar_register.setVisibility(View.GONE);
                 }
