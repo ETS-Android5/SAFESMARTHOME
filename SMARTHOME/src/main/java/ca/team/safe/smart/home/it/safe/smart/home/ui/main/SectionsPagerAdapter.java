@@ -29,8 +29,8 @@ import ca.team.safe.smart.home.it.safe.smart.home.StatusFragment;
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @StringRes
-    private static final int[] TAB_TITLES = new int[]{R.string.login, R.string.tab_text_2, R.string.tab_text_3,
-            R.string.home_control, R.string.tab_text_5, R.string.tab_text_6};
+    private static final int[] TAB_TITLES = new int[]{ R.string.tab_text_2, R.string.tab_text_3,
+            R.string.home_control, R.string.tab_text_5, R.string.tab_text_6,R.string.register_title};
     private final Context mContext;
 
     public SectionsPagerAdapter(Context context, FragmentManager fm) {
@@ -43,25 +43,22 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         Fragment fragment = null;
         switch(position){
             case 0:
-                fragment = new LoginFragment();
-                break;
-            case 1:
                 fragment = new AddressFragment();
                 break;
-            case 2:
+            case 1:
                 fragment = new StatusFragment();
                 break;
-            case 3:
+            case 2:
                 fragment = new ControlFragment();
                 break;
-            case 4:
+            case 3:
                 fragment = new FireFragment();
                 break;
-            case 5:
+            case 4:
                 fragment = new ReviewFragment();
                 break;
-            /* case 6:
-                fragment = new RegisterFragment(); */
+             case 5:
+                fragment = new RegisterFragment();
         }
         return fragment;
     }

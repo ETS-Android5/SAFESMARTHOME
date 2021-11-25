@@ -1,5 +1,7 @@
 package ca.team.safe.smart.home.it.safe.smart.home;
 
+import static ca.team.safe.smart.home.it.safe.smart.home.MainActivity.viewPager;
+
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +13,7 @@ import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
@@ -19,17 +22,24 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.Locale;
+import java.util.Map;
 
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link RegisterFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class RegisterFragment extends Fragment implements View.OnClickListener {
+public class RegisterFragment extends Fragment {
 
     EditText mFullName, mEmail, mPassword;
     Button mregisterBtn;
@@ -70,12 +80,43 @@ public class RegisterFragment extends Fragment implements View.OnClickListener {
     }
 
     @Override
-    public void onCreate(Bundle savedInstanceState)  {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+    }
+
+    FirebaseDatabase firebaseDatabase;
+    DatabaseReference databaseReference;
+    DatabaseReference databaseReference1;
+    ProgressBar progressBar_register;
+
+    public static String streetAddress, city, provinces, postalcode, country;
+
+    public void getCustomerAddress() {
+        databaseReference = firebaseDatabase.getReference("secureID0").child("customer_address");
+        databaseReference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                Map<String, String> map = (Map<String, String>) snapshot.getValue();
+
+                try {
+                    streetAddress = map.get("streetAddress");
+                    city = map.get("city");
+                    provinces = map.get("provinces");
+                    postalcode = map.get("postalcode");
+                    country = map.get("country");
+                } catch (Exception e) {
+                }
+//
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+            }
+        });
     }
 
     @Override
@@ -84,54 +125,77 @@ public class RegisterFragment extends Fragment implements View.OnClickListener {
         // Inflate the layout for this fragment
         mView = inflater.inflate(R.layout.fragment_register, container, false);
 
-        mFullName = getActivity().findViewById(R.id.register_name);
-        mEmail = getActivity().findViewById(R.id.register_username);
-        mPassword = getActivity().findViewById(R.id.register_password);
-        Button mregisterBtn = (Button) getActivity().findViewById(R.id.registerbutton);
-        ProgressBar progressBar = (ProgressBar) getActivity().findViewById(R.id.progressBar_register);
-        fAuth = FirebaseAuth.getInstance();
+        progressBar_register = mView.findViewById(R.id.progressBar_register);
+        mFullName = mView.findViewById(R.id.register_name);
+        mEmail = mView.findViewById(R.id.register_username);
+        mPassword = mView.findViewById(R.id.register_password);
+        Button registerbutton = mView.findViewById(R.id.registerbutton);
+        Button loginbtn = mView.findViewById(R.id.loginbtn);
+        firebaseDatabase = FirebaseDatabase.getInstance();
+        databaseReference = firebaseDatabase.getReference();
+        loginbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(requireContext(), LoginSep.class);
+                startActivity(i);
+            }
+        });
 
-        if (fAuth.getCurrentUser() != null) {
-            startActivity(new Intent(getActivity().getApplicationContext(), MainActivity.class));
-            getActivity().finish();
-        }
+        registerbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                register();
+            }
+        });
+
         return mView;
 
 
     }
 
-        @Override
-        public void onClick (View v){
-
+    void register() {
+        final int[] chance = {0};
         String email = mEmail.getText().toString().trim();
         String password = mPassword.getText().toString().trim();
-        switch (v.getId()) {
-            case R.id.registerbutton:
-                if (TextUtils.isEmpty(email)) {
-                    mEmail.setError(getString(R.string.please_enter_email));
-                    return;
-                }
-                if (TextUtils.isEmpty(password) || password.length() < 8) {
-                    mPassword.setError(getString(R.string.password_error));
-                    return;
-                }
-                // progressBar.setVisibility(getView().VISIBLE);
+        String secureID = mFullName.getText().toString().trim();
 
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference();
 
-                //register user
-                fAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful()) {
-                            Toast.makeText(getActivity(), R.string.user_created, Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getActivity().getApplicationContext(), MainActivity.class));
-                        } else {
-                            Toast.makeText(getActivity(), getString(R.string.error) + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
-                        }
+        if (!email.contains("gmail.com")) {
+            Snackbar.make(mView, "Please enter correct gmail address", Snackbar.LENGTH_SHORT).show();
+        } else if (password.equals("")) {
+            Snackbar.make(mView, "Please enter password", Snackbar.LENGTH_SHORT).show();
+        } else if (secureID.length() != 9) {
+            Snackbar.make(mView, "Please enter 9 digit Secure ID", Snackbar.LENGTH_SHORT).show();
+        } else {
+//            myRef.setValue(secureID);
+            progressBar_register.setVisibility(View.VISIBLE);
+            myRef.addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot snapshot) {
+
+                    DatabaseReference myRef1 = database.getReference("secureID" + snapshot.getChildrenCount());
+                    if (chance[0] == 0) {
+                        chance[0] = 1;
+                        myRef1.setValue(secureID);
+                        Snackbar.make(viewPager, "secureID " + snapshot.getValue().toString().trim() + " added", Snackbar.LENGTH_SHORT).show();
                     }
-                });
+                    progressBar_register.setVisibility(View.GONE);
+                }
+
+                @Override
+                public void onCancelled(@NonNull DatabaseError error) {
+                    // if the data is not added or it is cancelled then
+                    // we are displaying a failure toast message.
+                    Toast.makeText(getActivity(), "Fail to add data " + error, Toast.LENGTH_SHORT).show();
+                    progressBar_register.setVisibility(View.GONE);
+                }
+            });
 
         }
     }
-    }
+
+
+}
 

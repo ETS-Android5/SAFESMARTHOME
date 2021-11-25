@@ -18,15 +18,12 @@ import androidx.fragment.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.material.button.MaterialButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -128,7 +125,7 @@ public class LoginFragment extends Fragment {
 //        password = (EditText) rootView.findViewById(R.id.editTextTextPassword2);
 //
         firebaseDatabase = FirebaseDatabase.getInstance("https://safesmarthome-cdf48-default-rtdb.firebaseio.com/");
-        databaseSize();
+        getCustomerAddress();
         //viewPager.setCurrentItem(0);
         Button button = rootView.findViewById(R.id.loginbtn);
         Button btnRegister = rootView.findViewById(R.id.buttonRegister);
@@ -141,6 +138,7 @@ public class LoginFragment extends Fragment {
                 databaseReference = firebaseDatabase.getReference();
                 secureID = editTextNumberSigned.getText().toString().trim();
                 email = emailaddress.getText().toString().trim();
+                pass = password.getText().toString().trim();
                 if (!email.contains("gmail.com")) {
                     Snackbar.make(rootView, "Please enter correct gmail address", Snackbar.LENGTH_SHORT).show();
                     //if (email.equals("SmartHome") && pass.equals("Home123") && secureID.length() == 9) {
@@ -232,7 +230,8 @@ public class LoginFragment extends Fragment {
                 // data base reference will sends data to firebase.
                 long count = 0;
 
-                databaseReference1 = firebaseDatabase.getReference("secureID" + snapshot.getChildrenCount());
+
+                databaseReference1 = firebaseDatabase.getReference();
 //                Snackbar.make(viewPager, "secureID " + snapshot.getChildrenCount() + " added", Snackbar.LENGTH_SHORT).show();
                 try {
                     if (snapshot.getChildrenCount() != 0) {
@@ -282,18 +281,20 @@ public class LoginFragment extends Fragment {
 
 
  public static   String streetAddress, city, provinces, postalcode, country;
-    public void databaseSize() {
+    public void getCustomerAddress() {
         databaseReference = firebaseDatabase.getReference("secureID0").child("customer_address");
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 Map<String, String> map = (Map<String, String>) snapshot.getValue();
 
-                streetAddress = map.get("streetAddress");
-                city = map.get("city");
-                provinces = map.get("provinces");
-                postalcode = map.get("postalcode");
-                country = map.get("country");
+                try {
+                    streetAddress = map.get("streetAddress");
+                    city = map.get("city");
+                    provinces = map.get("provinces");
+                    postalcode = map.get("postalcode");
+                    country = map.get("country");
+                }catch (Exception e){}
 //
             }
 

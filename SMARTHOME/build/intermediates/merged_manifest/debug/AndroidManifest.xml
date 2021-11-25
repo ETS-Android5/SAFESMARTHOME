@@ -29,6 +29,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.SAFESMARTHOME" >
         <activity
+            android:name="ca.team.safe.smart.home.it.safe.smart.home.LoginSep"
+            android:exported="false" />
+        <activity
             android:name="ca.team.safe.smart.home.it.safe.smart.home.MainActivity"
             android:launchMode="singleTop" />
         <activity

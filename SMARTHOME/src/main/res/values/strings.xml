@@ -105,17 +105,17 @@
     <string-array name="provinces">
         <item></item>
         <item>AB</item>
-    <item>BC</item>
-    <item>MB</item>
-    <item>NB</item>
-    <item>NL</item>
-    <item>NS</item>
-    <item>ON</item>
-    <item>PE</item>
-    <item>QC</item>
-    <item>SK</item>
-    <item>YT</item>
-    <item>NU</item>
-    <item>NT</item>
+        <item>BC</item>
+        <item>MB</item>
+        <item>NB</item>
+        <item>NL</item>
+        <item>NS</item>
+        <item>ON</item>
+        <item>PE</item>
+        <item>QC</item>
+        <item>SK</item>
+        <item>YT</item>
+        <item>NU</item>
+        <item>NT</item>
     </string-array>
 </resources>

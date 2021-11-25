@@ -38,8 +38,10 @@
         android:drawableLeft="@drawable/ic_action_user"
         android:drawablePadding="20dp"
         android:ems="10"
+        android:maxLength="9"
         android:hint="@string/secureid"
-        android:inputType="textPersonName"
+        android:digits="0987654321"
+        android:inputType="phone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.157"
@@ -73,7 +75,7 @@
         android:drawablePadding="20dp"
         android:ems="10"
         android:hint="@string/email_hint"
-        android:inputType="textPersonName"
+        android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.168"
@@ -100,15 +102,16 @@
     <ProgressBar
         android:id="@+id/progressBar_register"
         style="?android:attr/progressBarStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:padding="120dp"
+        android:background="#60FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.78" />
+         />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/loginbtn"

@@ -2463,6 +2463,7 @@ id unlabeled
 id up
 id useLogo
 id vertical_only
+id view
 id view_offset_helper
 id view_pager
 id view_transition
@@ -2549,6 +2550,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_login_sep
 layout activity_main
 layout activity_splash
 layout browser_actions_context_menu_page
