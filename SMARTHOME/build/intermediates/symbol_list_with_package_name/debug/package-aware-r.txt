@@ -2126,7 +2126,6 @@ id elastic
 id end
 id endToStart
 id end_padder
-id english_settings
 id enterAlways
 id enterAlwaysCollapsed
 id exitUntilCollapsed
@@ -2152,7 +2151,6 @@ id fragmentLogin
 id fragmentResgister
 id fragmentReview
 id fragment_container_view_tag
-id french_settings
 id frost
 id ghost_view
 id ghost_view_holder

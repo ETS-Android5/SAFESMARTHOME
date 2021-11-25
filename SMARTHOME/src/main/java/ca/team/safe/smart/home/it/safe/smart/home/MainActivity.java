@@ -115,12 +115,6 @@ public class MainActivity extends AppCompatActivity {
             case R.id.motion_on_off:
                 //code
                 break;
-            case R.id.french_settings:
-                setLocale("fr");
-                break;
-            case R.id.english_settings:
-                setLocale("en");
-                break;
             default:
                 setLocale("en");
                 break;

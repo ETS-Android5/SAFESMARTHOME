@@ -2125,7 +2125,6 @@ int id elastic 0x7f0a00cc
 int id end 0x7f0a00cd
 int id endToStart 0x7f0a00ce
 int id end_padder 0x7f0a00cf
-int id english_settings 0x7f0a00d0
 int id enterAlways 0x7f0a00d1
 int id enterAlwaysCollapsed 0x7f0a00d2
 int id exitUntilCollapsed 0x7f0a00d3
@@ -2151,7 +2150,6 @@ int id fragmentLogin 0x7f0a00e6
 int id fragmentResgister 0x7f0a00e7
 int id fragmentReview 0x7f0a00e8
 int id fragment_container_view_tag 0x7f0a00e9
-int id french_settings 0x7f0a00ea
 int id frost 0x7f0a00eb
 int id ghost_view 0x7f0a00ec
 int id ghost_view_holder 0x7f0a00ed
