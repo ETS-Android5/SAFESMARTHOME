@@ -50,11 +50,8 @@ public class LoginSep extends AppCompatActivity {
         myRef.equalTo("555555555").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                for (DataSnapshot childSnapshot: snapshot.getChildren()) {
-                    String key = childSnapshot.getKey();
+                    String key = snapshot.getKey();
                     Snackbar.make(view, "abcd"+key, Snackbar.LENGTH_SHORT).show();
-                    Log.v("abcd ",key);
-                }
             }
 
             @Override
