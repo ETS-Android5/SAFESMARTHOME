@@ -64,12 +64,8 @@ public class MainActivity extends AppCompatActivity {
         viewPager.setAdapter(sectionsPagerAdapter);
         TabLayout tabs = findViewById(R.id.tabs);
         tabs.setupWithViewPager(viewPager);
-        try {
-            String reg = getIntent().getStringExtra("register");
-            if (reg.equals("reg")) {
-                viewPager.setCurrentItem(6);
-            }
-        }catch (Exception e){}
+
+        registerActivity();
 
 
         // Write a message to the database
@@ -79,6 +75,16 @@ public class MainActivity extends AppCompatActivity {
         myRef.setValue("Hello, World!");
 
         requestCameraPermission();
+    }
+
+    void registerActivity() {
+        try {
+            String reg = getIntent().getStringExtra("register");
+            if (reg.equals("reg")) {
+                viewPager.setCurrentItem(6);
+            }
+        } catch (Exception e) {
+        }
     }
 
     private void handPermission() {
