@@ -64,10 +64,12 @@ public class MainActivity extends AppCompatActivity {
         viewPager.setAdapter(sectionsPagerAdapter);
         TabLayout tabs = findViewById(R.id.tabs);
         tabs.setupWithViewPager(viewPager);
-        String reg=getIntent().getStringExtra("register");
-        if (reg.equals("reg")){
-            viewPager.setCurrentItem(6);
-        }
+        try {
+            String reg = getIntent().getStringExtra("register");
+            if (reg.equals("reg")) {
+                viewPager.setCurrentItem(6);
+            }
+        }catch (Exception e){}
 
 
         // Write a message to the database

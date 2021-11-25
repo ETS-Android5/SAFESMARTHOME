@@ -24,6 +24,11 @@ ca/team/safe/smart/home/it/safe/smart/home/ControlFragment.java
  ca.team.safe.smart.home.it.safe.smart.home.ControlFragment$2
 ca/team/safe/smart/home/it/safe/smart/home/FireFragment.java
  ca.team.safe.smart.home.it.safe.smart.home.FireFragment
+ca/team/safe/smart/home/it/safe/smart/home/Splash.java
+ ca.team.safe.smart.home.it.safe.smart.home.Splash
+ ca.team.safe.smart.home.it.safe.smart.home.Splash$1
+ ca.team.safe.smart.home.it.safe.smart.home.Splash$2
+ ca.team.safe.smart.home.it.safe.smart.home.Splash$3
 ca/team/safe/smart/home/it/safe/smart/home/MainActivity.java
  ca.team.safe.smart.home.it.safe.smart.home.MainActivity
  ca.team.safe.smart.home.it.safe.smart.home.MainActivity$1
@@ -52,8 +57,3 @@ ca/team/safe/smart/home/it/safe/smart/home/AddressFragment.java
  ca.team.safe.smart.home.it.safe.smart.home.AddressFragment$2
  ca.team.safe.smart.home.it.safe.smart.home.AddressFragment$3
  ca.team.safe.smart.home.it.safe.smart.home.AddressFragment$4
-ca/team/safe/smart/home/it/safe/smart/home/Splash.java
- ca.team.safe.smart.home.it.safe.smart.home.Splash
- ca.team.safe.smart.home.it.safe.smart.home.Splash$1
- ca.team.safe.smart.home.it.safe.smart.home.Splash$2
- ca.team.safe.smart.home.it.safe.smart.home.Splash$3
