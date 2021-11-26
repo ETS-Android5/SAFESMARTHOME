@@ -33,6 +33,8 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.Locale;
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -79,6 +81,17 @@ public class RegisterFragment extends Fragment {
         return fragment;
     }
 
+    public static boolean isValidPassword(final String password) {
+
+        Pattern pattern;
+        Matcher matcher;
+        final String PASSWORD_PATTERN = "^(?=.*[0-9])(?=.*[A-Z])(?=.*[@#$%^&+=!])(?=\\S+$).{4,}$";
+        pattern = Pattern.compile(PASSWORD_PATTERN);
+        matcher = pattern.matcher(password);
+
+        return matcher.matches();
+
+    }
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -166,7 +179,13 @@ public class RegisterFragment extends Fragment {
             Snackbar.make(mView, "Please enter correct gmail address", Snackbar.LENGTH_SHORT).show();
         } else if (password.equals("")) {
             Snackbar.make(mView, "Please enter password", Snackbar.LENGTH_SHORT).show();
-        } else if (secureID.length() != 9) {
+        }  else if(password.length()<8 ||  !isValidPassword(password))
+
+        {
+            Snackbar.make(mView,  "Password should be at least 8 in length, alphabetic and numeric, 1 " +
+                            "special character(except for +,~), at 1 uppercase letter, and at least 1 digit",
+                    Snackbar.LENGTH_SHORT).show();
+        }else if (secureID.length() != 9) {
             Snackbar.make(mView, "Please enter 9 digit Secure ID", Snackbar.LENGTH_SHORT).show();
         } else {
 //            myRef.setValue(secureID);
