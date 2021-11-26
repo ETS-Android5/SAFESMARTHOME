@@ -72,7 +72,9 @@ public class LoginSep extends AppCompatActivity {
                     Snackbar.make(view, "Please enter correct gmail address", Snackbar.LENGTH_SHORT).show();
                 } else if (pass.equals("")) {
                     Snackbar.make(view, "Please enter password", Snackbar.LENGTH_SHORT).show();
-                } else if(pass.length()<8 &&!isValidPassword(pass)){
+                } else if(pass.length()<8 ||  !isValidPassword(pass))
+
+                {
                     Snackbar.make(view,  "Password should be at least 8 in length, alphabetic and numeric, 1 " +
                                     "special character(except for +,~), at 1 uppercase letter, and at least 1 digit",
                             Snackbar.LENGTH_SHORT).show();
@@ -90,7 +92,7 @@ public class LoginSep extends AppCompatActivity {
 
         Pattern pattern;
         Matcher matcher;
-        final String PASSWORD_PATTERN = "^(?=.*[0-9])(?=.*[A-Z])(?=.*[@#$%^&+=!])(?=\\S+$).{4,}$";
+        final String PASSWORD_PATTERN = "^(?=.*[0-9])(?=.*[A-Z])(?=.*[@#$%^&+=!])(?=\\S+$).{4,}$.*[A-Za-z].*[A-Za-z0-9]*";
         pattern = Pattern.compile(PASSWORD_PATTERN);
         matcher = pattern.matcher(password);
 
