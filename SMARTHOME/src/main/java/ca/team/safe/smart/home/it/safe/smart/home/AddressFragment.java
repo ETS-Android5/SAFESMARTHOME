@@ -135,7 +135,7 @@ public class AddressFragment extends Fragment {
        spinner.setAdapter(arrayAdapter);
 
 
-
+        getCustomerAddress();
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
@@ -163,25 +163,47 @@ public class AddressFragment extends Fragment {
 
             }
         });
-       /* FloatingActionButton fab1 = getActivity().findViewById(R.id.fab1);
 
-        fab1.setOnClickListener(new View.OnClickListener() {
-            @Override
-
-            public void onClick(View view) {
-                int securedID = 555666101;
-                int DB_secid = 555666101;
-                if (securedID == DB_secid) {
-                    Snackbar.make(view, "Do not have permission to change address", Snackbar.LENGTH_LONG)
-                            .setAction("Action", null).show();
-                } else {
-                    Snackbar.make(view, "You have permission to change address", Snackbar.LENGTH_LONG)
-                            .setAction("Action", null).show();
-                }
-            }
-        });*/
         return view;
     }
+
+    public static   String streetAddress, city, provinces, postalcode, country;
+    public void getCustomerAddress() {
+        databaseReference = firebaseDatabase.getReference("secureID0").child("customer_address");
+        databaseReference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                Map<String, String> map = (Map<String, String>) snapshot.getValue();
+
+                try {
+                    streetAddress = map.get("streetAddress");
+                    city = map.get("city");
+                    provinces = map.get("provinces");
+                    postalcode = map.get("postalcode");
+                    country = map.get("country");
+
+                    editTextTextPostalAddress.setText(streetAddress);
+                    editTextTextCity.setText(city);
+
+                    try {
+                        ArrayAdapter myAdap = (ArrayAdapter) spinner.getAdapter();
+                        int spinnerPosition = myAdap.getPosition(provinces);
+                        spinner.setSelection(spinnerPosition);
+                    } catch (Exception e) {
+                    }
+                    editTextTextPostalAddress2.setText(postalcode);
+                    editTextTextCountry.setText(country);
+
+                }catch (Exception e){}
+//
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+            }
+        });
+    }
+
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
     DatabaseReference databaseReference1;
