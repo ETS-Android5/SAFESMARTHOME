@@ -35,7 +35,7 @@
     <string name="fire_and_smoke_detection">Fire and Smoke Detection</string>
     <string name="humidity_fire_control">Humidity/Fire Control</string>
     <string name="street_address_hint">Street Address</string>
-    <string name="OR_text">OR</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="register_title">Register</string>
     <string name="email_hint">email</string>

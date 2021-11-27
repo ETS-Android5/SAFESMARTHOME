@@ -1844,7 +1844,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable fire
-drawable gmaillogo
+drawable google
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable gradient
@@ -1852,6 +1852,7 @@ drawable gradient2
 drawable gradient3
 drawable gradient_status
 drawable green
+drawable humi
 drawable humid
 drawable ic_action_pass
 drawable ic_action_user
@@ -2177,6 +2178,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageButton8
 id imageView
 id imageView10
 id imageView2
@@ -2184,7 +2186,6 @@ id imageView3
 id imageView4
 id imageView5
 id imageView6
-id imageView7
 id imageView8
 id imageView9
 id immediateStop

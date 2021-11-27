@@ -78,7 +78,7 @@
     <string name="english">Anglais</string>
     <string name="version_less">Version is less than M</string>
     <string name="version_good">Version is up to date</string>
-    <string name="OR_text">ou</string>
+
     <string-array name="provinces_fullname">
         <item>Alberta</item>
         <item>Colombie-Britannique</item>
