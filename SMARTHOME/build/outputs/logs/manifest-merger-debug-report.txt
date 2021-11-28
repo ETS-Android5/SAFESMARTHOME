@@ -6,6 +6,7 @@ INJECTED from C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME
 INJECTED from C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\AndroidManifest.xml:2:1-39:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\8a7a06036e0c4f4e613a8bbc02ac21f5\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\b51774edc34adde96528cd3b4520cdcd\transformed\constraintlayout-2.1.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\3a2ef2d9f153060eaba5a3edae26c702\transformed\preference-1.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\9b55d8e26b93d89e39247ba75ce39810\transformed\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\a0478a94eaba8795c50c5ec7a4d79c89\transformed\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\29ede308519610ca113fdcaa8a643bbc\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
@@ -184,6 +185,8 @@ MERGED from [com.google.android.material:material:1.4.0] C:\Users\shrig.LAPTOP-L
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\8a7a06036e0c4f4e613a8bbc02ac21f5\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\b51774edc34adde96528cd3b4520cdcd\transformed\constraintlayout-2.1.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\b51774edc34adde96528cd3b4520cdcd\transformed\constraintlayout-2.1.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\3a2ef2d9f153060eaba5a3edae26c702\transformed\preference-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\3a2ef2d9f153060eaba5a3edae26c702\transformed\preference-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\9b55d8e26b93d89e39247ba75ce39810\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\9b55d8e26b93d89e39247ba75ce39810\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\shrig.LAPTOP-LHA4VPAT\.gradle\caches\transforms-3\a0478a94eaba8795c50c5ec7a4d79c89\transformed\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
