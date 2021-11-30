@@ -47,7 +47,7 @@ public class RegisterFragment extends Fragment {
     Button mregisterBtn;
     TextView loginBtn;
     FirebaseAuth fAuth;
-    private View mView;
+    private static View mView;
 
 
     // TODO: Rename parameter arguments, choose names that match
@@ -92,6 +92,14 @@ public class RegisterFragment extends Fragment {
         return matcher.matches();
 
     }
+
+    public static  boolean secureIDValidation(String secureID){
+        if (secureID.length() != 9) {
+            // Snackbar.make(mView, "Please enter 9 digit Secure ID", Snackbar.LENGTH_SHORT).show();
+            return  false;
+        }else
+            return  true;
+    }
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -104,7 +112,7 @@ public class RegisterFragment extends Fragment {
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
     DatabaseReference databaseReference1;
-    ProgressBar progressBar_register;
+    static ProgressBar progressBar_register;
 
     public static String streetAddress, city, provinces, postalcode, country;
 
@@ -157,7 +165,12 @@ public class RegisterFragment extends Fragment {
         registerbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                register();
+
+                String email = mEmail.getText().toString().trim();
+                String password = mPassword.getText().toString().trim();
+                String secureID = mFullName.getText().toString().trim();
+
+                register(email,password,secureID);
             }
         });
 
@@ -166,30 +179,33 @@ public class RegisterFragment extends Fragment {
 
     }
 
-    void register() {
+   public static boolean register(String email,String password,String secureID) {
         final int[] chance = {0};
-        String email = mEmail.getText().toString().trim();
-        String password = mPassword.getText().toString().trim();
-        String secureID = mFullName.getText().toString().trim();
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference();
 
         if (!email.contains("gmail.com")) {
-            Snackbar.make(mView, "Please enter correct gmail address", Snackbar.LENGTH_SHORT).show();
+            return  false;
+           // Snackbar.make(mView, "Please enter correct gmail address", Snackbar.LENGTH_SHORT).show();
         } else if (password.equals("")) {
-            Snackbar.make(mView, "Please enter password", Snackbar.LENGTH_SHORT).show();
+            return  false;
+            //   Snackbar.make(mView, "Please enter password", Snackbar.LENGTH_SHORT).show();
         }  else if(password.length()<8 ||  !isValidPassword(password))
 
         {
-            Snackbar.make(mView,  "Password should be at least 8 in length, alphabetic and numeric, 1 " +
-                            "special character(except for +,~), at 1 uppercase letter, and at least 1 digit",
-                    Snackbar.LENGTH_SHORT).show();
-        }else if (secureID.length() != 9) {
-            Snackbar.make(mView, "Please enter 9 digit Secure ID", Snackbar.LENGTH_SHORT).show();
-        } else {
+            return  false;
+
+//            Snackbar.make(mView,  "Password should be at least 8 in length, alphabetic and numeric, 1 " +
+//                            "special character(except for +,~), at 1 uppercase letter, and at least 1 digit",
+//                    Snackbar.LENGTH_SHORT).show();
+        }else if (!secureIDValidation(secureID)) {
+            return  false;
+            // Snackbar.make(mView, "Please enter 9 digit Secure ID", Snackbar.LENGTH_SHORT).show();
+        }
+        else {
 //            myRef.setValue(secureID);
-            progressBar_register.setVisibility(View.VISIBLE);
+//            progressBar_register.setVisibility(View.VISIBLE);
             myRef.addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -198,22 +214,25 @@ public class RegisterFragment extends Fragment {
                     if (chance[0] == 0) {
                         chance[0] = 1;
                         myRef1.setValue(secureID);
-                        Snackbar.make(viewPager, "secureID  added to Firebase DB", Snackbar.LENGTH_SHORT).show();
+//                        Snackbar.make(viewPager, "secureID  added to Firebase DB", Snackbar.LENGTH_SHORT).show();
                     }
-                    progressBar_register.setVisibility(View.GONE);
+                   // progressBar_register.setVisibility(View.GONE);
                 }
 
                 @Override
                 public void onCancelled(@NonNull DatabaseError error) {
                     // if the data is not added or it is cancelled then
                     // we are displaying a failure toast message.
-                    Toast.makeText(getActivity(), "Fail to add data " + error, Toast.LENGTH_SHORT).show();
-                    progressBar_register.setVisibility(View.GONE);
+//                    Toast.makeText(getActivity(), "Fail to add data " + error, Toast.LENGTH_SHORT).show();
+                  //  progressBar_register.setVisibility(View.GONE);
                 }
             });
 
+            return true;
         }
-    }
+   }
+
+
 
 
 }
