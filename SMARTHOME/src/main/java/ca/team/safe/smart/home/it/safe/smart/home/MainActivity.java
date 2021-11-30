@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
         try {
             String reg = getIntent().getStringExtra("register");
             if (reg.equals("reg")) {
-                viewPager.setCurrentItem(6);
+                viewPager.setCurrentItem(5);
             }
         } catch (Exception e) {
         }
