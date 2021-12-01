@@ -39,6 +39,7 @@
                 app:cardElevation="5dp">
 
                 <LinearLayout
+                    android:id="@+id/viewTemperature"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_row="0"
@@ -47,6 +48,7 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:clickable="false"
                         android:id="@+id/temperature_status_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -77,6 +79,7 @@
                 app:cardElevation="5dp">
 
                 <LinearLayout
+                    android:id="@+id/viewHumidity"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_row="0"
@@ -85,6 +88,7 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:clickable="false"
                         android:id="@+id/humidity_status_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -115,6 +119,7 @@
                 app:cardElevation="5dp">
 
                 <LinearLayout
+                    android:id="@+id/viewSmoke"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_row="0"
@@ -123,6 +128,7 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:clickable="false"
                         android:id="@+id/smoke_status_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -153,6 +159,7 @@
                 app:cardElevation="5dp">
 
                 <LinearLayout
+                    android:id="@+id/viewSecurity"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_row="0"
@@ -161,6 +168,7 @@
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:clickable="false"
                         android:id="@+id/security_status_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

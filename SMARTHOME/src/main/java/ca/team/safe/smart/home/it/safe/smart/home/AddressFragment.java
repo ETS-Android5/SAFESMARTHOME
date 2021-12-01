@@ -32,6 +32,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -88,6 +89,7 @@ public class AddressFragment extends Fragment {
     }
    public static Spinner spinner;
     public static EditText editTextTextCountry,editTextTextCity,editTextTextPostalAddress,editTextTextPostalAddress2;
+    private boolean isSpinnerTouched = false;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -134,7 +136,13 @@ public class AddressFragment extends Fragment {
                provinces);
        spinner.setAdapter(arrayAdapter);
 
-
+        spinner.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                isSpinnerTouched = true;
+                return false;
+            }
+        });
         getCustomerAddress();
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -154,6 +162,7 @@ public class AddressFragment extends Fragment {
                 String name_english = getResources().getStringArray(R.array.provinces_fullname)[i];
 //               Toast.makeText(view.getContext(), "name_english", Toast.LENGTH_SHORT).show();
                 try {
+                    if (isSpinnerTouched)
                     Snackbar.make(view, name_english, Snackbar.LENGTH_SHORT).show();
                 }catch (Exception e){}
             }

@@ -13,6 +13,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.android.material.snackbar.Snackbar;
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link StatusFragment#newInstance} factory method to
@@ -60,10 +62,41 @@ public class StatusFragment extends Fragment {
         }
     }
 
+    View viewHumidity,viewSmoke,viewSecurity,viewTemperature;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_status, container, false);
+        View view = inflater.inflate(R.layout.fragment_status, container, false);
+        viewHumidity=view.findViewById(R.id.viewHumidity);
+        viewSmoke=view.findViewById(R.id.viewSmoke);
+        viewSecurity=view.findViewById(R.id.viewSecurity);
+        viewTemperature=view.findViewById(R.id.viewTemperature);
+        viewTemperature.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Snackbar.make(view,"Heat On",Snackbar.LENGTH_SHORT).show();
+            }
+        });
+        viewSmoke.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Snackbar.make(view,"No Smoke Detected",Snackbar.LENGTH_SHORT).show();
+            }
+        });
+        viewHumidity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Snackbar.make(view,"No Humidity",Snackbar.LENGTH_SHORT).show();
+            }
+        });
+        viewSecurity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Snackbar.make(view,"No Intruder",Snackbar.LENGTH_SHORT).show();
+            }
+        });
+        return view;
     }
 }
