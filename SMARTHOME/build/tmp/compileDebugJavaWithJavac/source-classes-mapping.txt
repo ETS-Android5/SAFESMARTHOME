@@ -16,12 +16,6 @@ ca/team/safe/smart/home/it/safe/smart/home/StatusFragment.java
  ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$2
  ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$3
  ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$4
-ca/team/safe/smart/home/it/safe/smart/home/LoginFragment.java
- ca.team.safe.smart.home.it.safe.smart.home.LoginFragment
- ca.team.safe.smart.home.it.safe.smart.home.LoginFragment$1
- ca.team.safe.smart.home.it.safe.smart.home.LoginFragment$2
- ca.team.safe.smart.home.it.safe.smart.home.LoginFragment$3
- ca.team.safe.smart.home.it.safe.smart.home.LoginFragment$4
 ca/team/safe/smart/home/it/safe/smart/home/LoginModel.java
  ca.team.safe.smart.home.it.safe.smart.home.LoginModel
 ca/team/safe/smart/home/it/safe/smart/home/LoginSep.java

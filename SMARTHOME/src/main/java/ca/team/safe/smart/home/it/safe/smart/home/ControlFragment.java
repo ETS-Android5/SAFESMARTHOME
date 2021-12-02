@@ -42,8 +42,8 @@ public class ControlFragment extends Fragment {
         // Required empty public constructor
     }
 
-    public static LoginFragment newInstance(String param1, String param2) {
-        LoginFragment fragment = new LoginFragment();
+    public static ControlFragment newInstance(String param1, String param2) {
+        ControlFragment fragment = new ControlFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);

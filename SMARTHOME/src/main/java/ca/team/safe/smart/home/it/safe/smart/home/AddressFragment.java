@@ -7,10 +7,6 @@ package ca.team.safe.smart.home.it.safe.smart.home;
 
 import static androidx.core.content.ContextCompat.getSystemService;
 
-import static ca.team.safe.smart.home.it.safe.smart.home.LoginFragment.city;
-import static ca.team.safe.smart.home.it.safe.smart.home.LoginFragment.country;
-import static ca.team.safe.smart.home.it.safe.smart.home.LoginFragment.postalcode;
-import static ca.team.safe.smart.home.it.safe.smart.home.LoginFragment.streetAddress;
 import static ca.team.safe.smart.home.it.safe.smart.home.MainActivity.viewPager;
 
 import android.app.Notification;
