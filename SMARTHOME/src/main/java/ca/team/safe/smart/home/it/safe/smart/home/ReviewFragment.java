@@ -82,9 +82,8 @@ public class ReviewFragment extends Fragment{
                     Snackbar.make(rootView,"Please enter comment",Snackbar.LENGTH_SHORT).show();
                 }else{
 
-                    Toast.makeText(getActivity(), R.string.thank_you_message_submit, Toast.LENGTH_SHORT).show();
                 }
-                Toast.makeText(getActivity(), R.string.thank_you_message_submit, Toast.LENGTH_SHORT).show();
+                Snackbar.make(rootView, R.string.thank_you_message_submit, Snackbar.LENGTH_SHORT).show();
             }
         });
 
