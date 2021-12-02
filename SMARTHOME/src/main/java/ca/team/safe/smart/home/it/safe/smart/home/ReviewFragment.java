@@ -6,6 +6,7 @@ package ca.team.safe.smart.home.it.safe.smart.home;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Patterns;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +15,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
+
+import com.google.android.material.snackbar.Snackbar;
 
 public class ReviewFragment extends Fragment{
 
@@ -58,6 +61,7 @@ public class ReviewFragment extends Fragment{
         editTextName = (EditText) rootView.findViewById(R.id.editTextTextPersonName);
         editTextNumber = (EditText) rootView.findViewById(R.id.editTextPhone);
         editTextEmail = (EditText) rootView.findViewById(R.id.editTextTextEmailAddress);
+        EditText edComment = (EditText) rootView.findViewById(R.id.textView5);
 
         editTextName.addTextChangedListener(reviwTextWatcher);
         editTextNumber.addTextChangedListener(reviwTextWatcher);
@@ -67,6 +71,19 @@ public class ReviewFragment extends Fragment{
         review.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String email=editTextEmail.getText().toString();
+                String phone=editTextNumber.getText().toString();
+                String comment=edComment.getText().toString();
+                if (email.isEmpty() && !Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+                    Snackbar.make(rootView,"Please enter valid Email",Snackbar.LENGTH_SHORT).show();
+                }else if (phone.length()<10){
+                    Snackbar.make(rootView,"Please enter valid Phone Number",Snackbar.LENGTH_SHORT).show();
+                }else if (comment.length()<1){
+                    Snackbar.make(rootView,"Please enter comment",Snackbar.LENGTH_SHORT).show();
+                }else{
+
+                    Toast.makeText(getActivity(), R.string.thank_you_message_submit, Toast.LENGTH_SHORT).show();
+                }
                 Toast.makeText(getActivity(), R.string.thank_you_message_submit, Toast.LENGTH_SHORT).show();
             }
         });
