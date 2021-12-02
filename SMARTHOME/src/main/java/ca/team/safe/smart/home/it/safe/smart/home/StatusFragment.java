@@ -76,7 +76,7 @@ public class StatusFragment extends Fragment {
         viewTemperature.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Snackbar.make(view,"Heat On",Snackbar.LENGTH_SHORT).show();
+                Snackbar.make(view,R.string.Heat_ON,Snackbar.LENGTH_SHORT).show();
             }
         });
         viewSmoke.setOnClickListener(new View.OnClickListener() {
@@ -88,7 +88,7 @@ public class StatusFragment extends Fragment {
         viewHumidity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Snackbar.make(view,"No Humidity",Snackbar.LENGTH_SHORT).show();
+                Snackbar.make(view,R.string.NO_Humidity,Snackbar.LENGTH_SHORT).show();
             }
         });
         viewSecurity.setOnClickListener(new View.OnClickListener() {

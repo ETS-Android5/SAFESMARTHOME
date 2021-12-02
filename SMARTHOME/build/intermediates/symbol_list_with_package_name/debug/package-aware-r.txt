@@ -2753,6 +2753,7 @@ mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string Customer_address_added
+string Enter_9_digit_secID
 string PREFS
 string Register_btn
 string Settings_page
@@ -2821,6 +2822,8 @@ string controls_degrees_c
 string controls_switch_stage
 string controls_temp_set
 string copy
+string correct_email
+string correct_password
 string country
 string customer_address
 string customer_review
@@ -2945,6 +2948,7 @@ string register
 string register_title
 string reply_title
 string search_menu_title
+string secureID_added_to_FirebaseDB
 string secureid
 string security_status
 string settings

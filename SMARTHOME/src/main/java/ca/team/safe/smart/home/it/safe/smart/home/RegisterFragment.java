@@ -186,21 +186,19 @@ public class RegisterFragment extends Fragment {
         DatabaseReference myRef = database.getReference();
 
         if (!email.contains("gmail.com")) {
-            Snackbar.make(mView, "Please enter correct gmail address", Snackbar.LENGTH_SHORT).show();
+            Snackbar.make(mView, R.string.correct_email, Snackbar.LENGTH_SHORT).show();
                         return  false;
         } else if (password.equals("")) {
-               Snackbar.make(mView, "Please enter password", Snackbar.LENGTH_SHORT).show();
+               Snackbar.make(mView, R.string.correct_password, Snackbar.LENGTH_SHORT).show();
                         return  false;
         }  else if(password.length()<8 ||  !isValidPassword(password))
 
         {
 
-            Snackbar.make(mView,  "Password should be at least 8 in length, alphabetic and numeric, 1 " +
-                            "special character(except for +,~), at 1 uppercase letter, and at least 1 digit",
-                    Snackbar.LENGTH_SHORT).show();
+            Snackbar.make(mView,  R.string.Password_characters, Snackbar.LENGTH_SHORT).show();
                         return  false;
         }else if (!secureIDValidation(secureID)) {
-             Snackbar.make(mView, "Please enter 9 digit Secure ID", Snackbar.LENGTH_SHORT).show();
+             Snackbar.make(mView, R.string.Enter_9_digit_secID, Snackbar.LENGTH_SHORT).show();
              return  false;
         }
         else {
@@ -214,7 +212,7 @@ public class RegisterFragment extends Fragment {
                     if (chance[0] == 0) {
                         chance[0] = 1;
                         myRef1.setValue(secureID);
-                        Snackbar.make(viewPager, "secureID  added to Firebase DB", Snackbar.LENGTH_SHORT).show();
+                        Snackbar.make(viewPager, R.string.secureID_added_to_FirebaseDB, Snackbar.LENGTH_SHORT).show();
                     }
                    // progressBar_register.setVisibility(View.GONE);
                 }

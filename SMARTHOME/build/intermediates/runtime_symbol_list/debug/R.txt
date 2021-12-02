@@ -2752,6 +2752,7 @@ int mipmap ic_launcher_foreground 0x7f0f0001
 int mipmap ic_launcher_round 0x7f0f0002
 int plurals mtrl_badge_content_description 0x7f100000
 int string Customer_address_added 0x7f110000
+int string Enter_9_digit_secID 0x7f1100e0
 int string PREFS 0x7f110001
 int string Register_btn 0x7f110002
 int string Settings_page 0x7f110003
@@ -2820,6 +2821,8 @@ int string controls_degrees_c 0x7f110041
 int string controls_switch_stage 0x7f110042
 int string controls_temp_set 0x7f110043
 int string copy 0x7f110044
+int string correct_email 0x7f1100e1
+int string correct_password 0x7f1100e2
 int string country 0x7f110045
 int string customer_address 0x7f110046
 int string customer_review 0x7f110047
@@ -2944,6 +2947,7 @@ int string register 0x7f1100bd
 int string register_title 0x7f1100be
 int string reply_title 0x7f1100bf
 int string search_menu_title 0x7f1100c0
+int string secureID_added_to_FirebaseDB 0x7f1100e3
 int string secureid 0x7f1100c1
 int string security_status 0x7f1100c2
 int string settings 0x7f1100c3
