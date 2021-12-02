@@ -93,9 +93,8 @@
     <string name="Password_characters">Password should be at least 8 in length, alphabetic and numeric, 1 special character(except for +,~), at 1 uppercase letter, and at least 1 digit</string>
     <string name="Heat_ON">Heat On</string>
     <string name="NO_Humidity">No Humidity</string>
-    <string name="Heat_ON">Heat On</string>
-    <string name="Heat_ON">Heat On</string>
-    <string name="Heat_ON">Heat On</string>
+    <string name="No_smoke_detected">No Smoke Detected</string>
+    <string name="No_intruder">No Intruder</string>
     <string-array name="provinces_fullname">
         <item></item>
         <item>Alberta</item>

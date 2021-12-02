@@ -69,18 +69,16 @@ public class LoginSep extends AppCompatActivity {
                 email = emailaddress.getText().toString().trim();
                 pass = password.getText().toString().trim();
                 if (!email.contains("gmail.com")) {
-                    Snackbar.make(view, "Please enter correct gmail address", Snackbar.LENGTH_SHORT).show();
+                    Snackbar.make(view, R.string.correct_email, Snackbar.LENGTH_SHORT).show();
                 } else if (pass.equals("")) {
-                    Snackbar.make(view, "Please enter password", Snackbar.LENGTH_SHORT).show();
+                    Snackbar.make(view, R.string.correct_password, Snackbar.LENGTH_SHORT).show();
                 } else if(pass.length()<8 ||  !isValidPassword(pass))
 
                 {
-                    Snackbar.make(view,  "Password should be at least 8 in length, alphabetic and numeric, 1 " +
-                                    "special character(except for +,~), at 1 uppercase letter, and at least 1 digit",
-                            Snackbar.LENGTH_SHORT).show();
+                    Snackbar.make(view,  R.string.Password_characters, Snackbar.LENGTH_SHORT).show();
                 }
                 else if (secureID.length() != 9) {
-                    Snackbar.make(view, "Please enter 9 digit Secure ID", Snackbar.LENGTH_SHORT).show();
+                    Snackbar.make(view, R.string.Enter_9_digit_secID, Snackbar.LENGTH_SHORT).show();
                 } else {
                     Intent i = new Intent(LoginSep.this, MainActivity.class);
                     startActivity(i);

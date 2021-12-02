@@ -86,7 +86,8 @@
     <string name="Password_characters">Le mot de passe doit être d\'au moins 8, alphabétique et numérique, 1 caractère spécial (sauf pour +, ~), 1 lettre majuscule et au moins 1 chiffre</string>
     <string name="Heat_ON">Chauffage activé</string>
     <string name="NO_Humidity">Pas d\'humidité</string>
-
+    <string name="No_smoke_detected">aucune fumée détectée</string>
+    <string name="No_intruder">Pas d\'intrus</string>
     <!-- Preference Titles -->
     <string name="messages_header">messages</string>
     <string name="sync_header">Synchroniser</string>

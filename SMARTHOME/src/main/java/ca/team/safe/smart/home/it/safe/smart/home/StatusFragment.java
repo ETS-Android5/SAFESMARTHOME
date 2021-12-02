@@ -82,7 +82,7 @@ public class StatusFragment extends Fragment {
         viewSmoke.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Snackbar.make(view,"No Smoke Detected",Snackbar.LENGTH_SHORT).show();
+                Snackbar.make(view,R.string.No_smoke_detected,Snackbar.LENGTH_SHORT).show();
             }
         });
         viewHumidity.setOnClickListener(new View.OnClickListener() {
@@ -94,7 +94,7 @@ public class StatusFragment extends Fragment {
         viewSecurity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Snackbar.make(view,"No Intruder",Snackbar.LENGTH_SHORT).show();
+                Snackbar.make(view,R.string.No_intruder,Snackbar.LENGTH_SHORT).show();
             }
         });
         return view;

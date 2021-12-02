@@ -2754,7 +2754,12 @@ mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string Customer_address_added
 string Enter_9_digit_secID
+string Heat_ON
+string NO_Humidity
+string No_intruder
+string No_smoke_detected
 string PREFS
+string Password_characters
 string Register_btn
 string Settings_page
 string abc_action_bar_home_description
