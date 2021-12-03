@@ -7,6 +7,15 @@
     android:background="@drawable/green"
     tools:context=".ControlFragment">
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/fab"/>
+
     <TextView
         android:id="@+id/controls_TV2"
         android:layout_width="423dp"

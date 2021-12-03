@@ -9,10 +9,12 @@ import static androidx.core.content.ContextCompat.getSystemService;
 
 import static ca.team.safe.smart.home.it.safe.smart.home.MainActivity.viewPager;
 
+import android.app.AlertDialog;
 import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.Resources;
@@ -97,6 +99,27 @@ public class AddressFragment extends Fragment {
          editTextTextPostalAddress = view.findViewById(R.id.editTextTextPostalAddress);
          editTextTextPostalAddress2 = view.findViewById(R.id.editTextTextPostalAddress2);
         Button buttonInsert = view.findViewById(R.id.buttonInsert);
+        FloatingActionButton fab =view.findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                new AlertDialog.Builder(requireContext())
+                        .setIcon(android.R.drawable.ic_dialog_alert)
+                        .setTitle("Closing Activity")
+                        .setMessage("Are you sure you want to Logout?")
+                        .setPositiveButton("Yes", new DialogInterface.OnClickListener()
+                        {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                startActivity(new Intent(requireActivity(),LoginSep.class));
+                                requireActivity().finish();
+                            }
+
+                        })
+                        .setNegativeButton("No", null)
+                        .show();
+            }
+        });
 
         firebaseDatabase = FirebaseDatabase.getInstance("https://safesmarthome-cdf48-default-rtdb.firebaseio.com/");
 

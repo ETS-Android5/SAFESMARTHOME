@@ -22,7 +22,7 @@
 
         <GridLayout
             android:layout_width="match_parent"
-            android:layout_height="615dp"
+            android:layout_height="450dp"
             android:layout_gravity="center_horizontal"
             android:layout_margin="5dp"
             android:alignmentMode="alignMargins"
@@ -191,6 +191,15 @@
             </androidx.cardview.widget.CardView>
 
         </GridLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:src="@drawable/logout"
+           android:layout_gravity="right"
+            android:id="@+id/fab"/>
+
     </LinearLayout>
 
 </ScrollView>

@@ -1935,6 +1935,7 @@ int drawable ic_mtrl_chip_checked_black 0x7f080092
 int drawable ic_mtrl_chip_checked_circle 0x7f080093
 int drawable ic_mtrl_chip_close_circle 0x7f080094
 int drawable intruder 0x7f080095
+int drawable logout 0x7f0800c2
 int drawable material_cursor_drawable 0x7f080096
 int drawable material_ic_calendar_black_24dp 0x7f080097
 int drawable material_ic_clear_black_24dp 0x7f080098
@@ -2197,6 +2198,7 @@ int id enterAlwaysCollapsed 0x7f0a00d1
 int id exitUntilCollapsed 0x7f0a00d2
 int id expand_activities_button 0x7f0a00d3
 int id expanded_menu 0x7f0a00d4
+int id fab 0x7f0a023b
 int id fade 0x7f0a00d5
 int id fan_on_off 0x7f0a00d6
 int id fill 0x7f0a00d7

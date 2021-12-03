@@ -6,6 +6,9 @@
 package ca.team.safe.smart.home.it.safe.smart.home;
 
 import android.Manifest;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
@@ -20,6 +23,8 @@ import android.widget.Toast;
 
 import androidx.core.app.NotificationCompat;
 import androidx.fragment.app.Fragment;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class ControlFragment extends Fragment {
 
@@ -65,7 +70,27 @@ public class ControlFragment extends Fragment {
         SharedPreferences preferences = getActivity().getSharedPreferences(getString(R.string.PREFS), 0);
         stage = preferences.getInt(getString(R.string.controls_switch_stage), 1);
         sc = (Switch) rootView.findViewById(R.id.switch5);
+        FloatingActionButton fab = rootView.findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                new AlertDialog.Builder(requireContext())
+                        .setIcon(android.R.drawable.ic_dialog_alert)
+                        .setTitle("Closing Activity")
+                        .setMessage("Are you sure you want to Logout?")
+                        .setPositiveButton("Yes", new DialogInterface.OnClickListener()
+                        {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                startActivity(new Intent(requireActivity(),LoginSep.class));
+                                requireActivity().finish();
+                            }
 
+                        })
+                        .setNegativeButton("No", null)
+                        .show();
+            }
+        });
         seekBar=(SeekBar) rootView.findViewById(R.id.controls_seekBar);
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             int progresValue = 0;

@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -186,7 +187,8 @@ public class RegisterFragment extends Fragment {
         DatabaseReference myRef = database.getReference();
 
         if (!email.contains("gmail.com")) {
-            Snackbar.make(mView, R.string.correct_email, Snackbar.LENGTH_SHORT).show();
+            Log.e("validation error", "please enter valid email address");
+//            Snackbar.make(mView, R.string.correct_email, Snackbar.LENGTH_SHORT).show();
                         return  false;
         } else if (password.equals("")) {
                Snackbar.make(mView, R.string.correct_password, Snackbar.LENGTH_SHORT).show();
@@ -212,7 +214,7 @@ public class RegisterFragment extends Fragment {
                     if (chance[0] == 0) {
                         chance[0] = 1;
                         myRef1.setValue(secureID);
-                        Snackbar.make(viewPager, R.string.secureID_added_to_FirebaseDB, Snackbar.LENGTH_SHORT).show();
+//                        Snackbar.make(viewPager, R.string.secureID_added_to_FirebaseDB, Snackbar.LENGTH_SHORT).show();
                     }
                    // progressBar_register.setVisibility(View.GONE);
                 }

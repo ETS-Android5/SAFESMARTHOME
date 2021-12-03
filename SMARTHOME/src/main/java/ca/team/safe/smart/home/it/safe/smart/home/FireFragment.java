@@ -4,6 +4,9 @@
 //Patrick Loboda N01309086
 package ca.team.safe.smart.home.it.safe.smart.home;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,6 +16,8 @@ import android.widget.Switch;
 import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class FireFragment extends Fragment{
 
@@ -51,7 +56,27 @@ public class FireFragment extends Fragment{
         // Inflate the layout for this fragment
         Switch sc = (Switch) rootView.findViewById(R.id.fire_ac_switch);
 
+        FloatingActionButton fab = rootView.findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                new AlertDialog.Builder(requireContext())
+                        .setIcon(android.R.drawable.ic_dialog_alert)
+                        .setTitle("Closing Activity")
+                        .setMessage("Are you sure you want to Logout?")
+                        .setPositiveButton("Yes", new DialogInterface.OnClickListener()
+                        {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                startActivity(new Intent(requireActivity(),LoginSep.class));
+                                requireActivity().finish();
+                            }
 
+                        })
+                        .setNegativeButton("No", null)
+                        .show();
+            }
+        });
         return rootView;
     }
 }

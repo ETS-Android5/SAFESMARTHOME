@@ -3,6 +3,9 @@
 //Patrick Loboda N01309086
 package ca.team.safe.smart.home.it.safe.smart.home;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.text.Editable;
@@ -18,6 +21,7 @@ import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
 public class ReviewFragment extends Fragment{
@@ -67,6 +71,27 @@ public class ReviewFragment extends Fragment{
         editTextNumber = (EditText) rootView.findViewById(R.id.editTextPhone);
         editTextEmail = (EditText) rootView.findViewById(R.id.editTextTextEmailAddress);
         EditText edComment = (EditText) rootView.findViewById(R.id.textView5);
+        FloatingActionButton fab = rootView.findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                new AlertDialog.Builder(requireContext())
+                        .setIcon(android.R.drawable.ic_dialog_alert)
+                        .setTitle("Closing Activity")
+                        .setMessage("Are you sure you want to Logout?")
+                        .setPositiveButton("Yes", new DialogInterface.OnClickListener()
+                        {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                               startActivity(new Intent(requireActivity(),LoginSep.class));
+                               requireActivity().finish();
+                            }
+
+                        })
+                        .setNegativeButton("No", null)
+                        .show();
+            }
+        });
 
         editTextFullName.addTextChangedListener(reviwTextWatcher);
         editTextNumber.addTextChangedListener(reviwTextWatcher);

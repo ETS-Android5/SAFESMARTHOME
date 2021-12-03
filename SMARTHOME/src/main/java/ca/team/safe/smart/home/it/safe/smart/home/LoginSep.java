@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -26,7 +27,18 @@ import java.util.regex.Pattern;
 public class LoginSep extends AppCompatActivity {
     String email, pass, secureID;
     View view;
-
+    public static  boolean secureIDValidation(String secureID){
+        if (secureID.length() != 9) {
+            // Snackbar.make(mView, "Please enter 9 digit Secure ID", Snackbar.LENGTH_SHORT).show();
+            return  false;
+        }else
+            return  true;
+    }
+   public static  boolean emailValidation(String email){
+       if (email.isEmpty() || !Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+         return  false;
+       }else return true;
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
