@@ -204,7 +204,7 @@ public class RegisterFragment extends Fragment {
              return  false;
         }
         else {
-//            myRef.setValue(secureID);
+            myRef.setValue(secureID);
 //            progressBar_register.setVisibility(View.VISIBLE);
             myRef.addValueEventListener(new ValueEventListener() {
                 @Override
@@ -214,7 +214,7 @@ public class RegisterFragment extends Fragment {
                     if (chance[0] == 0) {
                         chance[0] = 1;
                         myRef1.setValue(secureID);
-//                        Snackbar.make(viewPager, R.string.secureID_added_to_FirebaseDB, Snackbar.LENGTH_SHORT).show();
+                        Snackbar.make(viewPager, R.string.secureID_added_to_FirebaseDB, Snackbar.LENGTH_SHORT).show();
                     }
                    // progressBar_register.setVisibility(View.GONE);
                 }
@@ -224,7 +224,7 @@ public class RegisterFragment extends Fragment {
                     // if the data is not added or it is cancelled then
                     // we are displaying a failure toast message.
 //                    Toast.makeText(getActivity(), "Fail to add data " + error, Toast.LENGTH_SHORT).show();
-                  //  progressBar_register.setVisibility(View.GONE);
+                    progressBar_register.setVisibility(View.GONE);
                 }
             });
 
