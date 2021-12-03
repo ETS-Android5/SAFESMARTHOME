@@ -2273,6 +2273,7 @@ int id line3 0x7f0a011d
 int id linear 0x7f0a011e
 int id listMode 0x7f0a011f
 int id list_item 0x7f0a0120
+int id loader 0x7f0a023a
 int id loginbtn 0x7f0a0121
 int id masked 0x7f0a0122
 int id match_constraint 0x7f0a0123

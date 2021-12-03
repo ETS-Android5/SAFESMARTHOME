@@ -4,6 +4,7 @@
 package ca.team.safe.smart.home.it.safe.smart.home;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Patterns;
@@ -12,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
@@ -53,12 +55,14 @@ public class ReviewFragment extends Fragment{
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
+    ProgressBar loader;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_review, container, false);
         // Inflate the layout for this fragment
 
+        loader =  rootView.findViewById(R.id.loader);
         editTextFullName = (EditText) rootView.findViewById(R.id.editTextTextPersonName);
         editTextNumber = (EditText) rootView.findViewById(R.id.editTextPhone);
         editTextEmail = (EditText) rootView.findViewById(R.id.editTextTextEmailAddress);
@@ -75,16 +79,26 @@ public class ReviewFragment extends Fragment{
                 String email=editTextEmail.getText().toString();
                 String phone=editTextNumber.getText().toString();
                 String comment=edComment.getText().toString();
-                if (email.isEmpty() && !Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+                if (email.isEmpty() || !Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
                     Snackbar.make(rootView,"Please enter valid Email",Snackbar.LENGTH_SHORT).show();
+               editTextEmail.setError("Please enter valid Email");
                 }else if (phone.length()<10){
                     Snackbar.make(rootView,"Please enter valid Phone Number",Snackbar.LENGTH_SHORT).show();
+                    editTextNumber.setError("Please enter valid Phone Number");
                 }else if (comment.length()<1){
                     Snackbar.make(rootView,"Please enter comment",Snackbar.LENGTH_SHORT).show();
+                    edComment.setError("Please enter comment");
                 }else{
-
+                    loader.setVisibility(View.VISIBLE);
+                    Handler handler=new Handler();
+                    handler.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            loader.setVisibility(View.GONE);
+                            Snackbar.make(rootView, R.string.thank_you_message_submit, Snackbar.LENGTH_SHORT).show();
+                        }
+                    },3000);
                 }
-                Snackbar.make(rootView, R.string.thank_you_message_submit, Snackbar.LENGTH_SHORT).show();
             }
         });
 
