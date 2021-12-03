@@ -30,6 +30,7 @@ public class ReviewFragment extends Fragment{
 
     private String mParam1;
     private String mParam2;
+    private EditText editTextFullName;
 
     public ReviewFragment() {
         // Required empty public constructor
@@ -58,12 +59,12 @@ public class ReviewFragment extends Fragment{
         View rootView = inflater.inflate(R.layout.fragment_review, container, false);
         // Inflate the layout for this fragment
 
-        editTextName = (EditText) rootView.findViewById(R.id.editTextTextPersonName);
+        editTextFullName = (EditText) rootView.findViewById(R.id.editTextTextPersonName);
         editTextNumber = (EditText) rootView.findViewById(R.id.editTextPhone);
         editTextEmail = (EditText) rootView.findViewById(R.id.editTextTextEmailAddress);
         EditText edComment = (EditText) rootView.findViewById(R.id.textView5);
 
-        editTextName.addTextChangedListener(reviwTextWatcher);
+        editTextFullName.addTextChangedListener(reviwTextWatcher);
         editTextNumber.addTextChangedListener(reviwTextWatcher);
         editTextEmail.addTextChangedListener(reviwTextWatcher);
 
@@ -98,7 +99,7 @@ public class ReviewFragment extends Fragment{
 
         @Override
         public void onTextChanged(CharSequence s, int start, int before, int count) {
-            String nameInput = editTextName.getText().toString().trim();
+            String nameInput = editTextFullName.getText().toString().trim();
             String numberInput = editTextNumber.getText().toString().trim();
             String emailInput = editTextEmail.getText().toString().trim();
 

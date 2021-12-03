@@ -68,7 +68,7 @@
     <string name="fail_to_add_data">Échec de lajout de données</string>
     <string name="username">Nom dutilisateur</string>
     <string name="customer_review">Avis client</string>
-    <string name="name">Nom</string>
+    <string name="full_name">Nom et prénom</string>
     <string name="phone_number">Numéro de téléphone</string>
     <string name="email">email</string>
     <string name="comment">Commenter</string>

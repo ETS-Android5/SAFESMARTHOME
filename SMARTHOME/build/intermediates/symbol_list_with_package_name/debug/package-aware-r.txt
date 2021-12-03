@@ -2851,6 +2851,7 @@ string fire_control
 string fire_controls
 string firebase_database_url
 string french
+string full_name
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
@@ -2927,7 +2928,6 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
-string name
 string name_register
 string not_set
 string on_back_message

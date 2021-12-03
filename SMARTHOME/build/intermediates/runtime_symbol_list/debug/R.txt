@@ -2850,6 +2850,7 @@ int string fire_control 0x7f110057
 int string fire_controls 0x7f110058
 int string firebase_database_url 0x7f110059
 int string french 0x7f11005a
+int string full_name 0x7f1100e9
 int string gcm_defaultSenderId 0x7f11005b
 int string google_api_key 0x7f11005c
 int string google_app_id 0x7f11005d
@@ -2926,7 +2927,6 @@ int string mtrl_picker_toggle_to_calendar_input_mode 0x7f1100a3
 int string mtrl_picker_toggle_to_day_selection 0x7f1100a4
 int string mtrl_picker_toggle_to_text_input_mode 0x7f1100a5
 int string mtrl_picker_toggle_to_year_selection 0x7f1100a6
-int string name 0x7f1100a7
 int string name_register 0x7f1100a8
 int string not_set 0x7f1100a9
 int string on_back_message 0x7f1100aa
