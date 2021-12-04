@@ -94,13 +94,14 @@ public class RegisterFragment extends Fragment {
 
     }
 
-    public static  boolean secureIDValidation(String secureID){
+    public static boolean secureIDValidation(String secureID) {
         if (secureID.length() != 9) {
             // Snackbar.make(mView, "Please enter 9 digit Secure ID", Snackbar.LENGTH_SHORT).show();
-            return  false;
-        }else
-            return  true;
+            return false;
+        } else
+            return true;
     }
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -171,7 +172,7 @@ public class RegisterFragment extends Fragment {
                 String password = mPassword.getText().toString().trim();
                 String secureID = mFullName.getText().toString().trim();
 
-                register(email,password,secureID);
+                register(email, password, secureID);
             }
         });
 
@@ -180,7 +181,7 @@ public class RegisterFragment extends Fragment {
 
     }
 
-   public static boolean register(String email,String password,String secureID) {
+    public static boolean register(String email, String password, String secureID) {
         final int[] chance = {0};
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
@@ -189,22 +190,19 @@ public class RegisterFragment extends Fragment {
         if (!email.contains("gmail.com")) {
             Log.e("validation error", "please enter valid email address");
             Snackbar.make(mView, R.string.correct_email, Snackbar.LENGTH_SHORT).show();
-                        return  false;
+            return false;
         } else if (password.equals("")) {
-               Snackbar.make(mView, R.string.correct_password, Snackbar.LENGTH_SHORT).show();
-                        return  false;
-        }  else if(password.length()<8 ||  !isValidPassword(password))
+            Snackbar.make(mView, R.string.correct_password, Snackbar.LENGTH_SHORT).show();
+            return false;
+        } else if (password.length() < 8 || !isValidPassword(password)) {
 
-        {
-
-            Snackbar.make(mView,  R.string.Password_characters, Snackbar.LENGTH_SHORT).show();
-                        return  false;
-        }else if (!secureIDValidation(secureID)) {
-             Snackbar.make(mView, R.string.Enter_9_digit_secID, Snackbar.LENGTH_SHORT).show();
-             return  false;
-        }
-        else {
-            myRef.setValue(secureID);
+            Snackbar.make(mView, R.string.Password_characters, Snackbar.LENGTH_SHORT).show();
+            return false;
+        } else if (!secureIDValidation(secureID)) {
+            Snackbar.make(mView, R.string.Enter_9_digit_secID, Snackbar.LENGTH_SHORT).show();
+            return false;
+        } else {
+            // myRef.setValue(secureID);
 //            progressBar_register.setVisibility(View.VISIBLE);
             myRef.addValueEventListener(new ValueEventListener() {
                 @Override
@@ -214,9 +212,12 @@ public class RegisterFragment extends Fragment {
                     if (chance[0] == 0) {
                         chance[0] = 1;
                         myRef1.setValue(secureID);
-                        Snackbar.make(viewPager, R.string.secureID_added_to_FirebaseDB, Snackbar.LENGTH_SHORT).show();
+                        try {
+                            Snackbar.make(viewPager, R.string.secureID_added_to_FirebaseDB, Snackbar.LENGTH_SHORT).show();
+                        } catch (Exception e) {
+                        }
                     }
-                   // progressBar_register.setVisibility(View.GONE);
+                    // progressBar_register.setVisibility(View.GONE);
                 }
 
                 @Override
@@ -230,9 +231,7 @@ public class RegisterFragment extends Fragment {
 
             return true;
         }
-   }
-
-
+    }
 
 
 }

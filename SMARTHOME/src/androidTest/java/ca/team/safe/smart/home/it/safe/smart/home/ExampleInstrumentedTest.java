@@ -35,19 +35,6 @@ public class ExampleInstrumentedTest {
 
     // test to check if the preferred language
     // of user is displayed under the chosen language or not
-    @Test
-    public void selectLanguageAndCheck(){
-        onView(withId(R.id.buttonRegister)) // ViewMatchers - withId(R.id.german) is to
-                // specify that we are looking for Button
-                // with id = R.id.german
-                .perform(click()); // ViewActions - Performs click action on view.
-        onView(withId(R.id.buttonRegister)) // ViewMatchers - withId(R.id.preferred_language)
-                // is to specify that we are looking for a TextView
-                // with id = R.id.preferred_language
-                .check(matches(withText("Register"))); // ViewAssertions - validates if preferred_language
-        // matches with the text "German" since we
-        // pressed german language button.
 
-    }
 
 }

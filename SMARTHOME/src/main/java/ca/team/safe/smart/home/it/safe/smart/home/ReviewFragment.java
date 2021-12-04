@@ -17,6 +17,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.RatingBar;
 import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
@@ -60,6 +61,7 @@ public class ReviewFragment extends Fragment{
         }
     }
     ProgressBar loader;
+    RatingBar ratingBar;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -70,6 +72,7 @@ public class ReviewFragment extends Fragment{
         editTextFullName = (EditText) rootView.findViewById(R.id.editTextTextPersonName);
         editTextNumber = (EditText) rootView.findViewById(R.id.editTextPhone);
         editTextEmail = (EditText) rootView.findViewById(R.id.editTextTextEmailAddress);
+        ratingBar =  rootView.findViewById(R.id.ratingBar);
         EditText edComment = (EditText) rootView.findViewById(R.id.textView5);
         FloatingActionButton fab = rootView.findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -127,6 +130,8 @@ public class ReviewFragment extends Fragment{
                             editTextEmail.setText("");
                             editTextNumber.setText("");
                             edComment.setText("");
+                            ratingBar.setRating(0F);
+
                         }
                     },3000);
                 }
