@@ -93,17 +93,19 @@ public class ReviewFragment extends Fragment{
             }
         });
 
-        editTextFullName.addTextChangedListener(reviwTextWatcher);
-        editTextNumber.addTextChangedListener(reviwTextWatcher);
-        editTextEmail.addTextChangedListener(reviwTextWatcher);
+        editTextFullName.addTextChangedListener(reviewTextWatcher);
+        editTextNumber.addTextChangedListener(reviewTextWatcher);
+        editTextEmail.addTextChangedListener(reviewTextWatcher);
 
         review = (Button) rootView.findViewById(R.id.review_btn);
         review.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 String email=editTextEmail.getText().toString();
                 String phone=editTextNumber.getText().toString();
                 String comment=edComment.getText().toString();
+
                 if (email.isEmpty() || !Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
                     Snackbar.make(rootView,"Please enter valid Email",Snackbar.LENGTH_SHORT).show();
                editTextEmail.setError("Please enter valid Email");
@@ -121,6 +123,10 @@ public class ReviewFragment extends Fragment{
                         public void run() {
                             loader.setVisibility(View.GONE);
                             Snackbar.make(rootView, R.string.thank_you_message_submit, Snackbar.LENGTH_SHORT).show();
+                            editTextFullName.setText("");
+                            editTextEmail.setText("");
+                            editTextNumber.setText("");
+                            edComment.setText("");
                         }
                     },3000);
                 }
@@ -130,7 +136,7 @@ public class ReviewFragment extends Fragment{
         return rootView;
     }
 
-    TextWatcher reviwTextWatcher = new TextWatcher() {
+    TextWatcher reviewTextWatcher = new TextWatcher() {
         @Override
         public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
