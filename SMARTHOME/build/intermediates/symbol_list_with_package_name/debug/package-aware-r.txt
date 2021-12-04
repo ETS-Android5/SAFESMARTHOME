@@ -2216,7 +2216,6 @@ id fixed
 id flip
 id floating
 id forever
-id fragmentLogin
 id fragmentResgister
 id fragmentReview
 id fragment_container_view_tag
@@ -2651,7 +2650,6 @@ layout expand_button
 layout fragment_address
 layout fragment_control
 layout fragment_fire
-layout fragment_login
 layout fragment_main
 layout fragment_register
 layout fragment_review

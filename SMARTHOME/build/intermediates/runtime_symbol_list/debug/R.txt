@@ -2215,7 +2215,6 @@ int id fixed 0x7f0a00e2
 int id flip 0x7f0a00e3
 int id floating 0x7f0a00e4
 int id forever 0x7f0a00e5
-int id fragmentLogin 0x7f0a00e6
 int id fragmentResgister 0x7f0a00e7
 int id fragmentReview 0x7f0a00e8
 int id fragment_container_view_tag 0x7f0a00e9
@@ -2650,7 +2649,6 @@ int layout expand_button 0x7f0d0031
 int layout fragment_address 0x7f0d0032
 int layout fragment_control 0x7f0d0033
 int layout fragment_fire 0x7f0d0034
-int layout fragment_login 0x7f0d0035
 int layout fragment_main 0x7f0d0036
 int layout fragment_register 0x7f0d0037
 int layout fragment_review 0x7f0d0038

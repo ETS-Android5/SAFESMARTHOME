@@ -188,7 +188,7 @@ public class RegisterFragment extends Fragment {
 
         if (!email.contains("gmail.com")) {
             Log.e("validation error", "please enter valid email address");
-//            Snackbar.make(mView, R.string.correct_email, Snackbar.LENGTH_SHORT).show();
+            Snackbar.make(mView, R.string.correct_email, Snackbar.LENGTH_SHORT).show();
                         return  false;
         } else if (password.equals("")) {
                Snackbar.make(mView, R.string.correct_password, Snackbar.LENGTH_SHORT).show();
