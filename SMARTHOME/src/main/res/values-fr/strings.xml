@@ -22,6 +22,11 @@
     <string name="controls_temp_set">\"Température réglée sur: \"</string>
     <string name="controls_degrees_c">°C</string>
     <string name="controls_switch_stage">switch_stage</string>
+    <string name="close_activity">Activité de clôture</string>
+    <string name="are_you_sure">Êtes-vous sûr de vouloir vous déconnecter?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="street_Address">Adresse de la rue</string>
     <string name="PREFS">PREFS</string>
     <string name="home_control">Contrôles à la maisonl</string>
     <string name="fire_controls">Contrôles dincendie</string>

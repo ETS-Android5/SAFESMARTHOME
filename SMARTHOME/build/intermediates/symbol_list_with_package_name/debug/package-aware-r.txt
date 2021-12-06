@@ -2794,6 +2794,7 @@ string ac
 string ac_on_off
 string app_name
 string appbar_scrolling_view_behavior
+string are_you_sure
 string attachment_summary_off
 string attachment_summary_on
 string attachment_title
@@ -2805,6 +2806,7 @@ string character_counter_pattern
 string chip_text
 string city
 string clear_text_end_icon_content_description
+string close_activity
 string comment
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
@@ -2930,6 +2932,7 @@ string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string name_register
+string no
 string not_set
 string on_back_message
 string on_back_no
@@ -2967,6 +2970,7 @@ string splash_screen_image
 string splash_title
 string status_bar_notification_info_overflow
 string streetAddress
+string street_Address
 string street_address
 string street_address_hint
 string submit
@@ -2986,6 +2990,7 @@ string v7_preference_off
 string v7_preference_on
 string version_good
 string version_less
+string yes
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

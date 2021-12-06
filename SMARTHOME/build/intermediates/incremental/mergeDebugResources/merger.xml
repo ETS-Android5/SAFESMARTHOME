@@ -8130,7 +8130,7 @@
         <item>YT</item>
         <item>NU</item>
         <item>NT</item>
-    </string-array><string name="messages_header">Messages</string><string name="sync_header">Sync</string><string name="signature_title">Your signature</string><string name="reply_title">Default reply action</string><string name="sync_title">Sync email periodically</string><string name="attachment_title">Download incoming attachments</string><string name="attachment_summary_on">Automatically download attachments for incoming emails</string><string name="attachment_summary_off">Only download attachments when manually requested</string></file><file path="C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.SAFESMARTHOME" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    </string-array><string name="messages_header">Messages</string><string name="sync_header">Sync</string><string name="signature_title">Your signature</string><string name="reply_title">Default reply action</string><string name="sync_title">Sync email periodically</string><string name="attachment_title">Download incoming attachments</string><string name="attachment_summary_on">Automatically download attachments for incoming emails</string><string name="attachment_summary_off">Only download attachments when manually requested</string><string name="are_you_sure">Are you sure you want to Logout?</string><string name="close_activity">Closing Activity</string><string name="yes">Yes</string><string name="no">No</string><string name="street_Address">streetAddress</string></file><file path="C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.SAFESMARTHOME" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/gray</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -8159,7 +8159,7 @@
         <item>Nunavut</item>
         <item>Territoires du Nord-Ouest</item>
         <item>Yukon</item>
-    </string-array></file><file path="C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Theme.SAFESMARTHOME" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    </string-array><string name="yes">Oui</string><string name="are_you_sure">Êtes-vous sûr de vouloir vous déconnecter?</string><string name="close_activity">Activité de clôture</string><string name="no">Non</string><string name="street_Address">Adresse de la rue</string></file><file path="C:\Users\shrig.LAPTOP-LHA4VPAT\AndroidStudioProjects\SAFESMARTHOME\SMARTHOME\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Theme.SAFESMARTHOME" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_200</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>

@@ -2793,6 +2793,7 @@ int string ac 0x7f110025
 int string ac_on_off 0x7f110026
 int string app_name 0x7f110027
 int string appbar_scrolling_view_behavior 0x7f110028
+int string are_you_sure 0x7f1100e9
 int string attachment_summary_off 0x7f110029
 int string attachment_summary_on 0x7f11002a
 int string attachment_title 0x7f11002b
@@ -2804,6 +2805,7 @@ int string character_counter_pattern 0x7f110030
 int string chip_text 0x7f110031
 int string city 0x7f110032
 int string clear_text_end_icon_content_description 0x7f110033
+int string close_activity 0x7f1100ea
 int string comment 0x7f110034
 int string common_google_play_services_enable_button 0x7f110035
 int string common_google_play_services_enable_text 0x7f110036
@@ -2929,6 +2931,7 @@ int string mtrl_picker_toggle_to_day_selection 0x7f1100ad
 int string mtrl_picker_toggle_to_text_input_mode 0x7f1100ae
 int string mtrl_picker_toggle_to_year_selection 0x7f1100af
 int string name_register 0x7f1100b0
+int string no 0x7f1100eb
 int string not_set 0x7f1100b1
 int string on_back_message 0x7f1100b2
 int string on_back_no 0x7f1100b3
@@ -2966,6 +2969,7 @@ int string splash_screen_image 0x7f1100d2
 int string splash_title 0x7f1100d3
 int string status_bar_notification_info_overflow 0x7f1100d4
 int string streetAddress 0x7f1100d5
+int string street_Address 0x7f1100ed
 int string street_address 0x7f1100d6
 int string street_address_hint 0x7f1100d7
 int string submit 0x7f1100d8
@@ -2985,6 +2989,7 @@ int string v7_preference_off 0x7f1100e5
 int string v7_preference_on 0x7f1100e6
 int string version_good 0x7f1100e7
 int string version_less 0x7f1100e8
+int string yes 0x7f1100ec
 int style AlertDialog_AppCompat 0x7f120000
 int style AlertDialog_AppCompat_Light 0x7f120001
 int style AndroidThemeColorAccentYellow 0x7f120002

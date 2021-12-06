@@ -27,6 +27,11 @@
     <string name="controls_temp_set">Temperature set to: </string>
     <string name="controls_degrees_c">°C</string>
     <string name="controls_switch_stage">switch_stage</string>
+    <string name="close_activity">Closing Activity</string>
+    <string name="are_you_sure">Are you sure you want to Logout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="street_Address">streetAddress</string>
     <string name="PREFS">PREFS</string>
     <string name="home_control">Home Controls</string>
     <string name="fire_controls">Fire Controls</string>
