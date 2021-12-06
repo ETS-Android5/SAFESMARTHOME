@@ -125,16 +125,7 @@ public class AddressFragment extends Fragment {
 
         // below line is used to get reference for our database.
         databaseReference = firebaseDatabase.getReference();
-//        editTextTextPostalAddress.setText(streetAddress);
-//        editTextTextCity.setText(city);
-//
-//        try {
-//            ArrayAdapter myAdap = (ArrayAdapter) spinner.getAdapter();
-//            int spinnerPosition = myAdap.getPosition(LoginFragment.provinces);
-//            spinner.setSelection(spinnerPosition);
-//        }catch (Exception e){}
-//        editTextTextPostalAddress2.setText(postalcode);
-//        editTextTextCountry.setText(country);
+
         buttonInsert.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -206,7 +197,7 @@ public class AddressFragment extends Fragment {
                 try {
                     streetAddress = map.get("streetAddress");
                     city = map.get("city");
-                    provinces = map.get("province");
+                    provinces = map.get("provinces");
                     postalcode = map.get("postalcode");
                     country = map.get("country");
 
