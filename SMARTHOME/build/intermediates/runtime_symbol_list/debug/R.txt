@@ -2763,6 +2763,7 @@ int string Password_characters 0x7f110007
 int string Permission_DENIED 0x7f1100f1
 int string Permission_GRANTED 0x7f1100f2
 int string Permission_needed 0x7f1100f4
+int string Permission_this_that 0x7f1100f5
 int string Please_enter_comment 0x7f1100ee
 int string Please_enter_valid_email 0x7f1100ef
 int string Please_enter_valid_phone_no 0x7f1100f0

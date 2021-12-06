@@ -2764,6 +2764,7 @@ string Password_characters
 string Permission_DENIED
 string Permission_GRANTED
 string Permission_needed
+string Permission_this_that
 string Please_enter_comment
 string Please_enter_valid_email
 string Please_enter_valid_phone_no

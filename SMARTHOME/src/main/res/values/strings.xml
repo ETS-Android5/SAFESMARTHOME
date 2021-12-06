@@ -32,6 +32,7 @@
     <string name="Permission_GRANTED">Permission GRANTED</string>
     <string name="Permission_DENIED">Permission DENIED</string>
     <string name="Permission_needed">Permission needed</string>
+    <string name="Permission_this_that">This permission is needed because of this and that</string>
     <string name="controls_degrees_c">°C</string>
     <string name="controls_switch_stage">switch_stage</string>
     <string name="close_activity">Closing Activity</string>

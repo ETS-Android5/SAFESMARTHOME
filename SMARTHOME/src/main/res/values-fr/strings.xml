@@ -27,6 +27,7 @@
     <string name="Permission_GRANTED">Permission accordée</string>
     <string name="Permission_DENIED">Permission refusée</string>
     <string name="Permission_needed">Autorisation requise</string>
+    <string name="Permission_this_that">Cette autorisation est nécessaire à cause de ceci et cela</string>
     <string name="controls_degrees_c">°C</string>
     <string name="controls_switch_stage">switch_stage</string>
     <string name="close_activity">Activité de clôture</string>

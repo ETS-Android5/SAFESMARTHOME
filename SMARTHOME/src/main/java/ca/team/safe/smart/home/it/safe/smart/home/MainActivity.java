@@ -161,7 +161,7 @@ public class MainActivity extends AppCompatActivity {
 
             new AlertDialog.Builder(this)
                     .setTitle(R.string.Permission_needed)
-                    .setMessage("This permission is needed because of this and that")
+                    .setMessage(R.string.Permission_this_that)
                     .setPositiveButton("ok", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
