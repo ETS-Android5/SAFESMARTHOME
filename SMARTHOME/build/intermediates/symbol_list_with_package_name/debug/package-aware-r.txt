@@ -2761,6 +2761,9 @@ string No_intruder
 string No_smoke_detected
 string PREFS
 string Password_characters
+string Permission_DENIED
+string Permission_GRANTED
+string Permission_needed
 string Please_enter_comment
 string Please_enter_valid_email
 string Please_enter_valid_phone_no
@@ -2803,6 +2806,7 @@ string attachment_summary_on
 string attachment_title
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
+string cancel
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern

@@ -23,7 +23,10 @@
     <string name="Please_enter_valid_email">Veuillez entrer un e-mail valide</string>
     <string name="Please_enter_valid_phone_no">S\'il vous plait entrez un numéro de téléphone valide</string>
     <string name="Please_enter_comment">Veuillez entrer un commentaire</string>
-
+    <string name="cancel">Annuler</string>
+    <string name="Permission_GRANTED">Permission accordée</string>
+    <string name="Permission_DENIED">Permission refusée</string>
+    <string name="Permission_needed">Autorisation requise</string>
     <string name="controls_degrees_c">°C</string>
     <string name="controls_switch_stage">switch_stage</string>
     <string name="close_activity">Activité de clôture</string>

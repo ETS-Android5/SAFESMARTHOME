@@ -160,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
                 Manifest.permission.CAMERA)) {
 
             new AlertDialog.Builder(this)
-                    .setTitle("Permission needed")
+                    .setTitle(R.string.Permission_needed)
                     .setMessage("This permission is needed because of this and that")
                     .setPositiveButton("ok", new DialogInterface.OnClickListener() {
                         @Override
@@ -169,7 +169,7 @@ public class MainActivity extends AppCompatActivity {
                                     new String[]{Manifest.permission.CAMERA}, camera_code);
                         }
                     })
-                    .setNegativeButton("cancel", new DialogInterface.OnClickListener() {
+                    .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             dialog.dismiss();
@@ -187,9 +187,9 @@ public class MainActivity extends AppCompatActivity {
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         if (requestCode == camera_code) {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                Toast.makeText(this, "Permission GRANTED", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string.Permission_GRANTED, Toast.LENGTH_SHORT).show();
             } else {
-                Toast.makeText(this, "Permission DENIED", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string.Permission_DENIED, Toast.LENGTH_SHORT).show();
             }
             super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         }

@@ -2760,6 +2760,9 @@ int string No_intruder 0x7f110004
 int string No_smoke_detected 0x7f110005
 int string PREFS 0x7f110006
 int string Password_characters 0x7f110007
+int string Permission_DENIED 0x7f1100f1
+int string Permission_GRANTED 0x7f1100f2
+int string Permission_needed 0x7f1100f4
 int string Please_enter_comment 0x7f1100ee
 int string Please_enter_valid_email 0x7f1100ef
 int string Please_enter_valid_phone_no 0x7f1100f0
@@ -2802,6 +2805,7 @@ int string attachment_summary_on 0x7f11002b
 int string attachment_title 0x7f11002c
 int string bottom_sheet_behavior 0x7f11002d
 int string bottomsheet_action_expand_halfway 0x7f11002e
+int string cancel 0x7f1100f3
 int string character_counter_content_description 0x7f11002f
 int string character_counter_overflowed_content_description 0x7f110030
 int string character_counter_pattern 0x7f110031
