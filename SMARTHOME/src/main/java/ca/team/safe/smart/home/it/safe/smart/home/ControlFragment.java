@@ -76,9 +76,9 @@ public class ControlFragment extends Fragment {
             public void onClick(View v) {
                 new AlertDialog.Builder(requireContext())
                         .setIcon(android.R.drawable.ic_dialog_alert)
-                        .setTitle("Closing Activity")
-                        .setMessage("Are you sure you want to Logout?")
-                        .setPositiveButton("Yes", new DialogInterface.OnClickListener()
+                        .setTitle(R.string.close_activity)
+                        .setMessage(R.string.are_you_sure)
+                        .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener()
                         {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -87,7 +87,7 @@ public class ControlFragment extends Fragment {
                             }
 
                         })
-                        .setNegativeButton("No", null)
+                        .setNegativeButton(R.string.no, null)
                         .show();
             }
         });

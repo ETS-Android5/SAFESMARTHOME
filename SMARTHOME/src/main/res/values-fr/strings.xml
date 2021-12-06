@@ -20,6 +20,7 @@
     <string name="smoke_status">Fumée</string>
     <string name="humidity_status">Humidité</string>
     <string name="controls_temp_set">\"Température réglée sur: \"</string>
+
     <string name="controls_degrees_c">°C</string>
     <string name="controls_switch_stage">switch_stage</string>
     <string name="close_activity">Activité de clôture</string>
