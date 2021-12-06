@@ -217,7 +217,7 @@ public class RegisterFragment extends Fragment {
                         } catch (Exception e) {
                         }
                     }
-                    // progressBar_register.setVisibility(View.GONE);
+
                 }
 
                 @Override
