@@ -25,6 +25,9 @@
     <string name="smoke_status">Smoke</string>
     <string name="humidity_status">Humidity</string>
     <string name="controls_temp_set">Temperature set to: </string>
+    <string name="Please_enter_valid_email">Please enter valid Email</string>
+    <string name="Please_enter_valid_phone_no">Please enter valid Phone Number</string>
+    <string name="Please_enter_comment">Please enter comment</string>
 
     <string name="controls_degrees_c">°C</string>
     <string name="controls_switch_stage">switch_stage</string>

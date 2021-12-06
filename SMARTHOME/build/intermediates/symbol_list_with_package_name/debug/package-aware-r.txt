@@ -2761,6 +2761,9 @@ string No_intruder
 string No_smoke_detected
 string PREFS
 string Password_characters
+string Please_enter_comment
+string Please_enter_valid_email
+string Please_enter_valid_phone_no
 string Register_btn
 string Settings_page
 string abc_action_bar_home_description

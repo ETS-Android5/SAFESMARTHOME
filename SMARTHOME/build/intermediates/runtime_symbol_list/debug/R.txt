@@ -2760,6 +2760,9 @@ int string No_intruder 0x7f110004
 int string No_smoke_detected 0x7f110005
 int string PREFS 0x7f110006
 int string Password_characters 0x7f110007
+int string Please_enter_comment 0x7f1100ee
+int string Please_enter_valid_email 0x7f1100ef
+int string Please_enter_valid_phone_no 0x7f1100f0
 int string Register_btn 0x7f110008
 int string Settings_page 0x7f110009
 int string abc_action_bar_home_description 0x7f11000a

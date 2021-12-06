@@ -80,9 +80,9 @@ public class ReviewFragment extends Fragment{
             public void onClick(View v) {
                 new AlertDialog.Builder(requireContext())
                         .setIcon(android.R.drawable.ic_dialog_alert)
-                        .setTitle("Closing Activity")
-                        .setMessage("Are you sure you want to Logout?")
-                        .setPositiveButton("Yes", new DialogInterface.OnClickListener()
+                        .setTitle(R.string.close_activity)
+                        .setMessage(R.string.are_you_sure)
+                        .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener()
                         {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -91,7 +91,7 @@ public class ReviewFragment extends Fragment{
                             }
 
                         })
-                        .setNegativeButton("No", null)
+                        .setNegativeButton(R.string.no, null)
                         .show();
             }
         });
@@ -110,13 +110,13 @@ public class ReviewFragment extends Fragment{
                 String comment=edComment.getText().toString();
 
                 if (email.isEmpty() || !Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-                    Snackbar.make(rootView,"Please enter valid Email",Snackbar.LENGTH_SHORT).show();
+                    Snackbar.make(rootView,R.string.Please_enter_valid_email,Snackbar.LENGTH_SHORT).show();
                editTextEmail.setError("Please enter valid Email");
                 }else if (phone.length()<10){
-                    Snackbar.make(rootView,"Please enter valid Phone Number",Snackbar.LENGTH_SHORT).show();
+                    Snackbar.make(rootView,R.string.Please_enter_valid_phone_no,Snackbar.LENGTH_SHORT).show();
                     editTextNumber.setError("Please enter valid Phone Number");
                 }else if (comment.length()<1){
-                    Snackbar.make(rootView,"Please enter comment",Snackbar.LENGTH_SHORT).show();
+                    Snackbar.make(rootView,R.string.Please_enter_comment,Snackbar.LENGTH_SHORT).show();
                     edComment.setError("Please enter comment");
                 }else{
                     loader.setVisibility(View.VISIBLE);
