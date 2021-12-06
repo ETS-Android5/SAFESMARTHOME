@@ -46,10 +46,14 @@ ca/team/safe/smart/home/it/safe/smart/home/LoginSep.java
 ca/team/safe/smart/home/it/safe/smart/home/ui/main/PlaceholderFragment.java
  ca.team.safe.smart.home.it.safe.smart.home.ui.main.PlaceholderFragment
  ca.team.safe.smart.home.it.safe.smart.home.ui.main.PlaceholderFragment$1
-ca/team/safe/smart/home/it/safe/smart/home/FireFragment.java
- ca.team.safe.smart.home.it.safe.smart.home.FireFragment
- ca.team.safe.smart.home.it.safe.smart.home.FireFragment$1
- ca.team.safe.smart.home.it.safe.smart.home.FireFragment$1$1
+ca/team/safe/smart/home/it/safe/smart/home/StatusFragment.java
+ ca.team.safe.smart.home.it.safe.smart.home.StatusFragment
+ ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$1
+ ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$2
+ ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$3
+ ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$4
+ ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$5
+ ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$5$1
 ca/team/safe/smart/home/it/safe/smart/home/ControlFragment.java
  ca.team.safe.smart.home.it.safe.smart.home.ControlFragment
  ca.team.safe.smart.home.it.safe.smart.home.ControlFragment$1
@@ -61,13 +65,9 @@ ca/team/safe/smart/home/it/safe/smart/home/Splash.java
  ca.team.safe.smart.home.it.safe.smart.home.Splash$1
  ca.team.safe.smart.home.it.safe.smart.home.Splash$2
  ca.team.safe.smart.home.it.safe.smart.home.Splash$3
-ca/team/safe/smart/home/it/safe/smart/home/StatusFragment.java
- ca.team.safe.smart.home.it.safe.smart.home.StatusFragment
- ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$1
- ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$2
- ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$3
- ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$4
- ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$5
- ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$5$1
+ca/team/safe/smart/home/it/safe/smart/home/FireFragment.java
+ ca.team.safe.smart.home.it.safe.smart.home.FireFragment
+ ca.team.safe.smart.home.it.safe.smart.home.FireFragment$1
+ ca.team.safe.smart.home.it.safe.smart.home.FireFragment$1$1
 ca/team/safe/smart/home/it/safe/smart/home/ui/main/SectionsPagerAdapter.java
  ca.team.safe.smart.home.it.safe.smart.home.ui.main.SectionsPagerAdapter
