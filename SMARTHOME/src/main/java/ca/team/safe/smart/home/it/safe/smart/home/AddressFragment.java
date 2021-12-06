@@ -159,18 +159,11 @@ public class AddressFragment extends Fragment {
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
 
 
-                //french
-//                Configuration conf = getResources().getConfiguration();
-//                conf.locale = new Locale("fr");
-//                DisplayMetrics metrics = new DisplayMetrics();
-//                getActivity().getWindowManager().getDefaultDisplay().getMetrics(metrics);
-//                Resources resources = new Resources(getActivity().getAssets(), metrics, conf);
-//                String nameFrench = resources.getStringArray(R.array.provinces_name)[i];
-//                Toast.makeText(getActivity(), nameFrench, Toast.LENGTH_SHORT).show();
-//
+
+
                 //for english
                 String name_english = getResources().getStringArray(R.array.provinces_fullname)[i];
-//               Toast.makeText(view.getContext(), "name_english", Toast.LENGTH_SHORT).show();
+
                 try {
                     if (isSpinnerTouched)
                     Snackbar.make(view, name_english, Snackbar.LENGTH_SHORT).show();
@@ -283,12 +276,12 @@ public class AddressFragment extends Fragment {
                 // data base reference will sends data to firebase.
                 if (size==0 && !editTextTextCity.getText().toString().equals("")) {
                     databaseReference1 = firebaseDatabase.getReference("secureID0").child("customer_address");
-//                Snackbar.make(viewPager, "secureID " + snapshot.getChildrenCount() + " added", Snackbar.LENGTH_SHORT).show();
+
 
                     size++;
 
                     try {
-//                        if (!snapshot.getValue().toString().trim().contains(secureID)) {
+
                         databaseReference1.setValue(addressModel);
                         // after adding this data we are showing toast message.
             Snackbar.make(viewPager, R.string.Customer_address_added, Snackbar.LENGTH_SHORT).show();
@@ -299,7 +292,7 @@ public class AddressFragment extends Fragment {
                         editTextTextPostalAddress2.setText("");
                         spinner.setSelection(0);
 
-                        //                        }
+
 
                     } catch (Exception e) {
                     }

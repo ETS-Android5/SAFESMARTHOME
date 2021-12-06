@@ -54,6 +54,11 @@ ca/team/safe/smart/home/it/safe/smart/home/LoginSep.java
  ca.team.safe.smart.home.it.safe.smart.home.LoginSep$1
  ca.team.safe.smart.home.it.safe.smart.home.LoginSep$2
  ca.team.safe.smart.home.it.safe.smart.home.LoginSep$3
+ca/team/safe/smart/home/it/safe/smart/home/Splash.java
+ ca.team.safe.smart.home.it.safe.smart.home.Splash
+ ca.team.safe.smart.home.it.safe.smart.home.Splash$1
+ ca.team.safe.smart.home.it.safe.smart.home.Splash$2
+ ca.team.safe.smart.home.it.safe.smart.home.Splash$3
 ca/team/safe/smart/home/it/safe/smart/home/AddressFragment.java
  ca.team.safe.smart.home.it.safe.smart.home.AddressFragment
  ca.team.safe.smart.home.it.safe.smart.home.AddressFragment$1
@@ -66,8 +71,3 @@ ca/team/safe/smart/home/it/safe/smart/home/AddressFragment.java
  ca.team.safe.smart.home.it.safe.smart.home.AddressFragment$7
 ca/team/safe/smart/home/it/safe/smart/home/ui/main/SectionsPagerAdapter.java
  ca.team.safe.smart.home.it.safe.smart.home.ui.main.SectionsPagerAdapter
-ca/team/safe/smart/home/it/safe/smart/home/Splash.java
- ca.team.safe.smart.home.it.safe.smart.home.Splash
- ca.team.safe.smart.home.it.safe.smart.home.Splash$1
- ca.team.safe.smart.home.it.safe.smart.home.Splash$2
- ca.team.safe.smart.home.it.safe.smart.home.Splash$3
