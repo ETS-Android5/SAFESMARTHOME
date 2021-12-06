@@ -29,7 +29,7 @@ public class LoginSep extends AppCompatActivity {
     View view;
     public static  boolean secureIDValidation(String secureID){
         if (secureID.length() != 9) {
-            // Snackbar.make(mView, "Please enter 9 digit Secure ID", Snackbar.LENGTH_SHORT).show();
+
             return  false;
         }else
             return  true;
@@ -66,7 +66,7 @@ public class LoginSep extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                     String key = snapshot.getKey();
-                  //  Snackbar.make(view, "abcd"+key, Snackbar.LENGTH_SHORT).show();
+
             }
 
             @Override
