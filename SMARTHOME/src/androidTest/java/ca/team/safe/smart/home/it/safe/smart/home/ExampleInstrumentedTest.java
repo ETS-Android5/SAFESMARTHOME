@@ -36,5 +36,4 @@ public class ExampleInstrumentedTest {
     // test to check if the preferred language
     // of user is displayed under the chosen language or not
 
-
 }
