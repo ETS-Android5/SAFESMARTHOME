@@ -15,7 +15,9 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-
+    aaptOptions {
+        cruncherEnabled = false
+    }
     buildTypes {
         release {
             minifyEnabled false
