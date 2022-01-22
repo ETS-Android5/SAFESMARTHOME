@@ -2002,6 +2002,7 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id about
 id ac_on_off
 id accelerate
 id accessibility_action_clickable_span
@@ -2753,6 +2754,7 @@ mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+string About
 string Customer_address_added
 string Enter_9_digit_secID
 string Heat_ON

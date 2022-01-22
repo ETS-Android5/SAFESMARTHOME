@@ -2001,6 +2001,7 @@ int id SHOW_PROGRESS 0x7f0a000c
 int id SYM 0x7f0a000d
 int id TOP_END 0x7f0a000e
 int id TOP_START 0x7f0a000f
+int id about 0x7f0a023b
 int id ac_on_off 0x7f0a0010
 int id accelerate 0x7f0a0011
 int id accessibility_action_clickable_span 0x7f0a0012
@@ -2752,6 +2753,7 @@ int mipmap ic_launcher 0x7f0f0000
 int mipmap ic_launcher_foreground 0x7f0f0001
 int mipmap ic_launcher_round 0x7f0f0002
 int plurals mtrl_badge_content_description 0x7f100000
+int string About 0x7f1100f6
 int string Customer_address_added 0x7f110000
 int string Enter_9_digit_secID 0x7f110001
 int string Heat_ON 0x7f110002
