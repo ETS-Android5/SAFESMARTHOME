@@ -101,6 +101,7 @@
     <string name="NO_Humidity">Pas d\'humidité</string>
     <string name="No_smoke_detected">aucune fumée détectée</string>
     <string name="No_intruder">Pas d\'intrus</string>
+    <string name="About">sur</string>
     <!-- Preference Titles -->
     <string name="messages_header">messages</string>
     <string name="sync_header">Synchroniser</string>

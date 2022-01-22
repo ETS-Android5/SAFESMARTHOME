@@ -20,4 +20,7 @@
     <item android:id="@+id/motion_on_off"
         android:title="@string/motion_on_off"/>
 
+    <item android:id="@+id/about"
+        android:title="About"/>
+
 </menu>
