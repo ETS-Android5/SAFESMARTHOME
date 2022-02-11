@@ -108,6 +108,7 @@
     <string name="NO_Humidity">No Humidity</string>
     <string name="No_smoke_detected">No Smoke Detected</string>
     <string name="No_intruder">No Intruder</string>
+    <string name="help">Help</string>
     <string name="About">About</string>
     <string-array name="provinces_fullname">
         <item></item>
