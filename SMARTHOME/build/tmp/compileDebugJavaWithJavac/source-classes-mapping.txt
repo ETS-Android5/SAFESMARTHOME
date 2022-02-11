@@ -1,12 +1,3 @@
-ca/team/safe/smart/home/it/safe/smart/home/LoginModel.java
- ca.team.safe.smart.home.it.safe.smart.home.LoginModel
-ca/team/safe/smart/home/it/safe/smart/home/ui/main/PageViewModel.java
- ca.team.safe.smart.home.it.safe.smart.home.ui.main.PageViewModel
- ca.team.safe.smart.home.it.safe.smart.home.ui.main.PageViewModel$1
-ca/team/safe/smart/home/it/safe/smart/home/AddressModel.java
- ca.team.safe.smart.home.it.safe.smart.home.AddressModel
-ca/team/safe/smart/home/it/safe/smart/home/BuildConfig.java
- ca.team.safe.smart.home.it.safe.smart.home.BuildConfig
 ca/team/safe/smart/home/it/safe/smart/home/MainActivity.java
  ca.team.safe.smart.home.it.safe.smart.home.MainActivity
  ca.team.safe.smart.home.it.safe.smart.home.MainActivity$1
@@ -20,6 +11,8 @@ ca/team/safe/smart/home/it/safe/smart/home/ReviewFragment.java
  ca.team.safe.smart.home.it.safe.smart.home.ReviewFragment$2
  ca.team.safe.smart.home.it.safe.smart.home.ReviewFragment$2$1
  ca.team.safe.smart.home.it.safe.smart.home.ReviewFragment$3
+ca/team/safe/smart/home/it/safe/smart/home/AddressModel.java
+ ca.team.safe.smart.home.it.safe.smart.home.AddressModel
 ca/team/safe/smart/home/it/safe/smart/home/StatusFragment.java
  ca.team.safe.smart.home.it.safe.smart.home.StatusFragment
  ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$1
@@ -28,14 +21,8 @@ ca/team/safe/smart/home/it/safe/smart/home/StatusFragment.java
  ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$4
  ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$5
  ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$5$1
-ca/team/safe/smart/home/it/safe/smart/home/SettingsFragment.java
- ca.team.safe.smart.home.it.safe.smart.home.SettingsFragment
-ca/team/safe/smart/home/it/safe/smart/home/RegisterFragment.java
- ca.team.safe.smart.home.it.safe.smart.home.RegisterFragment
- ca.team.safe.smart.home.it.safe.smart.home.RegisterFragment$1
- ca.team.safe.smart.home.it.safe.smart.home.RegisterFragment$2
- ca.team.safe.smart.home.it.safe.smart.home.RegisterFragment$3
- ca.team.safe.smart.home.it.safe.smart.home.RegisterFragment$4
+ca/team/safe/smart/home/it/safe/smart/home/LoginModel.java
+ ca.team.safe.smart.home.it.safe.smart.home.LoginModel
 ca/team/safe/smart/home/it/safe/smart/home/LoginSep.java
  ca.team.safe.smart.home.it.safe.smart.home.LoginSep
  ca.team.safe.smart.home.it.safe.smart.home.LoginSep$1
@@ -44,10 +31,30 @@ ca/team/safe/smart/home/it/safe/smart/home/LoginSep.java
 ca/team/safe/smart/home/it/safe/smart/home/ui/main/PlaceholderFragment.java
  ca.team.safe.smart.home.it.safe.smart.home.ui.main.PlaceholderFragment
  ca.team.safe.smart.home.it.safe.smart.home.ui.main.PlaceholderFragment$1
+ca/team/safe/smart/home/it/safe/smart/home/ui/main/DistanceSensor.java
+ ca.team.safe.smart.home.it.safe.smart.home.ui.main.DistanceSensor
 ca/team/safe/smart/home/it/safe/smart/home/FireFragment.java
  ca.team.safe.smart.home.it.safe.smart.home.FireFragment
  ca.team.safe.smart.home.it.safe.smart.home.FireFragment$1
- ca.team.safe.smart.home.it.safe.smart.home.FireFragment$1$1
+ ca.team.safe.smart.home.it.safe.smart.home.FireFragment$2
+ ca.team.safe.smart.home.it.safe.smart.home.FireFragment$2$1
+ca/team/safe/smart/home/it/safe/smart/home/Splash.java
+ ca.team.safe.smart.home.it.safe.smart.home.Splash
+ ca.team.safe.smart.home.it.safe.smart.home.Splash$1
+ ca.team.safe.smart.home.it.safe.smart.home.Splash$2
+ ca.team.safe.smart.home.it.safe.smart.home.Splash$3
+ca/team/safe/smart/home/it/safe/smart/home/SettingsFragment.java
+ ca.team.safe.smart.home.it.safe.smart.home.SettingsFragment
+ca/team/safe/smart/home/it/safe/smart/home/DataBindingTriggerClass.java
+ ca.team.safe.smart.home.it.safe.smart.home.DataBindingTriggerClass
+ca/team/safe/smart/home/it/safe/smart/home/RegisterFragment.java
+ ca.team.safe.smart.home.it.safe.smart.home.RegisterFragment
+ ca.team.safe.smart.home.it.safe.smart.home.RegisterFragment$1
+ ca.team.safe.smart.home.it.safe.smart.home.RegisterFragment$2
+ ca.team.safe.smart.home.it.safe.smart.home.RegisterFragment$3
+ ca.team.safe.smart.home.it.safe.smart.home.RegisterFragment$4
+ca/team/safe/smart/home/it/safe/smart/home/BuildConfig.java
+ ca.team.safe.smart.home.it.safe.smart.home.BuildConfig
 ca/team/safe/smart/home/it/safe/smart/home/AddressFragment.java
  ca.team.safe.smart.home.it.safe.smart.home.AddressFragment
  ca.team.safe.smart.home.it.safe.smart.home.AddressFragment$1
@@ -58,11 +65,9 @@ ca/team/safe/smart/home/it/safe/smart/home/AddressFragment.java
  ca.team.safe.smart.home.it.safe.smart.home.AddressFragment$5
  ca.team.safe.smart.home.it.safe.smart.home.AddressFragment$6
  ca.team.safe.smart.home.it.safe.smart.home.AddressFragment$7
-ca/team/safe/smart/home/it/safe/smart/home/Splash.java
- ca.team.safe.smart.home.it.safe.smart.home.Splash
- ca.team.safe.smart.home.it.safe.smart.home.Splash$1
- ca.team.safe.smart.home.it.safe.smart.home.Splash$2
- ca.team.safe.smart.home.it.safe.smart.home.Splash$3
+ca/team/safe/smart/home/it/safe/smart/home/ui/main/PageViewModel.java
+ ca.team.safe.smart.home.it.safe.smart.home.ui.main.PageViewModel
+ ca.team.safe.smart.home.it.safe.smart.home.ui.main.PageViewModel$1
 ca/team/safe/smart/home/it/safe/smart/home/ControlFragment.java
  ca.team.safe.smart.home.it.safe.smart.home.ControlFragment
  ca.team.safe.smart.home.it.safe.smart.home.ControlFragment$1

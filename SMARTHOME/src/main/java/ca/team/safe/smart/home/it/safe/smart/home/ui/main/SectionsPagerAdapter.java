@@ -16,6 +16,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import ca.team.safe.smart.home.it.safe.smart.home.AddressFragment;
 import ca.team.safe.smart.home.it.safe.smart.home.ControlFragment;
 import ca.team.safe.smart.home.it.safe.smart.home.FireFragment;
+
 import ca.team.safe.smart.home.it.safe.smart.home.R;
 import ca.team.safe.smart.home.it.safe.smart.home.RegisterFragment;
 import ca.team.safe.smart.home.it.safe.smart.home.ReviewFragment;
@@ -62,6 +63,9 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
                 break;
             case 6:
                 fragment = new SettingsFragment();
+                break;
+
+
         }
         return fragment;
     }
@@ -74,7 +78,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        // Show 7 total pages.
+        // Show 7total pages.
         return 7;
     }
 }

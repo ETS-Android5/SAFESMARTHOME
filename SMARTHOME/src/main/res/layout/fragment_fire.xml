@@ -8,6 +8,8 @@
     android:background="@drawable/gradient2"
     tools:context=".FireFragment">
 
+
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -95,6 +97,16 @@
             android:layout_marginEnd="330dp"
             android:layout_marginBottom="171dp"
             android:src="@drawable/humid" />
+
+        <Button
+            android:id="@+id/Distancebutton"
+            android:layout_width="224dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="66dp"
+            android:layout_marginBottom="534dp"
+            android:text="Distance Sensor" />
 
     </RelativeLayout>
 

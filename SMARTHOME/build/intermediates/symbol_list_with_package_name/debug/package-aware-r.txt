@@ -1991,6 +1991,8 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id Dis
+id Distancebutton
 id FUNCTION
 id Home_Control
 id META
@@ -2147,6 +2149,7 @@ id custom
 id customPanel
 id cut
 id dark
+id dataBinding
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -2354,6 +2357,8 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id onAttachStateChangeListener
+id onDateChanged
 id outline
 id outward
 id overshoot
@@ -2504,6 +2509,8 @@ id textView5
 id textView6
 id textView7
 id textView8
+id textView9
+id textWatcher
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2626,6 +2633,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_distance_sensor
 layout activity_login_sep
 layout activity_main
 layout activity_splash
@@ -2872,6 +2880,7 @@ string google_crash_reporting_api_key
 string google_storage_bucket
 string heat
 string heat_on_off
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string home_control
 string how_was_your_experience

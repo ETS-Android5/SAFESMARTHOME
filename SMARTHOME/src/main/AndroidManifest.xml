@@ -15,6 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SAFESMARTHOME">
         <activity
+            android:name=".ui.main.DistanceSensor"
+            android:exported="false" />
+        <activity
             android:name=".LoginSep"
             android:exported="false" />
         <activity

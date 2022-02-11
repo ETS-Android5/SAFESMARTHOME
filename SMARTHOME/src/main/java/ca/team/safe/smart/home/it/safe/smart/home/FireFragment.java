@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.Switch;
 import android.widget.Toast;
@@ -19,7 +20,20 @@ import androidx.fragment.app.Fragment;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
+import ca.team.safe.smart.home.it.safe.smart.home.ui.main.DistanceSensor;
+
 public class FireFragment extends Fragment{
+
+    Button btn;
 
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
@@ -47,12 +61,23 @@ public class FireFragment extends Fragment{
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_fire, container, false);
+
+        btn = (Button) rootView.findViewById(R.id.Distancebutton);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), DistanceSensor.class);
+                startActivity(intent);
+            }
+        });
         // Inflate the layout for this fragment
         Switch sc = (Switch) rootView.findViewById(R.id.fire_ac_switch);
 
@@ -78,5 +103,9 @@ public class FireFragment extends Fragment{
             }
         });
         return rootView;
+
     }
+
+
+
 }
