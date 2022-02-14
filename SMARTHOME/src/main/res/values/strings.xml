@@ -110,6 +110,16 @@
     <string name="No_intruder">No Intruder</string>
     <string name="help">Help</string>
     <string name="About">About</string>
+    <string name="Information" translatable="false">The application is an android Safe Smart Home app, that will be used to help
+people cohabitate and be safe to prevent any form of threats in a household.
+The project also aims to make life easier for those with disabilities, seniors,
+children and others. For this project, we will be building an app and hardware
+that is easy to use by everyone, and will allow many people to safely
+cohabitate; using smart home technologies such as automation, sensors and
+other means to prevent injuries and keep the home safe. The similar projects
+on the market are all smart home projects. We plan on doing a safe smart
+home project which is different from the other projects on the market, because
+our emphasis will be the safe element/component of the smart home.</string>
     <string-array name="provinces_fullname">
         <item></item>
         <item>Alberta</item>
@@ -156,6 +166,15 @@
     <string name="attachment_title">Download incoming attachments</string>
     <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_aboutus" translatable="false">AboutusActivity</string>
+    <string name="prompt_email" translatable="false">Email</string>
+    <string name="prompt_password" translatable="false">Password</string>
+    <string name="action_sign_in" translatable="false">Sign in or register</string>
+    <string name="action_sign_in_short" translatable="false">Sign in</string>
+    <string name="welcome" translatable="false">"Welcome !"</string>
+    <string name="invalid_username" translatable="false">Not a valid username</string>
+    <string name="invalid_password" translatable="false">Password must be >5 characters</string>
+    <string name="login_failed" translatable="false">"Login failed"</string>
     <!-- TODO: Remove or change this placeholder text -->
 
 </resources>

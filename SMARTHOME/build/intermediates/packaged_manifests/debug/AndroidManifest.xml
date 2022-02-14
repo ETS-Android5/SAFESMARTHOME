@@ -29,6 +29,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.SAFESMARTHOME" >
         <activity
+            android:name="ca.team.safe.smart.home.it.safe.smart.home.AboutusActivity"
+            android:exported="false"
+            android:label="@string/title_activity_aboutus" />
+        <activity
             android:name="ca.team.safe.smart.home.it.safe.smart.home.ui.main.DistanceSensor"
             android:exported="false" />
         <activity

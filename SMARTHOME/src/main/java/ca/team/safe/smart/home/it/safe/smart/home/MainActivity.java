@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        Toast.makeText(this, "Selected Item: " + item.getTitle(), Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, "Selected Item: " + item.getTitle(), Toast.LENGTH_SHORT).show();
         switch (item.getItemId()) {
             case R.id.ac_on_off:
                 //code
@@ -111,6 +111,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.motion_on_off:
                 //code
+                break;
+           case R.id.about:
+               startActivity(new Intent(this,AboutusActivity.class));
                 break;
             default:
                 setLocale("en");

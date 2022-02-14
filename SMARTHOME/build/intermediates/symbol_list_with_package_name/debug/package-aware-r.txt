@@ -2504,8 +2504,10 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView10
 id textView2
 id textView3
+id textView4
 id textView5
 id textView6
 id textView7
@@ -2634,6 +2636,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_aboutus
 layout activity_distance_sensor
 layout activity_login_sep
 layout activity_main
@@ -2767,6 +2770,7 @@ string About
 string Customer_address_added
 string Enter_9_digit_secID
 string Heat_ON
+string Information
 string NO_Humidity
 string No_intruder
 string No_smoke_detected
@@ -2810,6 +2814,8 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string ac
 string ac_on_off
+string action_sign_in
+string action_sign_in_short
 string app_name
 string appbar_scrolling_view_behavior
 string are_you_sure
@@ -2891,8 +2897,11 @@ string humidity_status
 string icon_content_description
 string insert
 string intruder
+string invalid_password
+string invalid_username
 string item_view_role_description
 string login
+string login_failed
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
@@ -2972,6 +2981,8 @@ string postal_code
 string postalcode
 string preference_copied
 string project_id
+string prompt_email
+string prompt_password
 string provinces
 string register
 string register_title
@@ -3004,12 +3015,14 @@ string tab_text_6
 string temperature_control
 string temperature_status
 string thank_you_message_submit
+string title_activity_aboutus
 string user_created
 string username
 string v7_preference_off
 string v7_preference_on
 string version_good
 string version_less
+string welcome
 string yes
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

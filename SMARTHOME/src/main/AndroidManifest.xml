@@ -15,6 +15,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SAFESMARTHOME">
         <activity
+            android:name=".AboutusActivity"
+            android:exported="false"
+            android:label="@string/title_activity_aboutus" />
+        <activity
             android:name=".ui.main.DistanceSensor"
             android:exported="false" />
         <activity
