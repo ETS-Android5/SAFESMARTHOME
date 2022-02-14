@@ -2235,6 +2235,7 @@ id groups
 id guideline
 id header_title
 id heat_on_off
+id help
 id hideable
 id home
 id homeAsUp
@@ -2880,7 +2881,7 @@ string google_crash_reporting_api_key
 string google_storage_bucket
 string heat
 string heat_on_off
-string hello_blank_fragment
+string help
 string hide_bottom_view_on_scroll_behavior
 string home_control
 string how_was_your_experience

@@ -1,326 +1,326 @@
 [
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_background.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\background.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_action_pass.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-hdpi\\ic_action_pass.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_safe.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\safe.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_action_pass.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-mdpi\\ic_action_pass.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_temperature.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-v24\\ic_launcher_temperature.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout-land_fragment_main.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout-land\\fragment_main.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-v24_smarthome_pic.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-v24\\smarthome_pic.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_textview_border.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\textview_border.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_fragment_review.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_review.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_action_user1.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-xhdpi\\ic_action_user1.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_action_user1.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-hdpi\\ic_action_user1.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_action_pass.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-xhdpi\\ic_action_pass.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\font_diplomata.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\font\\diplomata.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_gradient2.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\gradient2.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_action_user1.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-xxhdpi\\ic_action_user1.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_intruder.jpg.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\intruder.jpg"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_action_user.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-anydpi\\ic_action_user.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_temperature.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\temperature.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout-land_fragment_fire.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout-land\\fragment_fire.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_action_pass.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-mdpi\\ic_action_pass.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_fragment_status.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_status.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_action_user1.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-mdpi\\ic_action_user1.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_humid.jpg.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\humid.jpg"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_safe.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\safe.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_smoke.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\smoke.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_smoke.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\smoke.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_activity_login_sep.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\activity_login_sep.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_fragment_address.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_address.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\menu_menu.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\menu\\menu.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\font_ribeye_marrow.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\font\\ribeye_marrow.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\xml_root_preferences.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\xml\\root_preferences.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_intruder.jpg.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\intruder.jpg"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_textview_border.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\textview_border.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\font_candal.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\font\\candal.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_fragment_control.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_control.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_action_pass.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-xxhdpi\\ic_action_pass.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_action_user.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-xxhdpi\\ic_action_user.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_action_user.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-xxhdpi\\ic_action_user.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout-land_fragment_status.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout-land\\fragment_status.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout-land_fragment_address.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout-land\\fragment_address.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout-land_fragment_control.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout-land\\fragment_control.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_action_pass.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-hdpi\\ic_action_pass.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_waves_24.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\ic_baseline_waves_24.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_wb_sunny_24.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\ic_baseline_wb_sunny_24.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-v24_temp1.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-v24\\temp1.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_action_pass.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-xhdpi\\ic_action_pass.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_gradient.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\gradient.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\font_ribeye_marrow.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\font\\ribeye_marrow.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_action_user.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-hdpi\\ic_action_user.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout-land_fragment_main.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout-land\\fragment_main.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_temperature.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-v24\\ic_launcher_temperature.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout-land_fragment_status.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout-land\\fragment_status.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_humi.jpg.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\humi.jpg"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_gradient_status.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\gradient_status.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout-land_fragment_address.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout-land\\fragment_address.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_google.jpg.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\google.jpg"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_power_settings_new_24.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\ic_baseline_power_settings_new_24.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_logout.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\logout.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout-land_fragment_fire.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout-land\\fragment_fire.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_action_pass.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-anydpi\\ic_action_pass.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_fragment_register.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_register.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_gradient_status.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\gradient_status.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_action_user.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-mdpi\\ic_action_user.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_wb_sunny_24.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\ic_baseline_wb_sunny_24.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_green.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\green.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\font_rammetto_one.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\font\\rammetto_one.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_fire.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\fire.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_action_user1.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-xxhdpi\\ic_action_user1.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_fragment_register.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_register.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_fragment_control.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_control.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\font_abril_fatface.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\font\\abril_fatface.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_action_pass.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-xxhdpi\\ic_action_pass.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_gradient2.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\gradient2.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_action_user1.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-hdpi\\ic_action_user1.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_logout.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\logout.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-v24_smarthome_pic.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-v24\\smarthome_pic.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_action_user.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-hdpi\\ic_action_user.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_ac_unit_24.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\ic_baseline_ac_unit_24.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_action_user1.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-mdpi\\ic_action_user1.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\font_rammetto_one.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\font\\rammetto_one.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_waves_24.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\ic_baseline_waves_24.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_humi.jpg.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\humi.jpg"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_activity_distance_sensor.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\activity_distance_sensor.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\font_diplomata.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\font\\diplomata.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_google.jpg.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\google.jpg"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_fragment_review.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_review.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\font_candal.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\font\\candal.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_fire.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\fire.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_background.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\background.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_power_settings_new_24.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\ic_baseline_power_settings_new_24.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_action_user1.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-xhdpi\\ic_action_user1.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_action_user1.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-anydpi\\ic_action_user1.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_gradient3.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\gradient3.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_fragment_address.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_address.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_action_user.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-xhdpi\\ic_action_user.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_smarthome.jpg.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\smarthome.jpg"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_fragment_main.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_main.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-v24_temp1.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-v24\\temp1.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_action_user.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-mdpi\\ic_action_user.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_action_user.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-xhdpi\\ic_action_user.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_fragment_fire.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_fire.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\font_abril_fatface.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\font\\abril_fatface.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_fragment_status.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_status.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_humid.jpg.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\humid.jpg"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_gradient3.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\gradient3.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\xml_root_preferences.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\xml\\root_preferences.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_gradient.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\gradient.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_activity_login_sep.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\activity_login_sep.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_fragment_main.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_main.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_action_user.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-anydpi\\ic_action_user.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_ac_unit_24.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\ic_baseline_ac_unit_24.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_action_pass.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-anydpi\\ic_action_pass.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\menu_menu.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\menu\\menu.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_green.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\green.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_action_user1.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-anydpi\\ic_action_user1.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_smarthome.jpg.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\smarthome.jpg"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_temperature.png.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\temperature.png"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_activity_distance_sensor.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\activity_distance_sensor.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_fragment_fire.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_fire.xml"
     },
     {
-        "merged": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\activity_splash.xml"
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout-land_fragment_control.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout-land\\fragment_control.xml"
     }
 ]

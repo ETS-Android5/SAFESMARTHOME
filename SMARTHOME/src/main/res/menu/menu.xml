@@ -21,9 +21,9 @@
         android:title="@string/motion_on_off"/>
 
     <item android:id="@+id/about"
-        android:title="About"/>
+        android:title="@string/About"/>
 
     <item android:id="@+id/help"
-        android:title="Help"/>
+        android:title="@string/help"/>
 
 </menu>
