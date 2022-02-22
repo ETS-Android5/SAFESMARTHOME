@@ -42,6 +42,9 @@
             android:name="ca.team.safe.smart.home.it.safe.smart.home.MainActivity"
             android:launchMode="singleTop" />
         <activity
+            android:name="ca.team.safe.smart.home.it.safe.smart.home.RegisterSep"
+            android:launchMode="singleTop" />
+        <activity
             android:name="ca.team.safe.smart.home.it.safe.smart.home.Splash"
             android:label="@string/app_name"
             android:theme="@style/Theme.SAFESMARTHOME.NoActionBar" >
