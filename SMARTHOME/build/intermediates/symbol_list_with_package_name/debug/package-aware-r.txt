@@ -2638,8 +2638,10 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_aboutus
 layout activity_distance_sensor
+layout activity_helppage
 layout activity_login_sep
 layout activity_main
+layout activity_register_sep
 layout activity_splash
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row

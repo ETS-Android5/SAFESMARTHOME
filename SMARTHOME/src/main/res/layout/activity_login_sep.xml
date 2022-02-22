@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/controls_TV2"
-        android:layout_width="294dp"
-        android:layout_height="156dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
@@ -20,7 +20,7 @@
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textColorHint="@android:color/black"
-        android:textSize="110sp"
+        android:textSize="100sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
