@@ -88,12 +88,12 @@
         "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-xxhdpi\\ic_action_user.png"
     },
     {
-        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout-land_fragment_address.xml.flat",
-        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout-land\\fragment_address.xml"
-    },
-    {
         "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout-land_fragment_address.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout-land\\fragment_address.xml"
     },
     {
         "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
@@ -146,10 +146,6 @@
     {
         "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout-land_fragment_fire.xml.flat",
         "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout-land\\fragment_fire.xml"
-    },
-    {
-        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_fragment_register.xml.flat",
-        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_register.xml"
     },
     {
         "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_action_user.png.flat",
@@ -240,6 +236,10 @@
         "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable-anydpi\\ic_action_user1.xml"
     },
     {
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\drawable_help.jpg.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\help.jpg"
+    },
+    {
         "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_fragment_address.xml.flat",
         "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_address.xml"
     },
@@ -328,11 +328,11 @@
         "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\fragment_fire.xml"
     },
     {
-        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout-land_fragment_control.xml.flat",
-        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout-land\\fragment_control.xml"
-    },
-    {
         "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_activity_register_sep.xml.flat",
         "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\activity_register_sep.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout-land_fragment_control.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout-land\\fragment_control.xml"
     }
 ]

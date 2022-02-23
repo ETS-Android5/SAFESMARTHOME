@@ -32,7 +32,11 @@
             app:summaryOn="@string/attachment_summary_on"
             app:title="@string/attachment_title" />
 
+    <Preference
+        android:title="Help"
+        android:icon="@android:drawable/ic_menu_help"
+        android:key="Help">
+    </Preference>
+
     </PreferenceCategory>
-
-
 </PreferenceScreen>

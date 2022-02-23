@@ -1916,6 +1916,7 @@ drawable gradient2
 drawable gradient3
 drawable gradient_status
 drawable green
+drawable help
 drawable humi
 drawable humid
 drawable ic_action_pass
@@ -2220,7 +2221,6 @@ id fixed
 id flip
 id floating
 id forever
-id fragmentResgister
 id fragmentReview
 id fragment_container_view_tag
 id frost
@@ -2378,7 +2378,6 @@ id pin
 id position
 id postLayout
 id progressBar
-id progressBar_register
 id progress_circular
 id progress_horizontal
 id radio
@@ -2386,11 +2385,6 @@ id ratingBar
 id ratio
 id rectangles
 id recycler_view
-id register
-id register_name
-id register_password
-id register_username
-id registerbutton
 id reverseSawtooth
 id review_btn
 id right
@@ -2666,7 +2660,6 @@ layout fragment_address
 layout fragment_control
 layout fragment_fire
 layout fragment_main
-layout fragment_register
 layout fragment_review
 layout fragment_status
 layout image_frame

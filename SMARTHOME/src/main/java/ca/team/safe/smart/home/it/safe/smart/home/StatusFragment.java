@@ -68,6 +68,7 @@ public class StatusFragment extends Fragment {
     }
 
     View viewHumidity,viewSmoke,viewSecurity,viewTemperature;
+    boolean temp=false;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -81,9 +82,15 @@ public class StatusFragment extends Fragment {
         viewTemperature.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Snackbar.make(view,R.string.Heat_ON,Snackbar.LENGTH_SHORT).show();
-            }
-        });
+                if (temp) {
+                    temp = false;
+                    Snackbar.make(view, R.string.Heat_ON, Snackbar.LENGTH_SHORT).show();
+                } else {
+                    temp = true;
+                    Snackbar.make(view, "AC On", Snackbar.LENGTH_SHORT).show();
+                }
+
+            }  });
         viewSmoke.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

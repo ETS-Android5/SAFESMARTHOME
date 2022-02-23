@@ -18,7 +18,6 @@ import ca.team.safe.smart.home.it.safe.smart.home.ControlFragment;
 import ca.team.safe.smart.home.it.safe.smart.home.FireFragment;
 
 import ca.team.safe.smart.home.it.safe.smart.home.R;
-import ca.team.safe.smart.home.it.safe.smart.home.RegisterFragment;
 import ca.team.safe.smart.home.it.safe.smart.home.ReviewFragment;
 import ca.team.safe.smart.home.it.safe.smart.home.SettingsFragment;
 import ca.team.safe.smart.home.it.safe.smart.home.StatusFragment;

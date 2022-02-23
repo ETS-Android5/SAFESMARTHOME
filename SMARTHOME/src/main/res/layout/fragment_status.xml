@@ -22,7 +22,7 @@
 
         <GridLayout
             android:layout_width="match_parent"
-            android:layout_height="450dp"
+            android:layout_height="570dp"
             android:layout_gravity="center_horizontal"
             android:layout_margin="5dp"
             android:alignmentMode="alignMargins"
@@ -48,7 +48,6 @@
                     android:orientation="vertical">
 
                     <ImageButton
-                        android:clickable="false"
                         android:id="@+id/temperature_status_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -56,6 +55,7 @@
                         android:layout_column="0"
                         android:layout_marginTop="18dp"
                         android:backgroundTint="#FFFFFF"
+                        android:clickable="false"
                         android:src="@drawable/temp1"></ImageButton>
 
                     <TextView
@@ -88,7 +88,6 @@
                     android:orientation="vertical">
 
                     <ImageButton
-                        android:clickable="false"
                         android:id="@+id/humidity_status_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -96,6 +95,7 @@
                         android:layout_column="0"
                         android:layout_marginTop="18dp"
                         android:backgroundTint="#FFFFFF"
+                        android:clickable="false"
                         android:src="@drawable/temp1"></ImageButton>
 
                     <TextView
@@ -128,7 +128,6 @@
                     android:orientation="vertical">
 
                     <ImageButton
-                        android:clickable="false"
                         android:id="@+id/smoke_status_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -136,6 +135,7 @@
                         android:layout_column="0"
                         android:layout_marginTop="18dp"
                         android:backgroundTint="#FFFFFF"
+                        android:clickable="false"
                         android:src="@drawable/temp1"></ImageButton>
 
                     <TextView
@@ -168,7 +168,6 @@
                     android:orientation="vertical">
 
                     <ImageButton
-                        android:clickable="false"
                         android:id="@+id/security_status_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -176,6 +175,7 @@
                         android:layout_column="0"
                         android:layout_marginTop="18dp"
                         android:backgroundTint="#FFFFFF"
+                        android:clickable="false"
                         android:src="@drawable/temp1"></ImageButton>
 
                     <TextView
@@ -189,6 +189,7 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
+
 
         </GridLayout>
 
