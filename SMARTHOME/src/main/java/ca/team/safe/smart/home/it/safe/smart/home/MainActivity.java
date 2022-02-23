@@ -42,7 +42,6 @@ import android.widget.Toast;
 
 import java.util.Locale;
 
-import ca.team.safe.smart.home.it.safe.smart.home.HelpPage;
 import ca.team.safe.smart.home.it.safe.smart.home.ui.main.SectionsPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
@@ -115,9 +114,6 @@ public class MainActivity extends AppCompatActivity {
                 break;
            case R.id.about:
                startActivity(new Intent(this,AboutusActivity.class));
-                break;
-            case R.id.help:
-                startActivity(new Intent(this,HelpPage.class));
                 break;
             default:
                 setLocale("en");

@@ -23,7 +23,4 @@
     <item android:id="@+id/about"
         android:title="@string/About"/>
 
-    <item android:id="@+id/help"
-        android:title="@string/help"/>
-
 </menu>
