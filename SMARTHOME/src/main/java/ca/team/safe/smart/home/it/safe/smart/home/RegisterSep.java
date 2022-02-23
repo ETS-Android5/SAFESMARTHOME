@@ -136,7 +136,7 @@ public class RegisterSep extends AppCompatActivity {
             Map<String , String> m=new HashMap<>();
             m.put("email",email);
             m.put("pass",pass);
-            m.put("secureID",secureID);
+            m.put("SecureID",secureID);
             myRef[0].addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
