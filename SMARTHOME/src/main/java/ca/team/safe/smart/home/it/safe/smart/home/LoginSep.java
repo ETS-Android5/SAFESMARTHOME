@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -21,6 +22,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -39,6 +41,7 @@ public class LoginSep extends AppCompatActivity {
          return  false;
        }else return true;
     }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -59,20 +62,6 @@ public class LoginSep extends AppCompatActivity {
             }
         });
 
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference();
-
-        myRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                    String key = snapshot.getKey();
-
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-            }
-        });
 
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -92,8 +81,7 @@ public class LoginSep extends AppCompatActivity {
                 else if (secureID.length() != 9) {
                     Snackbar.make(view, R.string.Enter_9_digit_secID, Snackbar.LENGTH_SHORT).show();
                 } else {
-                    Intent i = new Intent(LoginSep.this, MainActivity.class);
-                    startActivity(i);
+                    getCustomerAddress(email,pass,secureID);
                 }
             }
         });
@@ -109,4 +97,35 @@ public class LoginSep extends AppCompatActivity {
         return matcher.matches();
 
     }
+
+
+    public void getCustomerAddress(String email, String pass, String secureID) {
+       DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("secureID1");
+        myRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                Map<String, String> map = (Map<String, String>) snapshot.getValue();
+
+                try {
+                   if (!email.equals(map.get("email"))) {
+                       Snackbar.make(view, "invalid email address", Snackbar.LENGTH_SHORT).show();
+                   }else if (!pass.equals(map.get("pass")) ){
+                       Snackbar.make(view, "Invalid Password" ,Snackbar.LENGTH_SHORT).show();
+                   }else if (!secureID.equals(map.get("SecureID")) ){
+                       Snackbar.make(view, "Invalid secureID" ,Snackbar.LENGTH_SHORT).show();
+                   }else {
+                       Intent i = new Intent(LoginSep.this, MainActivity.class);
+                       startActivity(i);
+                   }
+                }catch (Exception e){}
+//
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+            }
+        });
+    }
+
+
 }
