@@ -2277,6 +2277,7 @@ int id line1 0x7f0a0121
 int id line3 0x7f0a0122
 int id linear 0x7f0a0123
 int id listMode 0x7f0a0124
+int id listView 0x7f0a0246
 int id list_item 0x7f0a0125
 int id loader 0x7f0a0126
 int id loginbtn 0x7f0a0127
@@ -2467,6 +2468,7 @@ int id switch3 0x7f0a01e5
 int id switch4 0x7f0a01e6
 int id switch5 0x7f0a01e7
 int id switchWidget 0x7f0a01e8
+int id t 0x7f0a0247
 int id tabMode 0x7f0a01e9
 int id tabs 0x7f0a01ea
 int id tag_accessibility_actions 0x7f0a01eb
@@ -2504,7 +2506,6 @@ int id textView5 0x7f0a020a
 int id textView6 0x7f0a020b
 int id textView7 0x7f0a020c
 int id textView8 0x7f0a020d
-int id textView9 0x7f0a020e
 int id textWatcher 0x7f0a020f
 int id text_input_end_icon 0x7f0a0210
 int id text_input_error_icon 0x7f0a0211
@@ -2630,6 +2631,7 @@ int layout abc_select_dialog_material 0x7f0d001a
 int layout abc_tooltip 0x7f0d001b
 int layout activity_aboutus 0x7f0d001c
 int layout activity_distance_sensor 0x7f0d001d
+int layout activity_help 0x7f0d009b
 int layout activity_login_sep 0x7f0d001f
 int layout activity_main 0x7f0d0020
 int layout activity_register_sep 0x7f0d0021

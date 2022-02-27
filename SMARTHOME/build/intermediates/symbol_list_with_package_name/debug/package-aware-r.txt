@@ -2278,6 +2278,7 @@ id line1
 id line3
 id linear
 id listMode
+id listView
 id list_item
 id loader
 id loginbtn
@@ -2468,6 +2469,7 @@ id switch3
 id switch4
 id switch5
 id switchWidget
+id t
 id tabMode
 id tabs
 id tag_accessibility_actions
@@ -2505,7 +2507,6 @@ id textView5
 id textView6
 id textView7
 id textView8
-id textView9
 id textWatcher
 id text_input_end_icon
 id text_input_error_icon
@@ -2631,6 +2632,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_aboutus
 layout activity_distance_sensor
+layout activity_help
 layout activity_login_sep
 layout activity_main
 layout activity_register_sep
