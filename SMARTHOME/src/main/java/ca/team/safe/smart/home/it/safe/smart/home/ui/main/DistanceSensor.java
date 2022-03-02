@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -44,33 +45,31 @@ View view;
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                Map<String, Double> map = (HashMap<String, Double>) snapshot.getValue();
+                //getting values on hashmap from firebase in random order
+//                Map<String, Double> map = (HashMap<String, Double>) snapshot.getValue();
 
-                List<String> d = new ArrayList<>();
+              //  List<String> d = new ArrayList<>();
+                List<String> d1 = new ArrayList<>();
+                String value;
+                //getting values from firebase , setting on array list
+                for(DataSnapshot postSnapshot : snapshot.getChildren()) {
+                   //get value one by one in "value" variable
+                    value=String.valueOf(postSnapshot.getValue());
+                    if (!value.contains("country"))
+                        d1.add(value);
+                }
                 try {
-                    Set keys=map.keySet();
-                    String res="";
-                  int  i=0;
-                    for (Object key :keys ){
-                        i++;
-                        if (!key.toString().equals("customer_address"))
-                            d.add(map.get(key)+"");
-                        res=res+map.get(key)+"\n";
-                        if (i==keys.size())
+                        if (d1.size()>0)
                         {
                        Dis.setVisibility(View.GONE);
-
                         ListView listView= findViewById(R.id.listView);
                         listView.setAdapter(new ArrayAdapter<String>(DistanceSensor.this,
-                                android.R.layout.simple_list_item_1, d));
+                                android.R.layout.simple_list_item_1, d1));
 
                     }
-                    }
-
-
 
                 }catch (Exception e){}
-//
+
             }
 
             @Override

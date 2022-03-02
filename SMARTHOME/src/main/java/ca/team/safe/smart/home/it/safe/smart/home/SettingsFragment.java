@@ -22,6 +22,8 @@ public class SettingsFragment extends PreferenceFragmentCompat {
         @Override
         public boolean onPreferenceClick(Preference preference) {
            Toast.makeText(getContext(), "help", Toast.LENGTH_LONG).show();
+           Intent i=new Intent(requireContext(),HelpActivity.class);
+           startActivity(i);
             return false;
 
         }
