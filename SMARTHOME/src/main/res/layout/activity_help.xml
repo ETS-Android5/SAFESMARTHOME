@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F5F5DC"
     tools:context=".HelpActivity">
 
     <TextView
@@ -26,22 +27,23 @@
         android:text="@string/submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.872" />
+        app:layout_constraintVertical_bias="0.953" />
 
     <Button
         android:id="@+id/textinput_helper_text_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Report a Problem"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.194" />
+        app:layout_constraintVertical_bias="0.124" />
 
     <Button
         android:id="@+id/up"
@@ -50,12 +52,41 @@
         android:backgroundTint="#92ebb5"
         android:text="Help Center"
         android:textColor="#000000"
+        android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintHorizontal_bias="0.941"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.194" />
+        app:layout_constraintVertical_bias="0.124" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="188dp"
+        android:layout_height="53dp"
+        android:text="Hardware"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:layout_width="331dp"
+        android:layout_height="86dp"
+        android:text="Setup Hardware"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="237dp"
+        android:layout_height="52dp"
+        android:text="False Data"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="434dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
