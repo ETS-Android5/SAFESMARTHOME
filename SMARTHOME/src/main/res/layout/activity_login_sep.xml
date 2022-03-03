@@ -56,7 +56,6 @@
         android:drawableLeft="@drawable/ic_action_user1"
         android:drawablePadding="20dp"
         android:ems="10"
-        android:text="vrkgudla@gmail.com"
         android:hint="@string/emailaddress"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
