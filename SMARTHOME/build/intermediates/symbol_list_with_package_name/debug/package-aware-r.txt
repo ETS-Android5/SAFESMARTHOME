@@ -1155,6 +1155,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color beige
 color black
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
@@ -2102,6 +2103,8 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnReportProblem
+id btnUp
 id buttonInsert
 id buttonPanel
 id buttonRegister
@@ -2381,6 +2384,11 @@ id progressBar
 id progress_circular
 id progress_horizontal
 id radio
+id radioButton
+id radioButton1
+id radioButton11
+id radioButton2
+id radioGroup
 id ratingBar
 id ratio
 id rectangles
