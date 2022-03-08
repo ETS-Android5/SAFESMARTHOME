@@ -25,16 +25,17 @@ RadioGroup radioButtonGroup;
         btnUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int radioButtonID = radioButtonGroup.getCheckedRadioButtonId();
-                View radioButton = radioButtonGroup.findViewById(radioButtonID);
-                int idx = radioButtonGroup.indexOfChild(radioButton);
-                RadioButton r = (RadioButton) radioButtonGroup.getChildAt(idx);
-                String selectedtext = r.getText().toString();
-                showDialog("","Internet connection : Please restart your router and reconnect the cable into the module. Wait 30 sec before trying it. \n\n" +
-                        "Hardware: Please unplug the power supply and wait 1 min before reconnecting it again.\n\n" +
-                        "False Data: Please contact customer support. \n\n" +
-                        "setup hardware: Please connect the power supply first, second connect to the internet, third setup your account.");
-
+                try {
+//                    int radioButtonID = radioButtonGroup.getCheckedRadioButtonId();
+//                    View radioButton = radioButtonGroup.findViewById(radioButtonID);
+//                    int idx = radioButtonGroup.indexOfChild(radioButton);
+//                    RadioButton r = (RadioButton) radioButtonGroup.getChildAt(idx);
+//                    String selectedtext = r.getText().toString();
+                    showDialog("", "Internet connection : Please restart your router and reconnect the cable into the module. Wait 30 sec before trying it. \n\n" +
+                            "Hardware: Please unplug the power supply and wait 1 min before reconnecting it again.\n\n" +
+                            "False Data: Please contact customer support. \n\n" +
+                            "setup hardware: Please connect the power supply first, second connect to the internet, third setup your account.");
+                }catch (Exception e){}
             }
         });
         btnReportProblem.setOnClickListener(new View.OnClickListener() {
