@@ -100,9 +100,14 @@ public class StatusFragment extends Fragment {
         viewHumidity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Snackbar.make(view,R.string.NO_Humidity,Snackbar.LENGTH_SHORT).show();
-            }
-        });
+                if (temp) {
+                    temp = false;
+                    Snackbar.make(view, R.string.NO_Humidity, Snackbar.LENGTH_SHORT).show();
+                } else {
+                    temp = true;
+                    Snackbar.make(view, "Humidity", Snackbar.LENGTH_SHORT).show();
+                }
+            } });
         viewSecurity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
