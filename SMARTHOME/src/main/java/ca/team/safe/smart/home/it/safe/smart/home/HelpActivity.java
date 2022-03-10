@@ -40,9 +40,7 @@ RadioGroup radioButtonGroup;
         });
         btnReportProblem.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                showDialog("","Thank you for Reporting.");
-            }
+            public void onClick(View v) { radioButtonGroup.clearCheck();showDialog("","Thank you for Reporting."); }
         });
     }
 
