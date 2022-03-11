@@ -6,14 +6,9 @@ ca/team/safe/smart/home/it/safe/smart/home/MainActivity.java
  ca.team.safe.smart.home.it.safe.smart.home.MainActivity$4
 ca/team/safe/smart/home/it/safe/smart/home/databinding/FragmentControlBinding.java
  ca.team.safe.smart.home.it.safe.smart.home.databinding.FragmentControlBinding
-ca/team/safe/smart/home/it/safe/smart/home/StatusFragment.java
- ca.team.safe.smart.home.it.safe.smart.home.StatusFragment
- ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$1
- ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$2
- ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$3
- ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$4
- ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$5
- ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$5$1
+ca/team/safe/smart/home/it/safe/smart/home/SettingsFragment.java
+ ca.team.safe.smart.home.it.safe.smart.home.SettingsFragment
+ ca.team.safe.smart.home.it.safe.smart.home.SettingsFragment$1
 ca/team/safe/smart/home/it/safe/smart/home/databinding/FragmentStatusBinding.java
  ca.team.safe.smart.home.it.safe.smart.home.databinding.FragmentStatusBinding
 ca/team/safe/smart/home/it/safe/smart/home/databinding/ActivityDistanceSensorBinding.java
@@ -80,8 +75,11 @@ ca/team/safe/smart/home/it/safe/smart/home/Splash.java
  ca.team.safe.smart.home.it.safe.smart.home.Splash$1
  ca.team.safe.smart.home.it.safe.smart.home.Splash$2
  ca.team.safe.smart.home.it.safe.smart.home.Splash$3
-ca/team/safe/smart/home/it/safe/smart/home/ui/main/SectionsPagerAdapter.java
- ca.team.safe.smart.home.it.safe.smart.home.ui.main.SectionsPagerAdapter
+ca/team/safe/smart/home/it/safe/smart/home/HelpActivity.java
+ ca.team.safe.smart.home.it.safe.smart.home.HelpActivity
+ ca.team.safe.smart.home.it.safe.smart.home.HelpActivity$1
+ ca.team.safe.smart.home.it.safe.smart.home.HelpActivity$2
+ ca.team.safe.smart.home.it.safe.smart.home.HelpActivity$3
 ca/team/safe/smart/home/it/safe/smart/home/ControlFragment.java
  ca.team.safe.smart.home.it.safe.smart.home.ControlFragment
  ca.team.safe.smart.home.it.safe.smart.home.ControlFragment$1
@@ -103,11 +101,13 @@ ca/team/safe/smart/home/it/safe/smart/home/AddressFragment.java
 ca/team/safe/smart/home/it/safe/smart/home/ui/main/PageViewModel.java
  ca.team.safe.smart.home.it.safe.smart.home.ui.main.PageViewModel
  ca.team.safe.smart.home.it.safe.smart.home.ui.main.PageViewModel$1
-ca/team/safe/smart/home/it/safe/smart/home/HelpActivity.java
- ca.team.safe.smart.home.it.safe.smart.home.HelpActivity
- ca.team.safe.smart.home.it.safe.smart.home.HelpActivity$1
- ca.team.safe.smart.home.it.safe.smart.home.HelpActivity$2
- ca.team.safe.smart.home.it.safe.smart.home.HelpActivity$3
-ca/team/safe/smart/home/it/safe/smart/home/SettingsFragment.java
- ca.team.safe.smart.home.it.safe.smart.home.SettingsFragment
- ca.team.safe.smart.home.it.safe.smart.home.SettingsFragment$1
+ca/team/safe/smart/home/it/safe/smart/home/StatusFragment.java
+ ca.team.safe.smart.home.it.safe.smart.home.StatusFragment
+ ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$1
+ ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$2
+ ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$3
+ ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$4
+ ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$5
+ ca.team.safe.smart.home.it.safe.smart.home.StatusFragment$5$1
+ca/team/safe/smart/home/it/safe/smart/home/ui/main/SectionsPagerAdapter.java
+ ca.team.safe.smart.home.it.safe.smart.home.ui.main.SectionsPagerAdapter
