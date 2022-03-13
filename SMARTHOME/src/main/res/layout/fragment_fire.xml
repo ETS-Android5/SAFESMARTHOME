@@ -74,7 +74,7 @@
             android:layout_alignParentTop="true"
             android:layout_gravity="center"
             android:layout_margin="10dp"
-            android:text="AC" />
+            android:text="On/Off" />
 
 
         <LinearLayout

@@ -224,6 +224,10 @@
         "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\drawable\\google.jpg"
     },
     {
+        "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\layout_activity_pressure_temp.xml.flat",
+        "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\layout\\activity_pressure_temp.xml"
+    },
+    {
         "merged": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\merged_res\\debug\\font_candal.xml.flat",
         "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\font\\candal.xml"
     },

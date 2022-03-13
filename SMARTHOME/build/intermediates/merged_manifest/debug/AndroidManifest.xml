@@ -30,6 +30,9 @@
         android:theme="@style/Theme.SAFESMARTHOME"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="ca.team.safe.smart.home.it.safe.smart.home.ui.main.Pressure_Temp"
+            android:exported="false" />
+        <activity
             android:name="ca.team.safe.smart.home.it.safe.smart.home.HelpActivity"
             android:exported="false" />
         <activity
