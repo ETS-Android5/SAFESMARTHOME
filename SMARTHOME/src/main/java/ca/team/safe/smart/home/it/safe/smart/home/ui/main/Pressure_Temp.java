@@ -31,7 +31,7 @@ public class Pressure_Temp  extends AppCompatActivity {
         setContentView(R.layout.activity_pressure_temp);
         Dis = findViewById(R.id.Dis);
         FirebaseApp.initializeApp(this);
-getCustomerAddress();
+        getCustomerAddress();
     }
 
 
