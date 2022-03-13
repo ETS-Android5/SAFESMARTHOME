@@ -181,7 +181,7 @@ public class AddressFragment extends Fragment {
 
     public static   String streetAddress, city, provinces, postalcode, country;
     public void getCustomerAddress() {
-        databaseReference = firebaseDatabase.getReference("secureID0").child("customer_address");
+        databaseReference = firebaseDatabase.getReference("secureID2").child("customer_address");
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -275,7 +275,7 @@ public class AddressFragment extends Fragment {
                 // our object class to our database reference.
                 // data base reference will sends data to firebase.
                 if (size==0 && !editTextTextCity.getText().toString().equals("")) {
-                    databaseReference1 = firebaseDatabase.getReference("secureID0").child("customer_address");
+                    databaseReference1 = firebaseDatabase.getReference("secureID2").child("customer_address");
 
 
                     size++;

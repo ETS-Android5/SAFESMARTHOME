@@ -2103,6 +2103,7 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnPressure
 id btnReportProblem
 id btnUp
 id buttonInsert
@@ -2214,10 +2215,10 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
-id fire_ac_switch
 id fire_page_id
 id fire_switch1
 id fire_switch2
+id fire_switch4
 id fire_title_id
 id fitToContents
 id fixed
@@ -2254,13 +2255,11 @@ id ignore
 id ignoreRequest
 id image
 id imageView
-id imageView10
 id imageView2
 id imageView3
 id imageView4
 id imageView5
 id imageView6
-id imageView8
 id imageView9
 id immediateStop
 id included
@@ -2472,7 +2471,6 @@ id submenuarrow
 id submit_area
 id supportScrollUp
 id switch1
-id switch2
 id switch3
 id switch4
 id switch5
@@ -2507,14 +2505,13 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView1
 id textView10
 id textView2
 id textView3
 id textView4
 id textView5
 id textView6
-id textView7
-id textView8
 id textWatcher
 id text_input_end_icon
 id text_input_error_icon
@@ -2643,6 +2640,7 @@ layout activity_distance_sensor
 layout activity_help
 layout activity_login_sep
 layout activity_main
+layout activity_pressure_temp
 layout activity_register_sep
 layout activity_splash
 layout browser_actions_context_menu_page

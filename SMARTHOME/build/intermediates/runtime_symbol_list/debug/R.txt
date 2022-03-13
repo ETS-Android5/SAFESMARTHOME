@@ -2102,6 +2102,7 @@ int id browser_actions_menu_item_icon 0x7f0a006f
 int id browser_actions_menu_item_text 0x7f0a0070
 int id browser_actions_menu_items 0x7f0a0071
 int id browser_actions_menu_view 0x7f0a0072
+int id btnPressure 0x7f0a0253
 int id btnReportProblem 0x7f0a024d
 int id btnUp 0x7f0a024e
 int id buttonInsert 0x7f0a0073
@@ -2213,10 +2214,10 @@ int id fill 0x7f0a00dc
 int id fill_horizontal 0x7f0a00dd
 int id fill_vertical 0x7f0a00de
 int id filled 0x7f0a00df
-int id fire_ac_switch 0x7f0a00e0
 int id fire_page_id 0x7f0a00e1
 int id fire_switch1 0x7f0a00e2
 int id fire_switch2 0x7f0a00e3
+int id fire_switch4 0x7f0a0250
 int id fire_title_id 0x7f0a00e4
 int id fitToContents 0x7f0a00e5
 int id fixed 0x7f0a00e6
@@ -2253,13 +2254,11 @@ int id ignore 0x7f0a0106
 int id ignoreRequest 0x7f0a0107
 int id image 0x7f0a0108
 int id imageView 0x7f0a0109
-int id imageView10 0x7f0a010a
 int id imageView2 0x7f0a010b
 int id imageView3 0x7f0a010c
 int id imageView4 0x7f0a010d
 int id imageView5 0x7f0a010e
 int id imageView6 0x7f0a010f
-int id imageView8 0x7f0a0110
 int id imageView9 0x7f0a0111
 int id immediateStop 0x7f0a0112
 int id included 0x7f0a0113
@@ -2471,7 +2470,6 @@ int id submenuarrow 0x7f0a01e0
 int id submit_area 0x7f0a01e1
 int id supportScrollUp 0x7f0a01e2
 int id switch1 0x7f0a01e3
-int id switch2 0x7f0a01e4
 int id switch3 0x7f0a01e5
 int id switch4 0x7f0a01e6
 int id switch5 0x7f0a01e7
@@ -2506,14 +2504,13 @@ int id textSpacerNoTitle 0x7f0a0202
 int id textStart 0x7f0a0203
 int id textTop 0x7f0a0204
 int id textView 0x7f0a0205
+int id textView1 0x7f0a0252
 int id textView10 0x7f0a0206
 int id textView2 0x7f0a0207
 int id textView3 0x7f0a0208
 int id textView4 0x7f0a0209
 int id textView5 0x7f0a020a
 int id textView6 0x7f0a020b
-int id textView7 0x7f0a020c
-int id textView8 0x7f0a020d
 int id textWatcher 0x7f0a020f
 int id text_input_end_icon 0x7f0a0210
 int id text_input_error_icon 0x7f0a0211
@@ -2642,6 +2639,7 @@ int layout activity_distance_sensor 0x7f0d001d
 int layout activity_help 0x7f0d009b
 int layout activity_login_sep 0x7f0d001f
 int layout activity_main 0x7f0d0020
+int layout activity_pressure_temp 0x7f0d009c
 int layout activity_register_sep 0x7f0d0021
 int layout activity_splash 0x7f0d0022
 int layout browser_actions_context_menu_page 0x7f0d0023

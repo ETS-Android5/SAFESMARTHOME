@@ -16,6 +16,9 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.SAFESMARTHOME">
         <activity
+            android:name=".ui.main.Pressure_Temp"
+            android:exported="false" />
+     <activity
             android:name=".HelpActivity"
             android:exported="false" />
         <activity

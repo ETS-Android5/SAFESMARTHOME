@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CompoundButton;
+import android.widget.LinearLayout;
 import android.widget.Switch;
 import android.widget.Toast;
 
@@ -30,6 +31,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import ca.team.safe.smart.home.it.safe.smart.home.ui.main.DistanceSensor;
+import ca.team.safe.smart.home.it.safe.smart.home.ui.main.Pressure_Temp;
 
 public class FireFragment extends Fragment{
 
@@ -65,12 +67,21 @@ public class FireFragment extends Fragment{
 
     }
 
+    Button btnPressure;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_fire, container, false);
 
         btn = (Button) rootView.findViewById(R.id.Distancebutton);
+        btnPressure =  rootView.findViewById(R.id.btnPressure);
+        btnPressure.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), Pressure_Temp.class);
+                startActivity(intent);
+            }
+        });
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -79,7 +90,6 @@ public class FireFragment extends Fragment{
             }
         });
         // Inflate the layout for this fragment
-        Switch sc = (Switch) rootView.findViewById(R.id.fire_ac_switch);
 
         FloatingActionButton fab = rootView.findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {

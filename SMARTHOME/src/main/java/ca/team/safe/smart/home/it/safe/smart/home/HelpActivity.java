@@ -33,7 +33,7 @@ RadioGroup radioButtonGroup;
 //                    String selectedtext = r.getText().toString();
                     showDialog("", "Internet connection : Please restart your router and reconnect the cable into the module. Wait 30 sec before trying it. \n\n" +
                             "Hardware: Please unplug the power supply and wait 1 min before reconnecting it again.\n\n" +
-                            "False Data: Please contact customer support at vrkgudla@gmail.com. \n\n" +
+                            "False Data: Please contact customer support at vrkgudla@gmail.com or phone no. at 6476735000. \n\n" +
                             "setup hardware: Please connect the power supply first, second connect to the internet, third setup your account.");
                 }catch (Exception e){}
             }
