@@ -43,9 +43,6 @@ public class Pressure_Temp  extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 //getting values on hashmap from firebase in random order
-//                Map<String, Double> map = (HashMap<String, Double>) snapshot.getValue();
-
-                //  List<String> d = new ArrayList<>();
                 List<String> d1 = new ArrayList<>();
                 String value;
                 //getting values from firebase , setting on array list
