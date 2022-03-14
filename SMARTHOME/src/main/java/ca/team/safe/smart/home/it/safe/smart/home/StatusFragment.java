@@ -94,9 +94,16 @@ public class StatusFragment extends Fragment {
         viewSmoke.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Snackbar.make(view,R.string.No_smoke_detected,Snackbar.LENGTH_SHORT).show();
-            }
-        });
+                if (temp) {
+                    temp = false;
+                    Snackbar.make(view, R.string.No_smoke_detected, Snackbar.LENGTH_SHORT).show();
+                } else {
+                    temp = true;
+                    Snackbar.make(view, "Smoke Detected!", Snackbar.LENGTH_SHORT).show();
+                }
+
+            } });
+
         viewHumidity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -111,9 +118,14 @@ public class StatusFragment extends Fragment {
         viewSecurity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Snackbar.make(view,R.string.No_intruder,Snackbar.LENGTH_SHORT).show();
-            }
-        });
+                if (temp) {
+                    temp = false;
+                    Snackbar.make(view, "No Intruder, Unlock the door.", Snackbar.LENGTH_SHORT).show();
+                } else {
+                    temp = true;
+                    Snackbar.make(view, "Intruder! Lock the door!", Snackbar.LENGTH_SHORT).show();
+                }
+            } });
         FloatingActionButton fab = view.findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
