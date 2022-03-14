@@ -114,6 +114,20 @@
             android:layout_gravity="center"
             android:text="@string/on_off" />
 
+        <Button
+            android:id="@+id/btnPressure"
+            android:layout_width="224dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text="Pressure_Temp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.411"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.096" />
+
     </LinearLayout>
 
 

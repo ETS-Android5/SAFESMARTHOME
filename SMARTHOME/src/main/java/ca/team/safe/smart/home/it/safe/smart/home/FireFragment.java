@@ -73,15 +73,16 @@ public class FireFragment extends Fragment{
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_fire, container, false);
 
+        Button btnPressure;
         btn = (Button) rootView.findViewById(R.id.Distancebutton);
-//        btnPressure =  rootView.findViewById(R.id.btnPressure);
-//        btnPressure.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(getActivity(), Pressure_Temp.class);
-//                startActivity(intent);
-//            }
-//        });
+        btnPressure =  rootView.findViewById(R.id.btnPressure);
+        btnPressure.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), Pressure_Temp.class);
+                startActivity(intent);
+            }
+        });
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

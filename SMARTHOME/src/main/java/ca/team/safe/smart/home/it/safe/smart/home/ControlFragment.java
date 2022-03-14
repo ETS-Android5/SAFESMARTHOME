@@ -95,16 +95,6 @@ public class ControlFragment extends Fragment {
             }
         });
 
-        Button btnPressure;
-            btnPressure =  rootView.findViewById(R.id.btnPressure);
-            btnPressure.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    Intent intent = new Intent(getActivity(), Pressure_Temp.class);
-                    startActivity(intent);
-                }
-            });
-
         seekBar=(SeekBar) rootView.findViewById(R.id.controls_seekBar);
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             int progresValue = 0;

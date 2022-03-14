@@ -51,8 +51,10 @@ public class Pressure_Temp  extends AppCompatActivity {
                 //getting values from firebase , setting on array list
                 for(DataSnapshot postSnapshot : snapshot.getChildren()) {
                     //get value one by one in "value" variable
-                    value=String.valueOf(postSnapshot.getValue());
-                    if (value.contains("BME"))
+                    value="Temp= "+String.valueOf(postSnapshot.child("BME").child("Temp").getValue());
+                    value=value+" , Pressure = "+postSnapshot.child("BME").child("Pressure").getValue();
+
+                    if (!value.contains("null"))
                         d1.add(value);
                 }
                 try {
