@@ -15,6 +15,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.SeekBar;
@@ -25,6 +26,8 @@ import androidx.core.app.NotificationCompat;
 import androidx.fragment.app.Fragment;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
+import ca.team.safe.smart.home.it.safe.smart.home.ui.main.Pressure_Temp;
 
 public class ControlFragment extends Fragment {
 
@@ -91,6 +94,17 @@ public class ControlFragment extends Fragment {
                         .show();
             }
         });
+
+        Button btnPressure;
+            btnPressure =  rootView.findViewById(R.id.btnPressure);
+            btnPressure.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(getActivity(), Pressure_Temp.class);
+                    startActivity(intent);
+                }
+            });
+
         seekBar=(SeekBar) rootView.findViewById(R.id.controls_seekBar);
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             int progresValue = 0;
