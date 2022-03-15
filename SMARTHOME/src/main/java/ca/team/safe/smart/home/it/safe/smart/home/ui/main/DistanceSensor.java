@@ -3,7 +3,10 @@ package ca.team.safe.smart.home.it.safe.smart.home.ui.main;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
+import android.os.CountDownTimer;
+import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -24,6 +27,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 import java.util.Set;
 
 public class DistanceSensor extends AppCompatActivity {
@@ -34,13 +38,13 @@ View view;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_distance_sensor);
          Dis=findViewById(R.id.Dis);
+        view=findViewById(R.id.view);
          FirebaseApp.initializeApp(this);
         getCustomerAddress();
     }
 
 
     public void getCustomerAddress() {
-       ;
         DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("secureID0");
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
@@ -59,12 +63,31 @@ View view;
                         d1.add(value);
                 }
                 try {
-                        if (d1.size()>0)
+                     int offsetColor = 0xFF000000; //offset to have 100% in alpha value
+                    if (d1.size()>0)
                         {
-                       Dis.setVisibility(View.GONE);
-                        ListView listView= findViewById(R.id.listView);
-                        listView.setAdapter(new ArrayAdapter<String>(DistanceSensor.this,
-                                android.R.layout.simple_list_item_1, d1));
+
+//                       Dis.setVisibility(View.GONE);
+//                        ListView listView= findViewById(R.id.listView);
+//                        listView.setAdapter(new ArrayAdapter<String>(DistanceSensor.this,
+//                                android.R.layout.simple_list_item_1, d1));
+                            final int[] i = {0};
+                        new CountDownTimer(1000*d1.size()+1000, 1000) {
+                            public void onTick(long millisUntilFinished) {
+                                i[0]++;
+//                                Random rnd = new Random();
+//                                int color = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
+                              if (i[0]%2==0)
+                                view.setBackgroundColor(Color.RED);
+                                else view.setBackgroundColor(Color.GREEN);
+//                                Dis.setText("seconds remaining: " + millisUntilFinished / 1000);
+                                Dis.setText("Distance sensor: "+d1.get(i[0]));
+                            }
+
+                            public void onFinish() {
+                               // Dis.setText("done!");
+                            }
+                        }.start();
 
                     }
 
