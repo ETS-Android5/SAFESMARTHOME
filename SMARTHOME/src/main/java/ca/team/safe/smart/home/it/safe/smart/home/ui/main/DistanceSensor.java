@@ -81,7 +81,7 @@ View view;
                                 view.setBackgroundColor(Color.RED);
                                 else view.setBackgroundColor(Color.GREEN);
 //                                Dis.setText("seconds remaining: " + millisUntilFinished / 1000);
-                                Dis.setText("Distance sensor: "+d1.get(i[0]));
+                                Dis.setText(" "+d1.get(i[0]));
                             }
 
                             public void onFinish() {
