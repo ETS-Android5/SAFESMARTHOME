@@ -1,6 +1,7 @@
 package ca.team.safe.smart.home.it.safe.smart.home.ui.main;
 
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -55,12 +56,20 @@ public class Pressure_Temp  extends AppCompatActivity {
                         d1.add(value);
                 }
                 try {
+                    int offsetColor = 0xFF000000; //offset to have 100% in alpha value
                     if (d1.size()>0)
                     {
-                        Dis.setVisibility(View.GONE);
-                        ListView listView= findViewById(R.id.listView);
-                        listView.setAdapter(new ArrayAdapter<String>(Pressure_Temp.this,
-                                android.R.layout.simple_list_item_1, d1));
+                        final int[] i = {0};
+                        new CountDownTimer(1000*d1.size()+1000, 1000) {
+                            public void onTick(long millisUntilFinished) {
+                                i[0]++;
+                        }
+
+                         public void onFinish() {
+
+                         }
+
+                        }.start();
 
                     }
 
