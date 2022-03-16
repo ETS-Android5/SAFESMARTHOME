@@ -59,11 +59,11 @@ public class Pressure_Temp  extends AppCompatActivity {
                     if (d1.size()>0)
                     {
                         final int[] i = {0};
-                        new CountDownTimer(1000*d1.size()+1000, 1000) {
+                        new CountDownTimer(1000*d1.size(), 1000) {
                             public void onTick(long millisUntilFinished) {
-                                i[0]++;
                                 Dis.setText(" "+d1.get(i[0]));
-                        }
+                                i[0]++;
+                            }
 
                          public void onFinish() {
 
