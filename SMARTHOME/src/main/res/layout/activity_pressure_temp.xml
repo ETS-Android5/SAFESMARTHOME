@@ -44,7 +44,7 @@
         android:layout_width="374dp"
         android:layout_height="106dp"
         android:layout_marginTop="4dp"
-        android:text="Pressure_Temp"
+        android:text="Pressure/Temp"
         android:textSize="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
