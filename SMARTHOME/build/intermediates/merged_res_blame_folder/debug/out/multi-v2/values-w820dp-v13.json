@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\shrig.LAPTOP-LHA4VPAT\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "source": "C:\\Users\\giree\\AndroidStudioProjects\\SAFESMARTHOME\\SMARTHOME\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "from": {
                         "startLines": "9",
                         "startColumns": "4",

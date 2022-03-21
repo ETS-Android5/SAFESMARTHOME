@@ -72,16 +72,22 @@ View view;
 //                        listView.setAdapter(new ArrayAdapter<String>(DistanceSensor.this,
 //                                android.R.layout.simple_list_item_1, d1));
                             final int[] i = {0};
+
                         new CountDownTimer(1000*d1.size(), 1000) {
                             public void onTick(long millisUntilFinished) {
 //                                Random rnd = new Random();
 //                                int color = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
-                              if (i[0]%2==0)
+                                int counter= 0; //Gireesh
+                                int ele = counter;
+                              if (i[ele]%2==0)
                                 view.setBackgroundColor(Color.RED);
                                 else view.setBackgroundColor(Color.GREEN);
 //                                Dis.setText("seconds remaining: " + millisUntilFinished / 1000);
-                                Dis.setText(" "+d1.get(i[0]));
-                                i[0]++;
+                                Dis.setText(" "+d1.get(i[ele]));
+                                i[ele++]++;
+                                counter = ele;
+                                int stay = counter;
+                                stay = ele;
                             }
 
                             public void onFinish() {
