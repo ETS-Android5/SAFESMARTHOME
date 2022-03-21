@@ -76,7 +76,7 @@ View view;
                             public void onTick(long millisUntilFinished) {
 //                                Random rnd = new Random();
 //                                int color = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
-                              if (i[0]%2==0)
+                              if ( Double.parseDouble(d1.get(i[0]))<=30)
                                 view.setBackgroundColor(Color.RED);
                                 else view.setBackgroundColor(Color.GREEN);
 //                                Dis.setText("seconds remaining: " + millisUntilFinished / 1000);
