@@ -45,7 +45,7 @@ View view;
 
 
     public void getCustomerAddress() {
-        DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("secureID0");
+        DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("DistanceSensor");
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -79,7 +79,7 @@ View view;
 //                                int color = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
                                 int counter= 0; //Gireesh
                                 int ele = counter;
-                              if (i[ele]%2==0)
+                                if (i[ele]<=30)
                                 view.setBackgroundColor(Color.RED);
                                 else view.setBackgroundColor(Color.GREEN);
 //                                Dis.setText("seconds remaining: " + millisUntilFinished / 1000);
