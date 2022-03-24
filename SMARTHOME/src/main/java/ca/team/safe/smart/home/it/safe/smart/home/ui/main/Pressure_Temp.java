@@ -39,7 +39,7 @@ public class Pressure_Temp  extends AppCompatActivity {
 
     public void getCustomerAddress() {
 
-        DatabaseReference myRef = FirebaseDatabase.getInstance().getReference();
+        DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("BME280");
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -47,14 +47,17 @@ public class Pressure_Temp  extends AppCompatActivity {
                 List<String> d1 = new ArrayList<>();
                 String value;
                 //getting values from firebase , setting on array list
-                for(DataSnapshot postSnapshot : snapshot.getChildren()) {
+               // for(DataSnapshot postSnapshot : snapshot.getChildren()) {
                     //get value one by one in "value" variable
-                    value="Temp= "+String.valueOf(postSnapshot.child("BME").child("Temp").getValue());
-                    value=value+" , Pressure = "+postSnapshot.child("BME").child("Pressure").getValue();
+//                    value="Temp= "+postSnapshot.child("Temp").getValue();
+//                    value=value+" , Pressure = "+postSnapshot.child("Pressure").getValue();
+
+                value="Temp= "+snapshot.child("Temp").getValue();
+                    value=value+"\n Pressure = "+snapshot.child("Pressure").getValue();
 
                     if (!value.contains("null"))
                         d1.add(value);
-                }
+                //}
                 try {
                     if (d1.size()>0)
                     {
