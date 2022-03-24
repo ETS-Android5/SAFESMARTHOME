@@ -45,7 +45,7 @@ View view;
 
 
     public void getCustomerAddress() {
-        DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("secureID0");
+        DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("DistanceSensor");
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
