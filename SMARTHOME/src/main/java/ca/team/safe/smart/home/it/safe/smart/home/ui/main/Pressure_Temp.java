@@ -47,17 +47,15 @@ public class Pressure_Temp  extends AppCompatActivity {
                 List<String> d1 = new ArrayList<>();
                 String value;
                 //getting values from firebase , setting on array list
-               // for(DataSnapshot postSnapshot : snapshot.getChildren()) {
+                for(DataSnapshot postSnapshot : snapshot.getChildren()) {
                     //get value one by one in "value" variable
-//                    value="Temp= "+postSnapshot.child("Temp").getValue();
-//                    value=value+" , Pressure = "+postSnapshot.child("Pressure").getValue();
-
-                value="Temp= "+snapshot.child("Temp").getValue();
-                    value=value+"\n Pressure = "+snapshot.child("Pressure").getValue();
+                  //  value=String.valueOf(postSnapshot.getValue());
+                    value="Temp= "+String.valueOf(postSnapshot.getValue());
+                   value=value+" , Pressure = "+postSnapshot.getValue();
 
                     if (!value.contains("null"))
                         d1.add(value);
-                //}
+                }
                 try {
                     if (d1.size()>0)
                     {
