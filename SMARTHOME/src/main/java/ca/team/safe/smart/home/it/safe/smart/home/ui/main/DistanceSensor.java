@@ -77,17 +77,12 @@ View view;
                             public void onTick(long millisUntilFinished) {
 //                                Random rnd = new Random();
 //                                int color = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
-                                int counter= 0; //Gireesh
-                                int ele = counter;
-                                if (Double.parseDouble(d1.get(i[ele]))<=30)
-                                view.setBackgroundColor(Color.RED);
-                                else view.setBackgroundColor(Color.GREEN);
-//                                Dis.setText("seconds remaining: " + millisUntilFinished / 1000);
+                                int ele = 0;
+                                if (Double.parseDouble(Dis.getText().toString()) <= 30) {
+                                    view.setBackgroundColor(Color.RED);}
+                                else { view.setBackgroundColor(Color.GREEN);}
                                 Dis.setText(" "+d1.get(i[ele]));
                                 i[ele++]++;
-                                counter = ele;
-                                int stay = counter;
-                                stay = ele;
                             }
 
                             public void onFinish() {
