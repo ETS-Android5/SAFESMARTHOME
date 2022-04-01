@@ -40,11 +40,11 @@ View view;
          Dis=findViewById(R.id.Dis);
         view=findViewById(R.id.view);
          FirebaseApp.initializeApp(this);
-        getCustomerAddress();
+        getDistanceSensor();
     }
 
 
-    public void getCustomerAddress() {
+    public void getDistanceSensor() {
         DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("DistanceSensor");
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
@@ -78,9 +78,9 @@ View view;
 //                                Random rnd = new Random();
 //                                int color = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
                                 int ele = 0;
-                                if (Double.parseDouble(Dis.getText().toString()) <= 30) {
-                                    view.setBackgroundColor(Color.RED);}
-                                else { view.setBackgroundColor(Color.GREEN);}
+                                if (Double.parseDouble(Dis.getText().toString()) >= 30) {
+                                    view.setBackgroundColor(Color.GREEN);}
+                                else { view.setBackgroundColor(Color.RED);}
                                 Dis.setText(" "+d1.get(i[ele]));
                                 i[ele++]++;
                             }
