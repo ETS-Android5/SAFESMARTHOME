@@ -2280,6 +2280,7 @@ id line1
 id line3
 id linear
 id linearLayout
+id linearLayout2
 id listMode
 id listView
 id list_item
@@ -2513,6 +2514,8 @@ id textView3
 id textView4
 id textView5
 id textView6
+id textView7
+id textView8
 id textWatcher
 id text_input_end_icon
 id text_input_error_icon
@@ -2539,6 +2542,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtPressure
 id unchecked
 id uniform
 id unlabeled

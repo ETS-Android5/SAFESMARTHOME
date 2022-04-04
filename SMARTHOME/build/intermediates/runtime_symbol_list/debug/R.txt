@@ -2279,6 +2279,7 @@ int id line1 0x7f0a0120
 int id line3 0x7f0a0121
 int id linear 0x7f0a0122
 int id linearLayout 0x7f0a0123
+int id linearLayout2 0x7f0a0244
 int id listMode 0x7f0a0124
 int id listView 0x7f0a0125
 int id list_item 0x7f0a0126
@@ -2512,6 +2513,8 @@ int id textView3 0x7f0a0209
 int id textView4 0x7f0a020a
 int id textView5 0x7f0a020b
 int id textView6 0x7f0a020c
+int id textView7 0x7f0a0245
+int id textView8 0x7f0a0246
 int id textWatcher 0x7f0a020d
 int id text_input_end_icon 0x7f0a020e
 int id text_input_error_icon 0x7f0a020f
@@ -2538,6 +2541,7 @@ int id transition_position 0x7f0a0223
 int id transition_scene_layoutid_cache 0x7f0a0224
 int id transition_transform 0x7f0a0225
 int id triangle 0x7f0a0226
+int id txtPressure 0x7f0a0247
 int id unchecked 0x7f0a0227
 int id uniform 0x7f0a0228
 int id unlabeled 0x7f0a0229

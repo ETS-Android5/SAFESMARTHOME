@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/green"
+    android:background="@drawable/background"
     tools:context=".ControlFragment">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -27,7 +27,7 @@
         android:fontFamily="sans-serif-light"
         android:text="@string/customer_address"
         android:textAlignment="center"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
         android:textColorHint="@android:color/black"
         android:textSize="42sp"
         android:textStyle="bold"
