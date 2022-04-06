@@ -53,7 +53,7 @@ public class Pressure_Temp  extends AppCompatActivity {
                 for(DataSnapshot postSnapshot : snapshot.getChildren()) {
                     //get value one by one in "value" variable
                   //  value=String.valueOf(postSnapshot.getValue());
-                    valu=""+String.valueOf(postSnapshot.getValue());
+                    valu=""+String.valueOf(postSnapshot.getValue())+" °C";
                    //value=value+" , Pressure = "+postSnapshot.getValue();
 
                     if (!valu.contains("null"))
@@ -101,7 +101,7 @@ public class Pressure_Temp  extends AppCompatActivity {
                 for(DataSnapshot postSnapshot : snapshot.getChildren()) {
                     //get value one by one in "value" variable
                     //  value=String.valueOf(postSnapshot.getValue());
-                    value=""+String.valueOf(postSnapshot.getValue());
+                    value=""+String.valueOf(postSnapshot.getValue())+" hPa";
                    // value=value+" , Pressure = "+postSnapshot.getValue();
 
                     if (!value.contains("null"))
