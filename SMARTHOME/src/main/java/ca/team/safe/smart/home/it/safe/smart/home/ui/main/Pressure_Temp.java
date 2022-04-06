@@ -42,22 +42,22 @@ public class Pressure_Temp  extends AppCompatActivity {
 
     public void getTemp() {
 
-        DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("Temp");
+        DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("BME280Temp");
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 //getting values on hashmap from firebase in random order
                 List<String> d1 = new ArrayList<>();
-                String value;
+                String valu;
                 //getting values from firebase , setting on array list
                 for(DataSnapshot postSnapshot : snapshot.getChildren()) {
                     //get value one by one in "value" variable
                   //  value=String.valueOf(postSnapshot.getValue());
-                    value="Temp= "+String.valueOf(postSnapshot.getValue());
-                   value=value+" , Pressure = "+postSnapshot.getValue();
+                    valu=""+String.valueOf(postSnapshot.getValue());
+                   //value=value+" , Pressure = "+postSnapshot.getValue();
 
-                    if (!value.contains("null"))
-                        d1.add(value);
+                    if (!valu.contains("null"))
+                        d1.add(valu);
                 }
                 try {
                     if (d1.size()>0)
@@ -90,7 +90,7 @@ public class Pressure_Temp  extends AppCompatActivity {
 
     public void getPress() {
 
-        DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("Pressure");
+        DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("BME280Pressure");
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
@@ -101,7 +101,7 @@ public class Pressure_Temp  extends AppCompatActivity {
                 for(DataSnapshot postSnapshot : snapshot.getChildren()) {
                     //get value one by one in "value" variable
                     //  value=String.valueOf(postSnapshot.getValue());
-                    value="Temp= "+String.valueOf(postSnapshot.getValue());
+                    value=""+String.valueOf(postSnapshot.getValue());
                    // value=value+" , Pressure = "+postSnapshot.getValue();
 
                     if (!value.contains("null"))
