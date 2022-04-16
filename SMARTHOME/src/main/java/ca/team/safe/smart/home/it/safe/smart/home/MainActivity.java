@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         viewPager.setAdapter(sectionsPagerAdapter);
         TabLayout tabs = findViewById(R.id.tabs);
         tabs.setupWithViewPager(viewPager);
-
+        handPermission();
         registerActivity();
 
 
@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void handPermission() {
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED) {
-
+            ActivityCompat.requestPermissions(this, new String[] {Manifest.permission.CAMERA}, 1);
         }
     }
 
@@ -189,7 +189,7 @@ public class MainActivity extends AppCompatActivity {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 Toast.makeText(this, R.string.Permission_GRANTED, Toast.LENGTH_SHORT).show();
             } else {
-                Toast.makeText(this, R.string.Permission_DENIED, Toast.LENGTH_SHORT).show();
+         //       Toast.makeText(this, R.string.Permission_DENIED, Toast.LENGTH_SHORT).show();
             }
             super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         }
