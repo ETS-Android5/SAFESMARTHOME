@@ -3,6 +3,8 @@
 //Patrick Loboda N01309086
 package ca.team.safe.smart.home.it.safe.smart.home;
 
+import static ca.team.safe.smart.home.it.safe.smart.home.MainActivity.viewPager;
+
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -20,10 +22,19 @@ import android.widget.ProgressBar;
 import android.widget.RatingBar;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class ReviewFragment extends Fragment{
 
@@ -31,7 +42,8 @@ public class ReviewFragment extends Fragment{
     EditText editTextName;
     EditText editTextNumber;
     EditText editTextEmail;
-
+    EditText edComment;
+    int size = 0;
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 
@@ -61,19 +73,24 @@ public class ReviewFragment extends Fragment{
         }
     }
     ProgressBar loader;
+    FirebaseDatabase firebaseDatabase;
+    DatabaseReference databaseReference;
     RatingBar ratingBar;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_review, container, false);
         // Inflate the layout for this fragment
+        firebaseDatabase = FirebaseDatabase.getInstance("https://safesmarthome-cdf48-default-rtdb.firebaseio.com/");
+
+        // below line is used to get reference for our database.
 
         loader =  rootView.findViewById(R.id.loader);
         editTextFullName = (EditText) rootView.findViewById(R.id.editTextTextPersonName);
         editTextNumber = (EditText) rootView.findViewById(R.id.editTextPhone);
         editTextEmail = (EditText) rootView.findViewById(R.id.editTextTextEmailAddress);
         ratingBar =  rootView.findViewById(R.id.ratingBar);
-        EditText edComment = (EditText) rootView.findViewById(R.id.textView5);
+         edComment = (EditText) rootView.findViewById(R.id.textComment);
         FloatingActionButton fab = rootView.findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -119,13 +136,11 @@ public class ReviewFragment extends Fragment{
                     Snackbar.make(rootView,R.string.Please_enter_comment,Snackbar.LENGTH_SHORT).show();
                     edComment.setError("Please enter comment");
                 }else{
-                    loader.setVisibility(View.VISIBLE);
+                   addDatatoFirebase();
                     Handler handler=new Handler();
                     handler.postDelayed(new Runnable() {
                         @Override
                         public void run() {
-                            loader.setVisibility(View.GONE);
-                            Snackbar.make(rootView, R.string.thank_you_message_submit, Snackbar.LENGTH_SHORT).show();
                             editTextFullName.setText("");
                             editTextEmail.setText("");
                             editTextNumber.setText("");
@@ -156,9 +171,58 @@ public class ReviewFragment extends Fragment{
             review.setEnabled(!nameInput.isEmpty() && !numberInput.isEmpty() && !emailInput.isEmpty());
         }
 
+
         @Override
         public void afterTextChanged(Editable s) {
 
         }
     };
+    private void addDatatoFirebase() {
+        String email=editTextEmail.getText().toString();
+        String phone=editTextNumber.getText().toString();
+        String comment=edComment.getText().toString();
+        String FullName=editTextFullName.getText().toString();
+        String rating= String.valueOf(ratingBar.getRating());
+
+        Map<String , String> m=new HashMap<>();
+        m.put("email",email);
+        m.put("phone",phone);
+        m.put("FullName",FullName);
+        m.put("Comment",comment);
+        databaseReference = firebaseDatabase.getReference("Customer_Reviews");
+        m.put("rating",rating);
+        databaseReference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                    try {
+
+                        databaseReference.setValue(m);
+                        // after adding this data we are showing toast message.
+                        Snackbar.make(viewPager, R.string.Customer_address_added, Snackbar.LENGTH_SHORT).show();
+
+                    } catch (Exception e) {
+                    }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+                // if the data is not added or it is cancelled then
+                // we are displaying a failure toast message.
+                Toast.makeText(getActivity(), getString(R.string.fail_to_add_data) + error, Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
+    public void databaseSize() {
+        databaseReference = firebaseDatabase.getReference("Customer_Reviews");
+        databaseReference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                size = (int) snapshot.getChildrenCount();
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+            }
+        });
+    }
 }
